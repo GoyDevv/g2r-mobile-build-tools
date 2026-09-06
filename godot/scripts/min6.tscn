@@ -1,5 +1,0 @@
-[gd_scene load_steps=2 format=3]
-[ext_resource type="PackedScene" path="res://assets/meshes/EndSceneHouse_521_5.glb" id="1"]
-[node name="Root" type="Node3D"]
-visible = false
-process_mode = 3

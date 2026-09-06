@@ -1,4 +1,0 @@
-[gd_scene load_steps=2 format=3]
-[ext_resource type="PackedScene" path="res://assets/meshes/BackYard_4592_33.glb" id="1"]
-[node name="Root" type="Node3D"]
-[node name="Mesh" parent="Root" instance=ExtResource("1")]
