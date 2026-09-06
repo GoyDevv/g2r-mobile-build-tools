@@ -1,0 +1,66 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://assets/meshes/EndSceneHouse_521_5.glb" id="1"]
+
+
+[node name="Area Light" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, -1.000000053, 0.0, 1.000000053, -5.32124802e-08, -0.63, 10.81, 8.97)
+visible = false
+process_mode = 3
+
+[node name="Light3D" type="OmniLight3D" parent="Area Light"]
+light_color = Color(1, 1, 1)
+light_energy = 7
+omni_range = 10
+
+[node name="AllTrees" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, -20.46696, 10.6601, 50.65667)
+
+[node name="TheEndTextNoGranny" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, -0.6663722355, 0.0, 1.000000053, -3.54593175e-08, -0.61, 2.09, 59.33)
+visible = false
+process_mode = 3
+
+[node name="Directional Light" type="Node3D" parent=""]
+transform = Transform3D(-0.2413435546, -0.5193572772, -0.8197690208, 0.009978986455, 0.8433669531, -0.5372453766, 0.9703884009, -0.1378411891, -0.1983585142, 42.8, 29.5, 0.0)
+visible = false
+process_mode = 3
+
+[node name="Light3D" type="OmniLight3D" parent="Directional Light"]
+light_color = Color(0.875, 0.9172414, 1)
+light_energy = 1.33
+omni_range = 10
+
+[node name="EventSystem" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0)
+
+[node name="TheEndText" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, -0.4598148245, 0.0, 1.000000053, -2.446788594e-08, -0.69, 2.46, 56.13)
+visible = false
+process_mode = 3
+
+[node name="GrannyParent2" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.15, -3.16, 19.15)
+visible = false
+process_mode = 3
+
+[node name="UnityAdManager" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 538.7156, 281.8312, 0.0)
+metadata/unity_class = "AdManager"
+metadata/unity_class = "ShowAds"
+
+[node name="GrannyParentHome" type="Node3D" parent=""]
+transform = Transform3D(-0.6369464479, 0.0, -0.7709082458, 0.0, 1, 0.0, 0.7709082458, 0.0, -0.6369464479, 2.85, -2.98, 24.74)
+visible = false
+process_mode = 3
+
+[node name="ScreenEffect" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.5, 0.5, 25)
+
+[node name="ScareSoundeffects" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, -8.078315, 3.959246, 65.96906)
+
+[node name="GrannyParent" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, -0.5999999, -0.72, 16.94)
+visible = false
+process_mode = 3
+

@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3]
+[sub_resource type="CapsuleShape3D" id="1"]
+radius = 10.4
+height = 125.7
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(0.35, 0.31, 1.45)
+
+
+[node name="Screwdriver" type="RigidBody3D"]
+transform = Transform3D(-1.310804935e-09, -0.00819911269, -0.001453210023, 0.0, 0.001453208887, -0.008199111706, 0.008326902311, 0.0, -1.310804463e-09, 4.759275, 12.06372, 16.25603)
+metadata/unity_tag = "screwdriver"
+groups=["unity_screwdriver"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(2.937068e-07, 1.831305e-07, -2.463791)
+
+[node name="Trigger_2" type="StaticBody3D" parent="."]
+transform = Transform3D(107.2932, 0.0, 0.0, 0.0, 98.66587, 0.0, 0.0, 0.0, 90.71577, 0.0, 0.0, 0.0)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_2"]
+shape = SubResource("2")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_2"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true
+
+[node name="FX_Sparkle_5" type="Node3D" parent="."]
+transform = Transform3D(117.8643661, -1.08910431e-06, 24.82446031, -24.44373886, 20.95855695, 116.0544493, -4.332405708, -118.249841, 20.56944575, 0.0, 0.0, 0.0)
+
+[node name="Sparkle" type="Node3D" parent="FX_Sparkle_5"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.01)

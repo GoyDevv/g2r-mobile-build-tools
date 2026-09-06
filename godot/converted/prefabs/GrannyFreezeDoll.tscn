@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(1.43, 0.98, 0.19)
+[sub_resource type="CapsuleShape3D" id="2"]
+radius = 0.19
+height = 0.29
+[sub_resource type="BoxShape3D" id="3"]
+size = Vector3(1, 1, 1)
+
+
+[node name="GrannyFreezeDoll" type="Node3D"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, -2.214183, 13.32084, 8.540206)
+
+[node name="GrannyFreeze" type="RigidBody3D" parent="."]
+transform = Transform3D(1.599156, 0.0, 0.0, 0.0, -7.69244935e-08, 2.489690132, 0.0, -1.445610077, -1.324825798e-07, 0.0, 0.0, 0.0)
+metadata/unity_class = "GrannyBreak"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GrannyFreeze"]
+shape = SubResource("1")
+position = Vector3(0.01696354, -0.06421128, 1.38)
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="GrannyFreeze"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true
+
+[node name="GrannyTop" type="RigidBody3D" parent="GrannyFreeze"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0)
+
+[node name="Head" type="RigidBody3D" parent="GrannyFreeze"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GrannyFreeze/Head"]
+shape = SubResource("2")
+position = Vector3(0.02680812, -0.001095526, 1.67)
+
+[node name="LeftArm" type="RigidBody3D" parent="GrannyFreeze"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0)
+
+[node name="RightArm" type="RigidBody3D" parent="GrannyFreeze"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0)
+
+[node name="BatBlood" type="Node3D" parent="GrannyFreeze/RightArm"]
+transform = Transform3D(0.06540918818, -0.675084821, -0.1994958177, 0.2277013796, 0.1939240591, -0.6944807641, 0.4570346572, 3.360017499e-09, 0.3745515702, 0.7954348, -0.2574968, 0.7307336)
+
+[node name="BatColl" type="StaticBody3D" parent="GrannyFreeze/RightArm/BatBlood"]
+transform = Transform3D(0.1166609954, -0.001909332508, 0.2697833168, 0.0009407067319, 0.1203456371, 0.03651864577, -0.02982504012, -0.003672574737, 1.056412447, 0.004, 0.0, 0.879)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="GrannyFreeze/RightArm/BatBlood/BatColl"]
+shape = SubResource("3")

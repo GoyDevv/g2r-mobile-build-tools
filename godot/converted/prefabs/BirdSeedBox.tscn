@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(0.02000001, 0.02, 0.02)
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(0.35, 0.31, 1.45)
+
+
+[node name="BirdSeedBox" type="RigidBody3D"]
+transform = Transform3D(7.864284, 0.0, 0.0, 0.0, -1.178283417e-06, 32.04737717, 0.0, -22.14298805, -1.705320574e-06, 9.398483, 12.015, 1.25499)
+metadata/unity_tag = "birdseed"
+groups=["unity_birdseed"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(-8.085556e-05, 1.45426e-05, 0.009999933)
+
+[node name="Trigger" type="StaticBody3D" parent="."]
+transform = Transform3D(0.09265061, 0.0, 0.0, 0.0, 0.0902788, 0.0, 0.0, 0.0, 0.01643905, 0.0, 0.0, 0.0105)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger"]
+shape = SubResource("2")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true

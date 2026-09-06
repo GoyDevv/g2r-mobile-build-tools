@@ -1,0 +1,44 @@
+[gd_scene load_steps=4 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(0.02, 0.02, 0.02)
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(0.005, 0.005, 0.37)
+[sub_resource type="BoxShape3D" id="3"]
+size = Vector3(1, 1, 1)
+
+
+[node name="FreezeTrap" type="RigidBody3D"]
+transform = Transform3D(52.75903, 0.0, 0.0, 0.0, -2.807438839e-06, 3.201832718, 0.0, -52.75902535, -1.703774751e-07, 7.72, 21.165, -5.93)
+metadata/unity_tag = "freezetrap"
+groups=["unity_freezetrap"]
+metadata/unity_class = "freezeTrap"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(0.0, 0.0, 0.01028384)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("2")
+position = Vector3(0.0, 0.0, 0.01)
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true
+
+[node name="SteamMobile" type="Node3D" parent="."]
+transform = Transform3D(0.01507552, 0.0, 0.0, 0.0, 0.01507551, -3.274143029e-09, 0.0, 1.797140994e-09, 0.0274655, 0.0, 0.0, 0.0)
+
+[node name="Trigger_5" type="StaticBody3D" parent="."]
+transform = Transform3D(0.02502505, 0.0, 0.0, 0.0, 0.02393712, 0.0, 0.0, 0.0, 0.08032554, 0.0, 0.0, 0.01)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_5"]
+shape = SubResource("3")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_5"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true

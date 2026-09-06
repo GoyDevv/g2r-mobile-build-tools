@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(0.02830169, 0.02000001, 0.02)
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(1, 1, 1)
+
+
+[node name="RemoteControl" type="RigidBody3D"]
+transform = Transform3D(1.924278, 0.0, 0.0, 0.0, -3.732158935e-07, 11.68590062, 0.0, -7.013691373, -6.218357224e-07, 17.711, 23.09, -6.6)
+metadata/unity_tag = "remotecontrol"
+groups=["unity_remotecontrol"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(-0.00415084, -9.313226e-10, 0.0)
+
+[node name="Trigger_1" type="StaticBody3D" parent="."]
+transform = Transform3D(0.06255955, 0.0, 0.0, 0.0, 0.03517296, 0.0, 0.0, 0.0, 0.0280166, 0.0, 0.0, 0.0)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_1"]
+shape = SubResource("2")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_1"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true
+
+[node name="FX_Sparkle_3" type="Node3D" parent="."]
+transform = Transform3D(-7.570024408e-09, -0.5196753277, -1.446594646e-08, 0.1422603076, -2.76532153e-08, 0.0, 0.0, -8.761071459e-08, 0.0858068, 0.0, 0.0, 0.0)
+
+[node name="Sparkle" type="Node3D" parent="FX_Sparkle_3"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.01)

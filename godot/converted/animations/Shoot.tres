@@ -1,0 +1,27 @@
+[gd_resource type="Animation" format=3]
+
+[resource]
+length = 1
+loop_mode = 0
+tracks/0/type = "rotation_3d"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Box04")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = PackedFloat32Array(0.0, 1, 0.0, 0.0, 0.0, 1, 0.03333333, 1, 0.0, 0.0, -0.004294519, 0.9999908, 0.2666667, 1, 0.0, 0.0, -0.1608957, 0.9869714, 0.4, 1, 0.0, 0.0, -0.2164396, 0.976296)
+tracks/1/type = "rotation_3d"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Box04/Ammo")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = PackedFloat32Array(0.0, 1, 0.0, 0.7071067, 0.0, 0.7071068, 0.2, 1, 0.0, 0.7071067, 0.0, 0.7071068, 0.2333333, 1, 0.0, 0.7071067, 0.0, 0.7071068, 0.2666667, 1, -0.2418454, 0.6644627, 0.2418453, 0.6644629, 0.3, 1, -0.596368, 0.3799279, 0.596368, 0.379928, 0.3333334, 1, -0.7064338, -0.03084399, 0.7064337, -0.03084399, 0.3666667, 1, -0.5922018, -0.3863897, 0.5922018, -0.3863898, 0.4, 1, -0.4545195, -0.5416752, 0.4545195, -0.5416752)
+tracks/2/type = "rotation_3d"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Box03")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = PackedFloat32Array(0.0, 1, 0.0, 0.0, 0.2588191, 0.9659258, 0.03333333, 1, 0.0, 0.0, 0.0, 1)
+; source unity clip: Shoot

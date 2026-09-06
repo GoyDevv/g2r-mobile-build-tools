@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(16.70534, 2.282487, 140.6082)
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(20.91, 6.7, 143.58)
+[sub_resource type="BoxShape3D" id="3"]
+size = Vector3(0.95, 1, 127.74)
+
+
+[node name="PlankaWalk" type="RigidBody3D"]
+transform = Transform3D(0.03822064, 0.0, 0.0, 0.0, 0.03535582, -1.670676919e-09, 0.0, 1.545451683e-09, 0.03822064, 8.094607, 20.181, -6.301703)
+metadata/unity_tag = "plankawalk"
+groups=["unity_plankawalk"]
+metadata/unity_class = "plankaHitSpot"
+metadata/unity_class = "changeTextureNightmare"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(0.0, -0.9280697, -6.47504)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("2")
+position = Vector3(0.0, -0.9280697, -6.47504)
+
+[node name="Trigger_1" type="StaticBody3D" parent="."]
+transform = Transform3D(11.58800893, 8.955167402e-07, -0.0150400128, -9.696386615e-07, 10.62404, 4.667908159e-08, 0.1654503056, -4.579989909e-07, 1.053390637, 0.1, -0.6, -6.5)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_1"]
+shape = SubResource("3")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_1"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true

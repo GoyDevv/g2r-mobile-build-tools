@@ -1,0 +1,44 @@
+[gd_scene load_steps=3 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(18.91455, 101.2759, 5.958008)
+[sub_resource type="CapsuleShape3D" id="2"]
+radius = 0.29
+height = 1
+
+
+[node name="Armborst" type="RigidBody3D"]
+transform = Transform3D(0.007549057, 0.0, 0.0, 0.0, 0.007549057, -3.299796992e-10, 0.0, 3.299796992e-10, 0.007549057, 9.969119, 22.8439, -3.752072)
+metadata/unity_tag = "armborst"
+groups=["unity_armborst"]
+
+[node name="Laddad" type="Node3D" parent="."]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -7.486772472e-08, 1.30913607, 0.0, -1.406958075, -6.966237348e-08, 73.07011, 16.95319, 6.732257)
+visible = false
+process_mode = 3
+
+[node name="Oladdad" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -7.486772472e-08, 1.30913607, 0.0, -1.406958075, -6.966237348e-08, 73.09311, 16.95319, 6.732257)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Oladdad"]
+shape = SubResource("1")
+position = Vector3(-8.529202, 0.01674271, -1.197332)
+
+[node name="FX_Sparkle_2" type="Node3D" parent="."]
+transform = Transform3D(11.71574101, -7.513215247e-13, -131.9479146, 5.767625496e-06, 132.4669, 5.121113042e-07, 131.9479146, -5.790311842e-06, 11.71574101, 30.4, 14.7, 0.0)
+
+[node name="Sparkle" type="Node3D" parent="FX_Sparkle_2"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.01)
+
+[node name="Trigger_1" type="StaticBody3D" parent="."]
+transform = Transform3D(140.3526, 0.0, 0.0, 0.0, 140.3539, 0.0, 0.0, 0.0, 140.3526, 29.9, -30.2, 6.2)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_1"]
+shape = SubResource("2")
+position = Vector3(0.0, 0.22, 0.0)
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_1"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true

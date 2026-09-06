@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3]
+[sub_resource type="CapsuleShape3D" id="1"]
+radius = 0.5
+height = 1
+
+
+[node name="Vas" type="RigidBody3D"]
+transform = Transform3D(0.01252028, 0.0, 0.0, 0.0, -6.662356837e-10, 0.01252029067, 0.0, -0.01252029067, -6.662356837e-10, 6.814275, 10.97331, -5.168972)
+metadata/unity_tag = "vas"
+groups=["unity_vas"]
+metadata/unity_class = "PrefabLightmapData"
+
+[node name="Trigger" type="StaticBody3D" parent="."]
+transform = Transform3D(84.62512, 0.0, 0.0, 0.0, 84.62598, 0.0, 0.0, 0.0, 84.62519, 0.0, 0.0, 0.0)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger"]
+shape = SubResource("1")
+position = Vector3(0.0, 0.0, 0.41)
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true

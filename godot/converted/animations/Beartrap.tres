@@ -1,0 +1,49 @@
+[gd_resource type="Animation" format=3]
+
+[resource]
+length = 1
+loop_mode = 0
+tracks/0/type = "rotation_3d"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CATRigHub001/CATRigHub001Bone001")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = PackedFloat32Array(0.0, 1, 0.0, 0.7033947, 0.0, 0.7107995, 0.01666667, 1, 0.0, 0.6969274, 0.0, 0.7171417, 0.03333334, 1, 0.0, 0.6723224, 0.0, 0.7402585, 0.05, 1, 0.0, 0.6201968, 0.0, 0.7844463, 0.06666667, 1, 0.0, 0.4205664, 0.0, 0.9072618, 0.08333334, 1, 0.0, 0.2412106, 0.0, 0.9704728)
+tracks/1/type = "rotation_3d"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CATRigHub001/CATRigHub001Bone001/CATRigHub001Bone001Bone001")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = PackedFloat32Array(0.0, 1, 0.0, -0.01342118, 0.0, 0.9999099, 0.01666667, 1, 0.0, -0.01852924, 0.0, 0.9998283, 0.03333334, 1, 0.0, -0.0307078, 0.0, 0.9995284, 0.05, 1, 0.0, -0.04523738, 0.0, 0.9989763, 0.06666667, 1, 0.0, -0.05740358, 0.0, 0.998351, 0.08333334, 1, 0.0, -0.06250311, 0.0, 0.9980448)
+tracks/2/type = "rotation_3d"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CATRigHub001/CATRigHub001Bone001/CATRigHub001Bone001Bone001/CATRigHub001Bone001Bone001Bone001")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = PackedFloat32Array(0.0, 1, 0.0, -0.00124791, 0.0, 0.9999992, 0.01666667, 1, 0.0, -0.06994703, 0.0, 0.9975507, 0.03333334, 1, 0.0, -0.1964092, 0.0, 0.980522, 0.05, 1, 0.0, -0.2633091, 0.0, 0.9647115)
+tracks/3/type = "rotation_3d"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("CATRigHub001/CATRigHub001Bone002")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = PackedFloat32Array(0.0, 1, 0.0, -0.70368, 0.0, 0.710517, 0.01666667, 1, 0.0, -0.6957524, 0.0, 0.7182817, 0.03333334, 1, 0.0, -0.6654571, 0.0, 0.7464361, 0.05, 1, 0.0, -0.6006993, 0.0, 0.799475, 0.06666667, 1, 0.0, -0.3682608, 0.0, 0.9297225, 0.08333334, 1, 0.0, -0.1636359, 0.0, 0.9865208)
+tracks/4/type = "rotation_3d"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("CATRigHub001/CATRigHub001Bone002/CATRigHub001Bone001Bone001 1")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = PackedFloat32Array(0.0, 1, 0.0, 0.005105066, 0.0, 0.9999869, 0.01666667, 1, 0.0, 0.00856646, 0.0, 0.9999633, 0.03333334, 1, 0.0, 0.01682006, 0.0, 0.9998586, 0.05, 1, 0.0, 0.02666959, 0.0, 0.9996443, 0.06666667, 1, 0.0, 0.03491994, 0.0, 0.9993901, 0.08333334, 1, 0.0, 0.03837909, 0.0, 0.9992632)
+tracks/5/type = "rotation_3d"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("CATRigHub001/CATRigHub001Bone002/CATRigHub001Bone001Bone001 1/CATRigHub001Bone001Bone001Bone001
+    1")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = PackedFloat32Array(0.0, 1, 0.0, 0.003508105, 0.0, 0.9999939, 0.01666667, 1, 0.0, 0.06214279, 0.0, 0.9980673, 0.03333334, 1, 0.0, 0.1703159, 0.0, 0.9853895, 0.05, 1, 0.0, 0.2278071, 0.0, 0.9737063)
+; source unity clip: Beartrap

@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://assets/meshes/EndSceneHouse_521_5.glb" id="1"]
+
+
+[node name="Area Light" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, -1.000000053, 0.0, 1.000000053, -5.32124802e-08, -0.63, 10.81, 8.97)
+visible = false
+process_mode = 3
+
+[node name="Light3D" type="OmniLight3D" parent="Area Light"]
+light_color = Color(1, 1, 1)
+light_energy = 7
+omni_range = 10
+

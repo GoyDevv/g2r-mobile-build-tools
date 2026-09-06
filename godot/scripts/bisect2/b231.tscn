@@ -1,0 +1,754 @@
+[gd_scene load_steps=15 format=3]
+[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_509_10.glb" id="1"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_523_1.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_498_7.glb" id="3"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_500_0.glb" id="4"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_525_9.glb" id="5"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_512_3.glb" id="6"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_497_6.glb" id="7"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_507_4.glb" id="8"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_524_8.glb" id="9"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_526_2.glb" id="10"]
+[ext_resource type="AudioStreamWAV" path="res://assets/audio/GrannyCamera2.wav" id="11"]
+[ext_resource type="PackedScene" path="res://assets/meshes/EndSceneHouse_521_5.glb" id="12"]
+[ext_resource type="AudioStreamWAV" path="res://assets/audio/EndSceneSoundOutside2.wav" id="13"]
+[ext_resource type="AudioStreamWAV" path="res://assets/audio/EndSceneSoundOutside.wav" id="14"]
+
+
+[node name="Area_Light" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, -1.000000053, 0.0, 1.000000053, -5.32124802e-08, -0.63, 10.81, 8.97)
+visible = false
+process_mode = 3
+
+[node name="Light3D" type="OmniLight3D" parent="Area_Light"]
+light_color = Color(1, 1, 1)
+light_energy = 7
+omni_range = 10
+
+[node name="AllTrees" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, -20.46696, 10.6601, 50.65667)
+
+[node name="Tree4" type="Node3D" parent="AllTrees"]
+transform = Transform3D(0.14388646, 0.0, 0.1772683865, 0.0, 0.2283142, 0.0, -0.1772684641, 0.0, 0.143886397, 31.80696, -13.6001, -26.41667)
+
+[node name="objCylinder01" type="Node3D" parent="AllTrees/Tree4"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4/objCylinder01"]
+instance = ExtResource("1")
+metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
+
+[node name="objPlane03" type="Node3D" parent="AllTrees/Tree4"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4/objPlane03"]
+instance = ExtResource("2")
+metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
+
+[node name="Tree4_1" type="Node3D" parent="AllTrees"]
+transform = Transform3D(0.1730340218, 0.0, -0.1489452445, 0.0, 0.22831, 0.0, 0.1489452445, 0.0, 0.1730340218, 8.87, -13.6001, -30.66)
+
+[node name="objCylinder01_1" type="Node3D" parent="AllTrees/Tree4_1"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_1/objCylinder01_1"]
+instance = ExtResource("3")
+metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
+
+[node name="objPlane03_1" type="Node3D" parent="AllTrees/Tree4_1"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_1/objPlane03_1"]
+instance = ExtResource("4")
+metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
+
+[node name="Tree4_2" type="Node3D" parent="AllTrees"]
+transform = Transform3D(0.1730340218, 0.0, -0.1489452445, 0.0, 0.22831, 0.0, 0.1489452445, 0.0, 0.1730340218, 7.9, -13.6001, -15.1)
+
+[node name="objCylinder01_2" type="Node3D" parent="AllTrees/Tree4_2"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_2/objCylinder01_2"]
+instance = ExtResource("5")
+metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
+
+[node name="objPlane03_2" type="Node3D" parent="AllTrees/Tree4_2"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_2/objPlane03_2"]
+instance = ExtResource("6")
+metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
+
+[node name="Tree4_3" type="Node3D" parent="AllTrees"]
+transform = Transform3D(0.1730340218, 0.0, -0.1489452445, 0.0, 0.22831, 0.0, 0.1489452445, 0.0, 0.1730340218, 24.4, -13.6001, -8.68)
+
+[node name="objCylinder01_3" type="Node3D" parent="AllTrees/Tree4_3"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_3/objCylinder01_3"]
+instance = ExtResource("7")
+metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
+
+[node name="objPlane03_3" type="Node3D" parent="AllTrees/Tree4_3"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_3/objPlane03_3"]
+instance = ExtResource("8")
+metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
+
+[node name="Tree4_4" type="Node3D" parent="AllTrees"]
+transform = Transform3D(0.1730340218, 0.0, -0.1489452445, 0.0, 0.22831, 0.0, 0.1489452445, 0.0, 0.1730340218, 31.17, -13.6001, 3.63)
+
+[node name="objCylinder01_4" type="Node3D" parent="AllTrees/Tree4_4"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_4/objCylinder01_4"]
+instance = ExtResource("9")
+metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
+
+[node name="objPlane03_4" type="Node3D" parent="AllTrees/Tree4_4"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_4/objPlane03_4"]
+instance = ExtResource("10")
+metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
+
+[node name="TheEndTextNoGranny" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, -0.6663722355, 0.0, 1.000000053, -3.54593175e-08, -0.61, 2.09, 59.33)
+visible = false
+process_mode = 3
+
+[node name="Directional_Light" type="Node3D" parent=""]
+transform = Transform3D(-0.2413435546, -0.5193572772, -0.8197690208, 0.009978986455, 0.8433669531, -0.5372453766, 0.9703884009, -0.1378411891, -0.1983585142, 42.8, 29.5, 0.0)
+visible = false
+process_mode = 3
+
+[node name="Light3D" type="OmniLight3D" parent="Directional_Light"]
+light_color = Color(0.875, 0.9172414, 1)
+light_energy = 1.33
+omni_range = 10
+
+[node name="EventSystem" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0)
+
+[node name="TheEndText" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, -0.4598148245, 0.0, 1.000000053, -2.446788594e-08, -0.69, 2.46, 56.13)
+visible = false
+process_mode = 3
+
+[node name="GrannyParent2" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.15, -3.16, 19.15)
+visible = false
+process_mode = 3
+
+[node name="GrannyMove" type="Node3D" parent="GrannyParent2"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, -0.01, 0.01, -0.02)
+
+[node name="GrannyTest6" type="Node3D" parent="GrannyParent2/GrannyMove"]
+transform = Transform3D(0.02638873, 0.0, 0.0, 0.0, 0.02638873, 0.0, 0.0, 0.0, 0.02638873, 0.0, 0.0, 0.0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="GrannyParent2/GrannyMove/GrannyTest6"]
+
+[node name="Eyes" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6"]
+transform = Transform3D(0.7850235, 0.0, 0.0, 0.0, -3.776212483e-08, 1.222186065, 0.0, -0.7096479378, -6.503554833e-08, -0.2320186, 0.0, -0.4640371)
+visible = false
+process_mode = 3
+
+[node name="Granny" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6"]
+transform = Transform3D(0.7850235, 0.0, 0.0, 0.0, -3.776212483e-08, 1.222186065, 0.0, -0.7096479378, -6.503554833e-08, -0.2320186, 0.0, -0.4640371)
+metadata/unity_class = "changeTextureNightmare"
+
+[node name="SlendrinaMom" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6"]
+transform = Transform3D(1.19999952e-06, -1.0000001, 0.0, 0.0, -2.000004799e-07, 1.0000002, -1.0000001, -1.4e-06, -2.000004999e-07, -0.07880962, 115.7509, -2.893595)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom"]
+metadata/unity_autoplay = true
+
+[node name="Bip01_Pelvis" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom"]
+transform = Transform3D(-2.000004999e-07, -1.0000001, 1.4e-06, 0.0, 1.19999952e-06, 1.0000001, -1.0000002, 0.0, -2.000004799e-07, 0.1824558, 0.01060537, 0.0)
+
+[node name="Bip01_Spine" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis"]
+transform = Transform3D(0.9999996829, 0.0007963178379, 1.389008443e-06, -0.0007963179233, 0.9999995829, 4.160398781e-06, -1.385695141e-06, -4.161503554e-06, 0.9999999, -11.9797, -0.01077795, 1.66297e-05)
+
+[node name="Bip01_L_Thigh" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine"]
+transform = Transform3D(-0.3289133087, -0.9157633964, 0.2306374028, -0.9411217159, 0.3380679933, 0.000186258672, -0.07814170284, -0.2169965911, -0.9730398824, 11.97969, 0.02029371, 10.41713)
+
+[node name="Bip01_L_Calf" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_L_Thigh"]
+transform = Transform3D(0.7645099416, -0.6446118415, -1.15611801e-07, 0.6446117771, 0.7645100181, -1.612181747e-07, 1.923095063e-07, 4.87281723e-08, 1, -52.08567, 2.384186e-07, 3.814697e-06)
+
+[node name="Bip01_L_Foot" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_L_Thigh/Bip01_L_Calf"]
+transform = Transform3D(0.9699099051, 0.08014249095, 0.2298955467, -0.07798182986, 0.9967833174, -0.01848389443, -0.2306374141, 3.891021271e-08, 0.9730397675, -52.08568, -4.768372e-07, -3.814697e-06)
+
+[node name="Bip01_L_Toe0" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_L_Thigh/Bip01_L_Calf/Bip01_L_Foot"]
+transform = Transform3D(-5.321247532e-08, 1.000000053, 4.371138639e-08, -0.9999999532, -5.321248064e-08, 0.0, 0.0, -4.371139076e-08, 0.9999999, -11.9797, 37.13965, 0.0)
+
+[node name="Bip01_L_Toe01" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_L_Thigh/Bip01_L_Calf/Bip01_L_Foot/Bip01_L_Toe0"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562569, 0.0, 3.814697e-06)
+
+[node name="Bip01_L_Toe02" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_L_Thigh/Bip01_L_Calf/Bip01_L_Foot/Bip01_L_Toe0/Bip01_L_Toe01"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562569, 2.384186e-07, 0.0)
+
+[node name="Bip01_L_Toe0Nub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_L_Thigh/Bip01_L_Calf/Bip01_L_Foot/Bip01_L_Toe0/Bip01_L_Toe01/Bip01_L_Toe02"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, -0.9999999, -1.562572, -2.384186e-07, -3.814697e-06)
+
+[node name="Bip01_R_Thigh" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine"]
+transform = Transform3D(-0.166725193, -0.9571349724, -0.2368449145, -0.985157619, 0.171652393, -0.0001859718572, 0.04083300986, 0.23329855, -0.9715475904, 11.97969, 0.02035165, -10.41713)
+
+[node name="Bip01_R_Calf" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_R_Thigh"]
+transform = Transform3D(0.6976605663, -0.7164284171, 2.495497257e-10, 0.7164284888, 0.6976604966, -3.071953255e-07, 2.199093873e-07, 2.144968563e-07, 0.9999999, -52.08568, 0.0, 0.0)
+
+[node name="Bip01_R_Foot" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_R_Thigh/Bip01_R_Calf"]
+transform = Transform3D(0.971525971, 0.006656035685, -0.2368395775, -0.00646666386, 0.9999778483, 0.00157641034, 0.2368448238, 3.833378974e-08, 0.9715474924, -52.08566, 4.768372e-07, 0.0)
+
+[node name="Bip01_R_Toe0" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_R_Thigh/Bip01_R_Calf/Bip01_R_Foot"]
+transform = Transform3D(-5.321247532e-08, 1.000000053, 4.371138639e-08, -0.9999999532, -5.321248064e-08, 0.0, 0.0, -4.371139076e-08, 0.9999999, -11.9797, 39.44038, 0.0)
+
+[node name="Bip01_R_Toe01" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_R_Thigh/Bip01_R_Calf/Bip01_R_Foot/Bip01_R_Toe0"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562569, 0.0, 0.0)
+
+[node name="Bip01_R_Toe02" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_R_Thigh/Bip01_R_Calf/Bip01_R_Foot/Bip01_R_Toe0/Bip01_R_Toe01"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562576, 2.384186e-07, 0.0)
+
+[node name="Bip01_R_Toe0Nub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_R_Thigh/Bip01_R_Calf/Bip01_R_Foot/Bip01_R_Toe0/Bip01_R_Toe01/Bip01_R_Toe02"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562569, 0.0, 0.0)
+
+[node name="Bip01_Spine1" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 6.023534e-14, 0.0, -6.023534e-14, 1, -13.54227, -0.0107832, -2.980232e-08)
+
+[node name="Bip01_Spine2" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1"]
+transform = Transform3D(0.9997372593, 0.02292044914, -0.0002557813802, -0.02292178453, 0.9997025874, -0.008326385525, 6.486083427e-05, 0.00833006081, 0.9999653023, -13.54251, -0.01078033, -8.986145e-05)
+
+[node name="Bip01_Spine3" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2"]
+transform = Transform3D(0.9998361623, -0.01755121787, -0.004427570397, 0.01753967927, 0.9998427048, -0.002631588286, 0.004473061541, 0.002553498968, 0.9999867356, -13.54207, -0.01078176, -2.752244e-05)
+
+[node name="Bip01_Neck" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 1.4551916e-11, 0.0, -1.4551916e-11, 1, -13.54227, -0.009828329, 5.960464e-08)
+
+[node name="Bip01_Head" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck"]
+transform = Transform3D(0.9771299399, 0.2067298599, -0.0497960836, -0.2064947173, 0.978397757, 0.009877493962, 0.05076235443, 0.0006310321882, 0.9987104613, -12.34198, 2.384186e-07, 0.0)
+
+[node name="Bip01_HeadNub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_Head"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 1.470766453e-09, 0.0, -1.4707666e-09, 0.9999999, -32.43437, 0.0, 7.450581e-09)
+
+[node name="Tand" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_Head"]
+transform = Transform3D(-1.341629851e-07, -0.007712832152, -1.143922626, -1.543145027e-07, -0.7096071263, 0.01243347816, -0.7850248333, 1.394976511e-07, -1.955111901e-07, -5.96, 11.48, 0.71)
+
+[node name="Eyes_1" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_Head"]
+transform = Transform3D(2.050658855e-08, -2.663821616e-08, 1.222187142, -0.05326146276, 0.7079697914, 5.776719655e-08, -0.7728971013, -0.04878723314, 2.878355593e-08, -17.82, 10.31, 0.89)
+
+[node name="Hair" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_Head"]
+transform = Transform3D(8.632418372e-07, 0.006818350525, -1.222129845, 0.01402046645, -0.70950286, -0.01174094368, -0.7848986541, -0.01267367687, -0.0002115879364, 194.2077, 4.022037, 0.3371017)
+
+[node name="Bip01_L_Clavicle" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck"]
+transform = Transform3D(-0.09805396073, 0.0007962551523, -0.9951809539, -7.5310791e-05, -0.9999998966, -0.0007926906073, -0.9951812696, -2.778463847e-06, 0.09805367603, 0.0, 0.009805441, 8.144787)
+
+[node name="Bip01_L_UpperArm" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle"]
+transform = Transform3D(0.2728214095, 0.9215924931, -0.2761084414, 0.009856534861, 0.2843030617, 0.9586837738, 0.9620141754, -0.2642710537, 0.06848020201, -15.62199, 0.0, 0.0)
+
+[node name="Bip01_L_Forearm" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm"]
+transform = Transform3D(0.6370010621, -0.7644897985, 0.09891894019, 0.7670867691, 0.6413259167, 0.01670187624, -0.07620770407, 0.06524028193, 0.9949553215, -29.54572, -1.907349e-06, 0.0)
+
+[node name="Bip01_L_Hand" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm"]
+transform = Transform3D(0.9537188275, 0.2869579741, 0.0898638449, -0.1171210962, 0.07924423298, 0.9899510877, 0.2769531635, -0.9546598502, 0.1091855539, -50.69757, 3.814697e-06, 7.629395e-06)
+
+[node name="Bip01_L_Finger0" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand"]
+transform = Transform3D(0.8228681802, -0.5621220755, 0.08310675146, -0.02966075598, -0.1885459524, -0.9816163587, 0.5674576631, 0.8052758585, -0.1718214314, -5.959946, 1.584869, -5.598141)
+
+[node name="SlendrinaMom_L_Finger01" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand/Bip01_L_Finger0"]
+transform = Transform3D(0.8492911551, -0.5279247811, 3.07002622e-07, 0.5279247811, 0.8492911551, -9.831606486e-08, -2.088311586e-07, 2.45573261e-07, 0.9999999, -3.74305, 0.0, 0.0)
+
+[node name="Bip01_L_Finger0Nub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand/Bip01_L_Finger0/SlendrinaMom_L_Finger01"]
+transform = Transform3D(0.9999999, -2.980231978e-08, 1.490116095e-08, 2.980231724e-08, 1, -2.98023168e-08, -1.490116007e-08, 2.980232022e-08, 0.9999999, -3.743053, 7.629395e-06, 0.0)
+
+[node name="SlendrinaMom_L_Finger1" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand"]
+transform = Transform3D(0.893939653, 0.4449292358, -0.05394339512, -0.4447582217, 0.8955113519, 0.01579750161, 0.05533569842, 0.009869754124, 0.9984189248, -13.46292, -0.05105591, -3.68586)
+
+[node name="SlendrinaMom_L_Finger11" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand/SlendrinaMom_L_Finger1"]
+transform = Transform3D(0.6942202571, 0.7197625745, 6.439761194e-07, -0.7197625025, 0.6942203265, 9.62599216e-08, -3.777769962e-07, -5.303354857e-07, 1, -4.491669, -3.814697e-06, 3.814697e-06)
+
+[node name="SlendrinaMom_L_Finger1Nub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand/SlendrinaMom_L_Finger1/SlendrinaMom_L_Finger11"]
+transform = Transform3D(0.9999999, 2.980232e-08, 0.0, -2.980231702e-08, 1, -2.980232e-08, 0.0, 2.980232e-08, 1, -4.491661, 3.814697e-06, -3.814697e-06)
+
+[node name="SlendrinaMom_L_Finger2" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand"]
+transform = Transform3D(0.9198025548, 0.3890766903, 0.05081902306, -0.3905292927, 0.9203195535, 0.02233327138, -0.03808038401, -0.04038851902, 0.9984581371, -13.8216, -0.06324387, -0.8663483)
+
+[node name="SlendrinaMom_L_Finger21" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand/SlendrinaMom_L_Finger2"]
+transform = Transform3D(-0.04608652604, 0.9989375313, 9.866884065e-07, -0.9989375313, -0.04608652604, -2.88871033e-07, -2.430911322e-07, -9.989530452e-07, 1, -5.24028, 3.814697e-06, 1.907349e-06)
+
+[node name="SlendrinaMom_L_Finger2Nub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand/SlendrinaMom_L_Finger2/SlendrinaMom_L_Finger21"]
+transform = Transform3D(1, -2.980232e-08, 0.0, 2.980232e-08, 1, -1.4901162e-08, 0.0, 1.4901162e-08, 1, -5.240265, -3.814697e-06, -1.907349e-06)
+
+[node name="SlendrinaMom_L_Finger3" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand"]
+transform = Transform3D(0.9125353643, 0.4039897064, 0.063808733, -0.4070004147, 0.912359384, 0.04417063915, -0.04037201659, -0.06627744749, 0.9969841529, -13.62797, -0.0145874, 1.990671)
+
+[node name="SlendrinaMom_L_Finger31" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand/SlendrinaMom_L_Finger3"]
+transform = Transform3D(0.4940626286, 0.8694262542, 9.439293976e-07, -0.8694262542, 0.4940626286, 2.222209662e-07, -2.731555858e-07, -9.304681034e-07, 0.9999999, -4.491661, -3.814697e-06, 1.907349e-06)
+
+[node name="SlendrinaMom_L_Finger3Nub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand/SlendrinaMom_L_Finger3/SlendrinaMom_L_Finger31"]
+transform = Transform3D(0.9999999, 2.980231708e-08, -1.49011604e-08, -2.980231696e-08, 0.9999999, 7.450581477e-09, 1.490116062e-08, -7.450581033e-09, 0.9999999, -4.491653, 3.814697e-06, -1.907349e-06)
+
+[node name="SlendrinaMom_L_Finger4" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand"]
+transform = Transform3D(0.8580366693, 0.4391279028, 0.2663451736, -0.4557733405, 0.8900955381, 0.0007676190334, -0.2367355669, -0.1220516781, 0.9638774078, -12.7439, 1.405914, 5.124266)
+
+[node name="SlendrinaMom_L_Finger41" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand/SlendrinaMom_L_Finger4"]
+transform = Transform3D(0.9999999, 0.0, 5.587936e-09, 0.0, 0.9999999, -5.122274e-08, -5.587935441e-09, 5.122273488e-08, 1, -3.743057, 0.0, -2.384186e-07)
+
+[node name="SlendrinaMom_L_Finger4Nub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand/SlendrinaMom_L_Finger4/SlendrinaMom_L_Finger41"]
+transform = Transform3D(0.9999999, 0.0, 5.587936e-09, 0.0, 0.9999999, -5.122274e-08, -5.587935441e-09, 5.122273488e-08, 1, -3.743057, 0.0, -2.384186e-07)
+
+[node name="Bip01_R_Clavicle" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck"]
+transform = Transform3D(-0.1389013011, 0.0007962561431, 0.9903058785, -0.0001133424912, -0.9999995324, 0.0007881529753, 0.9903060931, -2.768241701e-06, 0.1389014118, 0.0, 0.009850264, -8.144789)
+
+[node name="Bip01_R_UpperArm" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle"]
+transform = Transform3D(0.6677139079, -0.3082400452, 0.6776032302, 0.1138216505, 0.9418164543, 0.3162695026, -0.7356647226, -0.134051645, 0.6639484011, -15.08663, 0.0, 1.525879e-05)
+
+[node name="Bip01_R_Forearm" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm"]
+transform = Transform3D(0.894328485, -0.4474109373, -5.998776668e-08, 0.4474109373, 0.894328485, 5.329877899e-08, 2.980230981e-08, -7.45058006e-08, 1, -32.06883, 1.907349e-06, 0.0)
+
+[node name="Bip01_R_Hand" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm"]
+transform = Transform3D(0.7494935184, 0.2490756308, -0.6133683817, -0.6479837224, 0.08629070847, -0.7567502367, -0.1355600866, 0.9646321347, 0.2260713, -47.51596, 0.0, 0.0)
+
+[node name="Bip01_R_Finger0" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand"]
+transform = Transform3D(0.1664213971, -0.7550918356, 0.6341452017, -0.8392112799, 0.2291956928, 0.4931466852, -0.5177144432, -0.614252021, -0.5955385784, -9.55526, 1.356827, 6.323349)
+
+[node name="SlendrinaMom_R_Finger01" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand/Bip01_R_Finger0"]
+transform = Transform3D(0.1334857544, 0.9910507703, 2.676665146e-08, -0.9910507703, 0.1334857544, 3.605232856e-09, 0.0, -2.700835675e-08, 1, -3.819149, 0.0, 1.907349e-06)
+
+[node name="Bip01_R_Finger0Nub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand/Bip01_R_Finger0/SlendrinaMom_R_Finger01"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 2.793968e-09, 0.0, 2.793968e-09, -1, -3.819138, 0.0, 0.0)
+
+[node name="SlendrinaMom_R_Finger1" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand"]
+transform = Transform3D(-0.1067007441, 0.9913710114, 0.07614877059, -0.9721856322, -0.1200815741, 0.2010857527, 0.2084946491, -0.05257476848, 0.976609179, -14.39309, -0.001739502, 3.390156)
+
+[node name="SlendrinaMom_R_Finger11" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand/SlendrinaMom_R_Finger1"]
+transform = Transform3D(0.2662108978, 0.9639148667, -1.361146557e-08, -0.9639147704, 0.2662109244, -3.467717542e-08, -2.980231737e-08, 2.235173801e-08, 1, -4.58297, 0.0, 1.907349e-06)
+
+[node name="SlendrinaMom_R_Finger1Nub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand/SlendrinaMom_R_Finger1/SlendrinaMom_R_Finger11"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 0.9999999, -5.215406e-08, 0.0, -5.215405478e-08, -1, -4.58297, 0.0, -3.814697e-06)
+
+[node name="SlendrinaMom_R_Finger2" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand"]
+transform = Transform3D(-0.06643473388, 0.9956570469, -0.0652185136, -0.9977774441, -0.06662827835, -0.0007945995801, -0.005136546927, 0.06502079273, 0.9978704896, -14.24181, 0.001750946, 0.5556316)
+
+[node name="SlendrinaMom_R_Finger21" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand/SlendrinaMom_R_Finger2"]
+transform = Transform3D(0.2680768025, 0.9633975644, -1.516718007e-08, -0.9633975644, 0.2680768025, 2.671415106e-08, 2.980231681e-08, 7.450579227e-09, 1, -5.346798, 0.0, 1.907349e-06)
+
+[node name="SlendrinaMom_R_Finger2Nub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand/SlendrinaMom_R_Finger2/SlendrinaMom_R_Finger21"]
+transform = Transform3D(0.9999999, 0.0, -1.490116051e-08, 0.0, 0.9999999, -5.960465404e-08, -1.490116051e-08, -5.960465404e-08, -0.9999999, -5.346794, 0.0, -1.907349e-06)
+
+[node name="SlendrinaMom_R_Finger3" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand"]
+transform = Transform3D(-0.1647607076, 0.9800912405, -0.1107927858, -0.9861474857, -0.165868307, -0.0007914292267, -0.01915268579, 0.1091276535, 0.9938431124, -14.67013, -0.01506042, -2.224882)
+
+[node name="SlendrinaMom_R_Finger31" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand/SlendrinaMom_R_Finger3"]
+transform = Transform3D(0.3900204356, 0.9208062802, -4.011447231e-08, -0.9208062802, 0.3900204356, -8.083175924e-10, 1.490116307e-08, 3.725291405e-08, 1, -4.58297, 0.0, 1.907349e-06)
+
+[node name="SlendrinaMom_R_Finger3Nub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand/SlendrinaMom_R_Finger3/SlendrinaMom_R_Finger31"]
+transform = Transform3D(0.9999999, 0.0, 1.4901162e-08, 0.0, 0.9999999, 7.450582e-09, 1.490116051e-08, 7.450581255e-09, -1, -4.582962, 0.0, -2.861023e-06)
+
+[node name="SlendrinaMom_R_Finger4" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand"]
+transform = Transform3D(-0.2530810192, 0.9343361287, -0.250930496, -0.9651655452, -0.2616387709, -0.0007708485929, -0.0663733652, 0.2419944395, 0.968004595, -13.58818, 0.01487732, -4.8046)
+
+[node name="SlendrinaMom_R_Finger41" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand/SlendrinaMom_R_Finger4"]
+transform = Transform3D(0.3055379674, 0.952179777, 4.559648799e-08, -0.952179777, 0.3055379674, -4.93079264e-09, -1.862646072e-08, -4.190951436e-08, 0.9999999, -3.819145, 0.0, 7.152557e-07)
+
+[node name="SlendrinaMom_R_Finger4Nub" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand/SlendrinaMom_R_Finger4/SlendrinaMom_R_Finger41"]
+transform = Transform3D(0.9999999, 0.0, 3.725289627e-09, 0.0, 1, 4.563479544e-08, 3.725289627e-09, 4.56348e-08, -0.9999999, -3.819145, 3.814697e-06, 0.0)
+
+[node name="BatBloody" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6/SlendrinaMom/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Spine2/Bip01_Spine3/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand"]
+transform = Transform3D(0.0154910892, 0.5445753188, 0.005997466902, -0.5430032351, 0.01583392499, -0.04901712449, -0.04166169802, -0.003883846612, 0.6411011915, -12.69, 3.16, 0.3)
+
+[node name="Teddy" type="Node3D" parent="GrannyParent2"]
+transform = Transform3D(0.1464624286, -0.002409118517, 0.009575793358, 0.0006007526388, 0.1442691135, 0.02710728169, -0.009855900098, -0.02700669865, 0.143952222, -1.934, 3.179, 0.3360004)
+metadata/unity_class = "changeTextureNightmare"
+
+[node name="TeddyGrannyGone" type="Node3D" parent="GrannyParent2"]
+transform = Transform3D(0.02633673718, -0.144400736, -0.001451646889, 0.03973969374, 0.005828632286, 0.1411881272, -0.1388324047, -0.02572465666, 0.04013862334, -1.93, 2.776, -1.016)
+metadata/unity_class = "changeTextureNightmare"
+
+[node name="Slendrina2" type="Node3D" parent="GrannyParent2"]
+transform = Transform3D(0.02429118, 0.0, 0.0, 0.0, 0.02429118, 0.0, 0.0, 0.0, 0.02429118, -0.77, 2.625961, -4.78)
+
+[node name="Hair_1" type="Node3D" parent="GrannyParent2/Slendrina2"]
+transform = Transform3D(0.7850235, 1.697964023e-07, -1.311711858e-13, 0.0, 3.636752929e-07, 1.222185892, 1.878314105e-07, -0.7096478374, 6.263371617e-07, -0.2320302, -1.525879e-05, -0.4640961)
+
+[node name="SlendrinaMonster" type="Node3D" parent="GrannyParent2/Slendrina2"]
+transform = Transform3D(0.7850235, 1.697964023e-07, -1.311711858e-13, 0.0, 3.636752929e-07, 1.222185892, 1.878314105e-07, -0.7096478374, 6.263371617e-07, 0.165004, -1.525879e-05, -0.4640961)
+
+[node name="UnityAdManager" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 538.7156, 281.8312, 0.0)
+metadata/unity_class = "AdManager"
+metadata/unity_class = "ShowAds"
+
+[node name="GrannyParentHome" type="Node3D" parent=""]
+transform = Transform3D(-0.6369464479, 0.0, -0.7709082458, 0.0, 1, 0.0, 0.7709082458, 0.0, -0.6369464479, 2.85, -2.98, 24.74)
+visible = false
+process_mode = 3
+
+[node name="GrannyMove_1" type="Node3D" parent="GrannyParentHome"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, -0.01, 0.01, -0.02)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="GrannyParentHome/GrannyMove_1"]
+
+[node name="GrannyTest6_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1"]
+transform = Transform3D(0.02638873, 0.0, 0.0, 0.0, 0.02638873, 0.0, 0.0, 0.0, 0.02638873, 0.0, 0.0, 0.0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1"]
+metadata/unity_autoplay = true
+
+[node name="Eyes_2" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1"]
+transform = Transform3D(0.7850235, 0.0, 0.0, 0.0, -3.776212483e-08, 1.222186065, 0.0, -0.7096479378, -6.503554833e-08, -0.2320186, 0.0, -0.4640371)
+visible = false
+process_mode = 3
+
+[node name="Granny_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1"]
+transform = Transform3D(0.7850235, 0.0, 0.0, 0.0, -3.776212483e-08, 1.222186065, 0.0, -0.7096479378, -6.503554833e-08, -0.2320186, 0.0, -0.4640371)
+metadata/unity_class = "changeTextureNightmare"
+
+[node name="SlendrinaMom_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1"]
+transform = Transform3D(1.19999952e-06, -1.0000001, 0.0, 0.0, -2.000004799e-07, 1.0000002, -1.0000001, -1.4e-06, -2.000004999e-07, -0.07880962, 115.7509, -2.893595)
+
+[node name="Bip01_Pelvis_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1"]
+transform = Transform3D(-2.000004999e-07, -1.0000001, 1.4e-06, 0.0, 1.19999952e-06, 1.0000001, -1.0000002, 0.0, -2.000004799e-07, 0.1824558, 0.01060537, 0.0)
+
+[node name="Bip01_Spine_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1"]
+transform = Transform3D(0.9999996829, 0.0007963178379, 1.389008443e-06, -0.0007963179233, 0.9999995829, 4.160398781e-06, -1.385695141e-06, -4.161503554e-06, 0.9999999, -11.9797, -0.01077795, 1.66297e-05)
+
+[node name="Bip01_L_Thigh_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1"]
+transform = Transform3D(-0.9724505947, -0.03385769339, 0.230637447, -0.03475166154, 0.9993959612, 0.0001863116373, -0.2305044412, -0.007833855375, -0.9730398079, 11.97969, 0.02029371, 10.41713)
+
+[node name="Bip01_L_Calf_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_L_Thigh_1"]
+transform = Transform3D(0.9934846844, -0.1139648426, -2.122760382e-10, 0.1139648312, 0.9934847837, 1.850509485e-09, 0.0, -1.86264502e-09, 1, -52.08567, 2.384186e-07, 3.814697e-06)
+
+[node name="Bip01_L_Foot_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_L_Thigh_1/Bip01_L_Calf_1"]
+transform = Transform3D(0.9699099051, 0.08014249095, 0.2298955467, -0.07798182986, 0.9967833174, -0.01848389443, -0.2306374141, 3.891021271e-08, 0.9730397675, -52.08568, -4.768372e-07, -3.814697e-06)
+
+[node name="Bip01_L_Toe0_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_L_Thigh_1/Bip01_L_Calf_1/Bip01_L_Foot_1"]
+transform = Transform3D(-5.321247532e-08, 1.000000053, 4.371138639e-08, -0.9999999532, -5.321248064e-08, 0.0, 0.0, -4.371139076e-08, 0.9999999, -11.9797, 37.13965, 0.0)
+
+[node name="Bip01_L_Toe01_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_L_Thigh_1/Bip01_L_Calf_1/Bip01_L_Foot_1/Bip01_L_Toe0_1"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562569, 0.0, 3.814697e-06)
+
+[node name="Bip01_L_Toe02_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_L_Thigh_1/Bip01_L_Calf_1/Bip01_L_Foot_1/Bip01_L_Toe0_1/Bip01_L_Toe01_1"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562569, 2.384186e-07, 0.0)
+
+[node name="Bip01_L_Toe0Nub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_L_Thigh_1/Bip01_L_Calf_1/Bip01_L_Foot_1/Bip01_L_Toe0_1/Bip01_L_Toe01_1/Bip01_L_Toe02_1"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, -0.9999999, -1.562572, -2.384186e-07, -3.814697e-06)
+
+[node name="Bip01_R_Thigh_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1"]
+transform = Transform3D(-0.9715362928, 0.004663989201, -0.236844647, 0.004845903398, 0.9999882413, -0.0001859315234, 0.2368409948, -0.001328365538, -0.97154747, 11.97969, 0.02035165, -10.41713)
+
+[node name="Bip01_R_Calf_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_R_Thigh_1"]
+transform = Transform3D(0.9999994634, -0.001035930593, 1.490127332e-08, 0.001035930696, 0.9999993634, -1.009787027e-10, -1.490116221e-08, 1.164153339e-10, 0.9999999, -52.08568, 0.0, 0.0)
+
+[node name="Bip01_R_Foot_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_R_Thigh_1/Bip01_R_Calf_1"]
+transform = Transform3D(0.971525971, 0.006656035685, -0.2368395775, -0.00646666386, 0.9999778483, 0.00157641034, 0.2368448238, 3.833378974e-08, 0.9715474924, -52.08566, 4.768372e-07, 0.0)
+
+[node name="Bip01_R_Toe0_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_R_Thigh_1/Bip01_R_Calf_1/Bip01_R_Foot_1"]
+transform = Transform3D(-5.321247532e-08, 1.000000053, 4.371138639e-08, -0.9999999532, -5.321248064e-08, 0.0, 0.0, -4.371139076e-08, 0.9999999, -11.9797, 39.44038, 0.0)
+
+[node name="Bip01_R_Toe01_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_R_Thigh_1/Bip01_R_Calf_1/Bip01_R_Foot_1/Bip01_R_Toe0_1"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562569, 0.0, 0.0)
+
+[node name="Bip01_R_Toe02_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_R_Thigh_1/Bip01_R_Calf_1/Bip01_R_Foot_1/Bip01_R_Toe0_1/Bip01_R_Toe01_1"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562576, 2.384186e-07, 0.0)
+
+[node name="Bip01_R_Toe0Nub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_R_Thigh_1/Bip01_R_Calf_1/Bip01_R_Foot_1/Bip01_R_Toe0_1/Bip01_R_Toe01_1/Bip01_R_Toe02_1"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562569, 0.0, 0.0)
+
+[node name="Bip01_Spine1_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 6.023534e-14, 0.0, -6.023534e-14, 1, -13.54227, -0.0107832, -2.980232e-08)
+
+[node name="Bip01_Spine2_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1"]
+transform = Transform3D(0.9997372593, 0.02292044914, -0.0002557813802, -0.02292178453, 0.9997025874, -0.008326385525, 6.486083427e-05, 0.00833006081, 0.9999653023, -13.54251, -0.01078033, -8.986145e-05)
+
+[node name="Bip01_Spine3_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1"]
+transform = Transform3D(0.9998361623, -0.01755121787, -0.004427570397, 0.01753967927, 0.9998427048, -0.002631588286, 0.004473061541, 0.002553498968, 0.9999867356, -13.54207, -0.01078176, -2.752244e-05)
+
+[node name="Bip01_Neck_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 1.4551916e-11, 0.0, -1.4551916e-11, 1, -13.54227, -0.009828329, 5.960464e-08)
+
+[node name="Bip01_Head_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1"]
+transform = Transform3D(0.999983181, 0.003306771603, 0.004743720959, -0.003441762176, 0.9995809943, 0.0287365636, -0.004646708522, -0.02875240992, 0.9995756635, -12.34198, 2.384186e-07, 0.0)
+
+[node name="Bip01_HeadNub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_Head_1"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 1.470766453e-09, 0.0, -1.4707666e-09, 0.9999999, -32.43437, 0.0, 7.450581e-09)
+
+[node name="Tand_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_Head_1"]
+transform = Transform3D(-1.341629851e-07, -0.007712832152, -1.143922626, -1.543145027e-07, -0.7096071263, 0.01243347816, -0.7850248333, 1.394976511e-07, -1.955111901e-07, -5.96, 11.48, 0.71)
+
+[node name="Eyes_3" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_Head_1"]
+transform = Transform3D(2.050658855e-08, -2.663821616e-08, 1.222187142, -0.05326146276, 0.7079697914, 5.776719655e-08, -0.7728971013, -0.04878723314, 2.878355593e-08, -17.82, 10.31, 0.89)
+
+[node name="Hair_2" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_Head_1"]
+transform = Transform3D(8.632418372e-07, 0.006818350525, -1.222129845, 0.01402046645, -0.70950286, -0.01174094368, -0.7848986541, -0.01267367687, -0.0002115879364, 194.2077, 4.022037, 0.3371017)
+
+[node name="Bip01_L_Clavicle_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1"]
+transform = Transform3D(-0.09805396073, 0.0007962551523, -0.9951809539, -7.5310791e-05, -0.9999998966, -0.0007926906073, -0.9951812696, -2.778463847e-06, 0.09805367603, 0.0, 0.009805441, 8.144787)
+
+[node name="Bip01_L_UpperArm_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1"]
+transform = Transform3D(0.4101441804, -0.2179753544, -0.8855891942, 0.01118919788, 0.9721484689, -0.2340985716, 0.9119519002, 0.08610514064, 0.4011600077, -15.62199, 0.0, 0.0)
+
+[node name="Bip01_L_Forearm_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1"]
+transform = Transform3D(0.8669176105, -0.4984514507, 5.909983869e-08, 0.4984515005, 0.8669175238, 1.679194115e-08, -5.960465912e-08, 1.490116732e-08, 1, -29.54572, -1.907349e-06, 0.0)
+
+[node name="Bip01_L_Hand_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1"]
+transform = Transform3D(0.9537188275, 0.2869579741, 0.0898638449, -0.1171210962, 0.07924423298, 0.9899510877, 0.2769531635, -0.9546598502, 0.1091855539, -50.69757, 3.814697e-06, 7.629395e-06)
+
+[node name="Bip01_L_Finger0_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1"]
+transform = Transform3D(0.8228681802, -0.5621220755, 0.08310675146, -0.02966075598, -0.1885459524, -0.9816163587, 0.5674576631, 0.8052758585, -0.1718214314, -5.959946, 1.584869, -5.598141)
+
+[node name="SlendrinaMom_L_Finger01_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1/Bip01_L_Finger0_1"]
+transform = Transform3D(0.9947900675, 0.1019447021, -1.634261998e-08, -0.1019447021, 0.9947900675, -1.330443231e-08, 1.490116123e-08, 1.490116203e-08, 0.9999999, -3.74305, 0.0, 0.0)
+
+[node name="Bip01_L_Finger0Nub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1/Bip01_L_Finger0_1/SlendrinaMom_L_Finger01_1"]
+transform = Transform3D(0.9999999, -2.980231978e-08, 1.490116095e-08, 2.980231724e-08, 1, -2.98023168e-08, -1.490116007e-08, 2.980232022e-08, 0.9999999, -3.743053, 7.629395e-06, 0.0)
+
+[node name="SlendrinaMom_L_Finger1_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1"]
+transform = Transform3D(0.890222948, 0.4513918298, -0.06122530193, -0.4506295492, 0.8923169845, 0.0265222103, 0.06660429202, 0.00397924765, 0.9977714343, -13.46292, -0.05105591, -3.68586)
+
+[node name="SlendrinaMom_L_Finger11_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1/SlendrinaMom_L_Finger1_1"]
+transform = Transform3D(0.9999999, 2.980232e-08, 0.0, -2.980231702e-08, 1, -2.980232e-08, 0.0, 2.980232e-08, 1, -4.491669, -3.814697e-06, 3.814697e-06)
+
+[node name="SlendrinaMom_L_Finger1Nub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1/SlendrinaMom_L_Finger1_1/SlendrinaMom_L_Finger11_1"]
+transform = Transform3D(0.9999999, 2.980232e-08, 0.0, -2.980231702e-08, 1, -2.980232e-08, 0.0, 2.980232e-08, 1, -4.491661, 3.814697e-06, -3.814697e-06)
+
+[node name="SlendrinaMom_L_Finger2_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1"]
+transform = Transform3D(0.9198025548, 0.3890766903, 0.05081902306, -0.3905292927, 0.9203195535, 0.02233327138, -0.03808038401, -0.04038851902, 0.9984581371, -13.8216, -0.06324387, -0.8663483)
+
+[node name="SlendrinaMom_L_Finger21_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1/SlendrinaMom_L_Finger2_1"]
+transform = Transform3D(1, -2.980232e-08, 0.0, 2.980232e-08, 1, -1.4901162e-08, 0.0, 1.4901162e-08, 1, -5.24028, 3.814697e-06, 1.907349e-06)
+
+[node name="SlendrinaMom_L_Finger2Nub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1/SlendrinaMom_L_Finger2_1/SlendrinaMom_L_Finger21_1"]
+transform = Transform3D(1, -2.980232e-08, 0.0, 2.980232e-08, 1, -1.4901162e-08, 0.0, 1.4901162e-08, 1, -5.240265, -3.814697e-06, -1.907349e-06)
+
+[node name="SlendrinaMom_L_Finger3_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1"]
+transform = Transform3D(0.9125353643, 0.4039897064, 0.063808733, -0.4070004147, 0.912359384, 0.04417063915, -0.04037201659, -0.06627744749, 0.9969841529, -13.62797, -0.0145874, 1.990671)
+
+[node name="SlendrinaMom_L_Finger31_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1/SlendrinaMom_L_Finger3_1"]
+transform = Transform3D(0.9999999, 2.980231708e-08, -1.49011604e-08, -2.980231696e-08, 0.9999999, 7.450581477e-09, 1.490116062e-08, -7.450581033e-09, 0.9999999, -4.491661, -3.814697e-06, 1.907349e-06)
+
+[node name="SlendrinaMom_L_Finger3Nub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1/SlendrinaMom_L_Finger3_1/SlendrinaMom_L_Finger31_1"]
+transform = Transform3D(0.9999999, 2.980231708e-08, -1.49011604e-08, -2.980231696e-08, 0.9999999, 7.450581477e-09, 1.490116062e-08, -7.450581033e-09, 0.9999999, -4.491653, 3.814697e-06, -1.907349e-06)
+
+[node name="SlendrinaMom_L_Finger4_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1"]
+transform = Transform3D(0.8580366693, 0.4391279028, 0.2663451736, -0.4557733405, 0.8900955381, 0.0007676190334, -0.2367355669, -0.1220516781, 0.9638774078, -12.7439, 1.405914, 5.124266)
+
+[node name="SlendrinaMom_L_Finger41_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1/SlendrinaMom_L_Finger4_1"]
+transform = Transform3D(0.9999999, 0.0, 5.587936e-09, 0.0, 0.9999999, -5.122274e-08, -5.587935441e-09, 5.122273488e-08, 1, -3.743057, 0.0, -2.384186e-07)
+
+[node name="SlendrinaMom_L_Finger4Nub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_L_Clavicle_1/Bip01_L_UpperArm_1/Bip01_L_Forearm_1/Bip01_L_Hand_1/SlendrinaMom_L_Finger4_1/SlendrinaMom_L_Finger41_1"]
+transform = Transform3D(0.9999999, 0.0, 5.587936e-09, 0.0, 0.9999999, -5.122274e-08, -5.587935441e-09, 5.122273488e-08, 1, -3.743057, 0.0, -2.384186e-07)
+
+[node name="Bip01_R_Clavicle_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1"]
+transform = Transform3D(-0.1389013011, 0.0007962561431, 0.9903058785, -0.0001133424912, -0.9999995324, 0.0007881529753, 0.9903060931, -2.768241701e-06, 0.1389014118, 0.0, 0.009850264, -8.144789)
+
+[node name="Bip01_R_UpperArm_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1"]
+transform = Transform3D(0.4566954056, -0.3082401137, 0.8345163619, 0.02288752934, 0.9418164315, 0.3353475782, -0.8893286955, -0.1340517423, 0.4371781262, -15.08663, 0.0, 1.525879e-05)
+
+[node name="Bip01_R_Forearm_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1"]
+transform = Transform3D(0.894328485, -0.4474109373, -5.998776668e-08, 0.4474109373, 0.894328485, 5.329877899e-08, 2.980230981e-08, -7.45058006e-08, 1, -32.06883, 1.907349e-06, 0.0)
+
+[node name="Bip01_R_Hand_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1"]
+transform = Transform3D(0.9682430209, 0.2490758976, -0.02160223598, -0.04440326761, 0.08629038838, -0.9952801191, -0.2460361949, 0.9646322423, 0.09460984574, -47.51596, 0.0, 0.0)
+
+[node name="Bip01_R_Finger0_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1"]
+transform = Transform3D(0.1664213971, -0.7550918356, 0.6341452017, -0.8392112799, 0.2291956928, 0.4931466852, -0.5177144432, -0.614252021, -0.5955385784, -9.55526, 1.356827, 6.323349)
+
+[node name="SlendrinaMom_R_Finger01_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1/Bip01_R_Finger0_1"]
+transform = Transform3D(0.1334857544, 0.9910507703, 2.676665146e-08, -0.9910507703, 0.1334857544, 3.605232856e-09, 0.0, -2.700835675e-08, 1, -3.819149, 0.0, 1.907349e-06)
+
+[node name="Bip01_R_Finger0Nub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1/Bip01_R_Finger0_1/SlendrinaMom_R_Finger01_1"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 2.793968e-09, 0.0, 2.793968e-09, -1, -3.819138, 0.0, 0.0)
+
+[node name="SlendrinaMom_R_Finger1_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1"]
+transform = Transform3D(-0.1067007441, 0.9913710114, 0.07614877059, -0.9721856322, -0.1200815741, 0.2010857527, 0.2084946491, -0.05257476848, 0.976609179, -14.39309, -0.001739502, 3.390156)
+
+[node name="SlendrinaMom_R_Finger11_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1/SlendrinaMom_R_Finger1_1"]
+transform = Transform3D(0.2662108978, 0.9639148667, -1.361146557e-08, -0.9639147704, 0.2662109244, -3.467717542e-08, -2.980231737e-08, 2.235173801e-08, 1, -4.58297, 0.0, 1.907349e-06)
+
+[node name="SlendrinaMom_R_Finger1Nub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1/SlendrinaMom_R_Finger1_1/SlendrinaMom_R_Finger11_1"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 0.9999999, -5.215406e-08, 0.0, -5.215405478e-08, -1, -4.58297, 0.0, -3.814697e-06)
+
+[node name="SlendrinaMom_R_Finger2_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1"]
+transform = Transform3D(-0.06643473388, 0.9956570469, -0.0652185136, -0.9977774441, -0.06662827835, -0.0007945995801, -0.005136546927, 0.06502079273, 0.9978704896, -14.24181, 0.001750946, 0.5556316)
+
+[node name="SlendrinaMom_R_Finger21_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1/SlendrinaMom_R_Finger2_1"]
+transform = Transform3D(0.2680768025, 0.9633975644, -1.516718007e-08, -0.9633975644, 0.2680768025, 2.671415106e-08, 2.980231681e-08, 7.450579227e-09, 1, -5.346798, 0.0, 1.907349e-06)
+
+[node name="SlendrinaMom_R_Finger2Nub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1/SlendrinaMom_R_Finger2_1/SlendrinaMom_R_Finger21_1"]
+transform = Transform3D(0.9999999, 0.0, -1.490116051e-08, 0.0, 0.9999999, -5.960465404e-08, -1.490116051e-08, -5.960465404e-08, -0.9999999, -5.346794, 0.0, -1.907349e-06)
+
+[node name="SlendrinaMom_R_Finger3_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1"]
+transform = Transform3D(-0.1647607076, 0.9800912405, -0.1107927858, -0.9861474857, -0.165868307, -0.0007914292267, -0.01915268579, 0.1091276535, 0.9938431124, -14.67013, -0.01506042, -2.224882)
+
+[node name="SlendrinaMom_R_Finger31_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1/SlendrinaMom_R_Finger3_1"]
+transform = Transform3D(0.3900204356, 0.9208062802, -4.011447231e-08, -0.9208062802, 0.3900204356, -8.083175924e-10, 1.490116307e-08, 3.725291405e-08, 1, -4.58297, 0.0, 1.907349e-06)
+
+[node name="SlendrinaMom_R_Finger3Nub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1/SlendrinaMom_R_Finger3_1/SlendrinaMom_R_Finger31_1"]
+transform = Transform3D(0.9999999, 0.0, 1.4901162e-08, 0.0, 0.9999999, 7.450582e-09, 1.490116051e-08, 7.450581255e-09, -1, -4.582962, 0.0, -2.861023e-06)
+
+[node name="SlendrinaMom_R_Finger4_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1"]
+transform = Transform3D(-0.2530810192, 0.9343361287, -0.250930496, -0.9651655452, -0.2616387709, -0.0007708485929, -0.0663733652, 0.2419944395, 0.968004595, -13.58818, 0.01487732, -4.8046)
+
+[node name="SlendrinaMom_R_Finger41_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1/SlendrinaMom_R_Finger4_1"]
+transform = Transform3D(0.3055379674, 0.952179777, 4.559648799e-08, -0.952179777, 0.3055379674, -4.93079264e-09, -1.862646072e-08, -4.190951436e-08, 0.9999999, -3.819145, 0.0, 7.152557e-07)
+
+[node name="SlendrinaMom_R_Finger4Nub_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1/SlendrinaMom_R_Finger4_1/SlendrinaMom_R_Finger41_1"]
+transform = Transform3D(0.9999999, 0.0, 3.725289627e-09, 0.0, 1, 4.563479544e-08, 3.725289627e-09, 4.56348e-08, -0.9999999, -3.819145, 3.814697e-06, 0.0)
+
+[node name="BatBloody_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1/SlendrinaMom_1/Bip01_Pelvis_1/Bip01_Spine_1/Bip01_Spine1_1/Bip01_Spine2_1/Bip01_Spine3_1/Bip01_Neck_1/Bip01_R_Clavicle_1/Bip01_R_UpperArm_1/Bip01_R_Forearm_1/Bip01_R_Hand_1"]
+transform = Transform3D(0.0154910892, 0.5445753188, 0.005997466902, -0.5430032351, 0.01583392499, -0.04901712449, -0.04166169802, -0.003883846612, 0.6411011915, -12.69, 3.16, 0.3)
+
+[node name="ScreenEffect" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.5, 0.5, 25)
+
+[node name="ScareSoundeffects" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, -8.078315, 3.959246, 65.96906)
+
+[node name="Audio_Source" type="Node3D" parent="ScareSoundeffects"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0)
+visible = false
+process_mode = 3
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="ScareSoundeffects/Audio_Source"]
+stream = ExtResource("11")
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true
+
+[node name="GrannyParent" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, -0.5999999, -0.72, 16.94)
+visible = false
+process_mode = 3
+
+[node name="GrannyMove_2" type="Node3D" parent="GrannyParent"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, -0.01, 0.01, -0.02)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="GrannyParent/GrannyMove_2"]
+
+[node name="GrannyTest6_2" type="Node3D" parent="GrannyParent/GrannyMove_2"]
+transform = Transform3D(0.02638873, 0.0, 0.0, 0.0, 0.02638873, 0.0, 0.0, 0.0, 0.02638873, 0.0, 0.0, 0.0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="GrannyParent/GrannyMove_2/GrannyTest6_2"]
+metadata/unity_autoplay = true
+
+[node name="Eyes_4" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2"]
+transform = Transform3D(0.7850235, 0.0, 0.0, 0.0, -3.776212483e-08, 1.222186065, 0.0, -0.7096479378, -6.503554833e-08, -0.2320186, 0.0, -0.4640371)
+visible = false
+process_mode = 3
+
+[node name="Granny_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2"]
+transform = Transform3D(0.7850235, 0.0, 0.0, 0.0, -3.776212483e-08, 1.222186065, 0.0, -0.7096479378, -6.503554833e-08, -0.2320186, 0.0, -0.4640371)
+metadata/unity_class = "changeTextureNightmare"
+
+[node name="SlendrinaMom_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2"]
+transform = Transform3D(1.19999952e-06, -1.0000001, 0.0, 0.0, -2.000004799e-07, 1.0000002, -1.0000001, -1.4e-06, -2.000004999e-07, -0.07880962, 115.7509, -2.893595)
+
+[node name="Bip01_Pelvis_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2"]
+transform = Transform3D(-2.000004999e-07, -1.0000001, 1.4e-06, 0.0, 1.19999952e-06, 1.0000001, -1.0000002, 0.0, -2.000004799e-07, 0.1824558, 0.01060537, 0.0)
+
+[node name="Bip01_Spine_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2"]
+transform = Transform3D(0.9999996829, 0.0007963178379, 1.389008443e-06, -0.0007963179233, 0.9999995829, 4.160398781e-06, -1.385695141e-06, -4.161503554e-06, 0.9999999, -11.9797, -0.01077795, 1.66297e-05)
+
+[node name="Bip01_L_Thigh_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2"]
+transform = Transform3D(-0.9724505947, -0.03385769339, 0.230637447, -0.03475166154, 0.9993959612, 0.0001863116373, -0.2305044412, -0.007833855375, -0.9730398079, 11.97969, 0.02029371, 10.41713)
+
+[node name="Bip01_L_Calf_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_L_Thigh_2"]
+transform = Transform3D(0.9934846844, -0.1139648426, -2.122760382e-10, 0.1139648312, 0.9934847837, 1.850509485e-09, 0.0, -1.86264502e-09, 1, -52.08567, 2.384186e-07, 3.814697e-06)
+
+[node name="Bip01_L_Foot_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_L_Thigh_2/Bip01_L_Calf_2"]
+transform = Transform3D(0.9699099051, 0.08014249095, 0.2298955467, -0.07798182986, 0.9967833174, -0.01848389443, -0.2306374141, 3.891021271e-08, 0.9730397675, -52.08568, -4.768372e-07, -3.814697e-06)
+
+[node name="Bip01_L_Toe0_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_L_Thigh_2/Bip01_L_Calf_2/Bip01_L_Foot_2"]
+transform = Transform3D(-5.321247532e-08, 1.000000053, 4.371138639e-08, -0.9999999532, -5.321248064e-08, 0.0, 0.0, -4.371139076e-08, 0.9999999, -11.9797, 37.13965, 0.0)
+
+[node name="Bip01_L_Toe01_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_L_Thigh_2/Bip01_L_Calf_2/Bip01_L_Foot_2/Bip01_L_Toe0_2"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562569, 0.0, 3.814697e-06)
+
+[node name="Bip01_L_Toe02_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_L_Thigh_2/Bip01_L_Calf_2/Bip01_L_Foot_2/Bip01_L_Toe0_2/Bip01_L_Toe01_2"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562569, 2.384186e-07, 0.0)
+
+[node name="Bip01_L_Toe0Nub_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_L_Thigh_2/Bip01_L_Calf_2/Bip01_L_Foot_2/Bip01_L_Toe0_2/Bip01_L_Toe01_2/Bip01_L_Toe02_2"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, -0.9999999, -1.562572, -2.384186e-07, -3.814697e-06)
+
+[node name="Bip01_R_Thigh_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2"]
+transform = Transform3D(-0.9715362928, 0.004663989201, -0.236844647, 0.004845903398, 0.9999882413, -0.0001859315234, 0.2368409948, -0.001328365538, -0.97154747, 11.97969, 0.02035165, -10.41713)
+
+[node name="Bip01_R_Calf_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_R_Thigh_2"]
+transform = Transform3D(0.9999994634, -0.001035930593, 1.490127332e-08, 0.001035930696, 0.9999993634, -1.009787027e-10, -1.490116221e-08, 1.164153339e-10, 0.9999999, -52.08568, 0.0, 0.0)
+
+[node name="Bip01_R_Foot_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_R_Thigh_2/Bip01_R_Calf_2"]
+transform = Transform3D(0.971525971, 0.006656035685, -0.2368395775, -0.00646666386, 0.9999778483, 0.00157641034, 0.2368448238, 3.833378974e-08, 0.9715474924, -52.08566, 4.768372e-07, 0.0)
+
+[node name="Bip01_R_Toe0_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_R_Thigh_2/Bip01_R_Calf_2/Bip01_R_Foot_2"]
+transform = Transform3D(-5.321247532e-08, 1.000000053, 4.371138639e-08, -0.9999999532, -5.321248064e-08, 0.0, 0.0, -4.371139076e-08, 0.9999999, -11.9797, 39.44038, 0.0)
+
+[node name="Bip01_R_Toe01_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_R_Thigh_2/Bip01_R_Calf_2/Bip01_R_Foot_2/Bip01_R_Toe0_2"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562569, 0.0, 0.0)
+
+[node name="Bip01_R_Toe02_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_R_Thigh_2/Bip01_R_Calf_2/Bip01_R_Foot_2/Bip01_R_Toe0_2/Bip01_R_Toe01_2"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562576, 2.384186e-07, 0.0)
+
+[node name="Bip01_R_Toe0Nub_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_R_Thigh_2/Bip01_R_Calf_2/Bip01_R_Foot_2/Bip01_R_Toe0_2/Bip01_R_Toe01_2/Bip01_R_Toe02_2"]
+transform = Transform3D(0.9999999, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.9999999, -1.562569, 0.0, 0.0)
+
+[node name="Bip01_Spine1_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 6.023534e-14, 0.0, -6.023534e-14, 1, -13.54227, -0.0107832, -2.980232e-08)
+
+[node name="Bip01_Spine2_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2"]
+transform = Transform3D(0.9997372593, 0.02292044914, -0.0002557813802, -0.02292178453, 0.9997025874, -0.008326385525, 6.486083427e-05, 0.00833006081, 0.9999653023, -13.54251, -0.01078033, -8.986145e-05)
+
+[node name="Bip01_Spine3_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2"]
+transform = Transform3D(0.9998361623, -0.01755121787, -0.004427570397, 0.01753967927, 0.9998427048, -0.002631588286, 0.004473061541, 0.002553498968, 0.9999867356, -13.54207, -0.01078176, -2.752244e-05)
+
+[node name="Bip01_Neck_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 1.4551916e-11, 0.0, -1.4551916e-11, 1, -13.54227, -0.009828329, 5.960464e-08)
+
+[node name="Bip01_Head_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2"]
+transform = Transform3D(0.999983181, 0.003306771603, 0.004743720959, -0.003441762176, 0.9995809943, 0.0287365636, -0.004646708522, -0.02875240992, 0.9995756635, -12.34198, 2.384186e-07, 0.0)
+
+[node name="Bip01_HeadNub_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_Head_2"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 1.470766453e-09, 0.0, -1.4707666e-09, 0.9999999, -32.43437, 0.0, 7.450581e-09)
+
+[node name="Tand_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_Head_2"]
+transform = Transform3D(-1.341629851e-07, -0.007712832152, -1.143922626, -1.543145027e-07, -0.7096071263, 0.01243347816, -0.7850248333, 1.394976511e-07, -1.955111901e-07, -5.96, 11.48, 0.71)
+
+[node name="Eyes_5" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_Head_2"]
+transform = Transform3D(2.050658855e-08, -2.663821616e-08, 1.222187142, -0.05326146276, 0.7079697914, 5.776719655e-08, -0.7728971013, -0.04878723314, 2.878355593e-08, -17.82, 10.31, 0.89)
+
+[node name="Hair_3" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_Head_2"]
+transform = Transform3D(8.632418372e-07, 0.006818350525, -1.222129845, 0.01402046645, -0.70950286, -0.01174094368, -0.7848986541, -0.01267367687, -0.0002115879364, 194.2077, 4.022037, 0.3371017)
+
+[node name="Bip01_L_Clavicle_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2"]
+transform = Transform3D(-0.09805396073, 0.0007962551523, -0.9951809539, -7.5310791e-05, -0.9999998966, -0.0007926906073, -0.9951812696, -2.778463847e-06, 0.09805367603, 0.0, 0.009805441, 8.144787)
+
+[node name="Bip01_L_UpperArm_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_L_Clavicle_2"]
+transform = Transform3D(0.4101441804, -0.2179753544, -0.8855891942, 0.01118919788, 0.9721484689, -0.2340985716, 0.9119519002, 0.08610514064, 0.4011600077, -15.62199, 0.0, 0.0)
+
+[node name="Bip01_L_Forearm_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_L_Clavicle_2/Bip01_L_UpperArm_2"]
+transform = Transform3D(0.8669176105, -0.4984514507, 5.909983869e-08, 0.4984515005, 0.8669175238, 1.679194115e-08, -5.960465912e-08, 1.490116732e-08, 1, -29.54572, -1.907349e-06, 0.0)
+
+[node name="Bip01_L_Hand_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_L_Clavicle_2/Bip01_L_UpperArm_2/Bip01_L_Forearm_2"]
+transform = Transform3D(0.9537188275, 0.2869579741, 0.0898638449, -0.1171210962, 0.07924423298, 0.9899510877, 0.2769531635, -0.9546598502, 0.1091855539, -50.69757, 3.814697e-06, 7.629395e-06)
+
+[node name="Bip01_L_Finger0_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_L_Clavicle_2/Bip01_L_UpperArm_2/Bip01_L_Forearm_2/Bip01_L_Hand_2"]
+transform = Transform3D(0.8228681802, -0.5621220755, 0.08310675146, -0.02966075598, -0.1885459524, -0.9816163587, 0.5674576631, 0.8052758585, -0.1718214314, -5.959946, 1.584869, -5.598141)
+
+[node name="SlendrinaMom_L_Finger01_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_L_Clavicle_2/Bip01_L_UpperArm_2/Bip01_L_Forearm_2/Bip01_L_Hand_2/Bip01_L_Finger0_2"]
+transform = Transform3D(0.9947900675, 0.1019447021, -1.634261998e-08, -0.1019447021, 0.9947900675, -1.330443231e-08, 1.490116123e-08, 1.490116203e-08, 0.9999999, -3.74305, 0.0, 0.0)
+
+[node name="Bip01_L_Finger0Nub_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_L_Clavicle_2/Bip01_L_UpperArm_2/Bip01_L_Forearm_2/Bip01_L_Hand_2/Bip01_L_Finger0_2/SlendrinaMom_L_Finger01_2"]
+transform = Transform3D(0.9999999, -2.980231978e-08, 1.490116095e-08, 2.980231724e-08, 1, -2.98023168e-08, -1.490116007e-08, 2.980232022e-08, 0.9999999, -3.743053, 7.629395e-06, 0.0)
+
+[node name="SlendrinaMom_L_Finger1_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_L_Clavicle_2/Bip01_L_UpperArm_2/Bip01_L_Forearm_2/Bip01_L_Hand_2"]
+transform = Transform3D(0.890222948, 0.4513918298, -0.06122530193, -0.4506295492, 0.8923169845, 0.0265222103, 0.06660429202, 0.00397924765, 0.9977714343, -13.46292, -0.05105591, -3.68586)
+
+[node name="SlendrinaMom_L_Finger11_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_L_Clavicle_2/Bip01_L_UpperArm_2/Bip01_L_Forearm_2/Bip01_L_Hand_2/SlendrinaMom_L_Finger1_2"]
+transform = Transform3D(0.9999999, 2.980232e-08, 0.0, -2.980231702e-08, 1, -2.980232e-08, 0.0, 2.980232e-08, 1, -4.491669, -3.814697e-06, 3.814697e-06)
+
+[node name="SlendrinaMom_L_Finger1Nub_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_L_Clavicle_2/Bip01_L_UpperArm_2/Bip01_L_Forearm_2/Bip01_L_Hand_2/SlendrinaMom_L_Finger1_2/SlendrinaMom_L_Finger11_2"]
+transform = Transform3D(0.9999999, 2.980232e-08, 0.0, -2.980231702e-08, 1, -2.980232e-08, 0.0, 2.980232e-08, 1, -4.491661, 3.814697e-06, -3.814697e-06)
+
+[node name="SlendrinaMom_L_Finger2_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2/SlendrinaMom_2/Bip01_Pelvis_2/Bip01_Spine_2/Bip01_Spine1_2/Bip01_Spine2_2/Bip01_Spine3_2/Bip01_Neck_2/Bip01_L_Clavicle_2/Bip01_L_UpperArm_2/Bip01_L_Forearm_2/Bip01_L_Hand_2"]
+transform = Transform3D(0.9198025548, 0.3890766903, 0.05081902306, -0.3905292927, 0.9203195535, 0.02233327138, -0.03808038401, -0.04038851902, 0.9984581371, -13.8216, -0.06324387, -0.8663483)
+

@@ -1,0 +1,27 @@
+[gd_resource type="Animation" format=3]
+
+[resource]
+length = 1
+loop_mode = 0
+tracks/0/type = "rotation_3d"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("GiljotinKlinga")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = PackedFloat32Array(0.0, 1, 0.0, 0.0, 0.0, 1, 2.666667, 1, 0.0, 0.0, 0.0, 1)
+tracks/1/type = "rotation_3d"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("GiljotinSpak")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = PackedFloat32Array(0.0, 1, 0.2705981, 0.6532815, 0.2705981, 0.6532815, 0.03333334, 1, 0.2419193, 0.664436, 0.2419192, 0.6644359, 0.06666667, 1, 0.1659979, 0.6873462, 0.1659979, 0.6873461, 0.1, 1, 0.05902077, 0.7046394, 0.05902077, 0.7046393, 0.1333333, 1, -0.05902087, 0.7046393, -0.05902087, 0.7046393, 0.1666667, 1, -0.165998, 0.6873462, -0.165998, 0.687346, 0.2, 1, -0.2419193, 0.664436, -0.2419192, 0.6644359, 0.2333333, 1, -0.2705981, 0.6532815, -0.2705981, 0.6532815, 0.3, 1, -0.2375664, 0.6660048, -0.2375663, 0.6660047, 0.4333334, 1, -0.03196119, 0.7063841, -0.03196119, 0.7063841, 0.5333334, 1, 0.1511088, 0.6907722, 0.1511088, 0.6907721, 0.6333334, 1, 0.2619297, 0.6568051, 0.2619297, 0.656805, 0.6666667, 1, 0.2705981, 0.6532815, 0.2705981, 0.6532815)
+tracks/2/type = "rotation_3d"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Giljotin01")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = PackedFloat32Array(0.0, 1, 0.0, 0.0, 0.0, 1, 1.066667, 1, 0.0, 0.0, 0.0, 1)
+; source unity clip: giljotinOn

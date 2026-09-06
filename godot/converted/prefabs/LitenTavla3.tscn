@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(16.24129, 8.584688, 0.3807757)
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(16.24129, 8.584687, 11.26)
+[sub_resource type="BoxShape3D" id="3"]
+size = Vector3(0.03, 1.23, 0.94)
+
+
+[node name="LitenTavla3" type="RigidBody3D"]
+transform = Transform3D(-1.782426546e-08, 4.500466981e-09, 0.08814568954, 0.002405844126, 0.100409103, -3.5297793e-09, -0.07158098883, 0.003374760265, -2.206226652e-08, 10.25545, 13.15496, 3.593347)
+metadata/unity_class = "rivNerTavla"
+metadata/unity_class = "PrefabLightmapData"
+metadata/unity_class = "changeTextureNightmare"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(-3.81505e-06, -3.537187e-10, 0.1903802)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("2")
+position = Vector3(-3.529556e-10, -3.53718e-10, -5.5)
+
+[node name="Trigger" type="StaticBody3D" parent="."]
+transform = Transform3D(1.279705522e-07, 14.78216298, 0.3544720081, 0.0, -0.4968287459, 10.54661466, 12.02009987, 0.0, 1.123466702e-07, 0.0, 0.0, 0.0)
+metadata/unity_class = "objectsFallFloorTavla"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger"]
+shape = SubResource("3")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1

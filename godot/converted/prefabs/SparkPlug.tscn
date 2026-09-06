@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(0.2612191, 0.2679368, 0.7155594)
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(1, 1, 1)
+
+
+[node name="SparkPlug" type="RigidBody3D"]
+transform = Transform3D(-0.3258815, 0.0, 0.0, 0.0, 0.3258816, 0.0, 0.0, 0.0, -0.3228343, 8.244379, 22.51223, -3.755957)
+metadata/unity_tag = "sparkplug"
+groups=["unity_sparkplug"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(-0.006804112, 0.0, 0.1159886)
+
+[node name="Trigger_6" type="StaticBody3D" parent="."]
+transform = Transform3D(-0.799003885, 0.0, 0.0, 0.0, -6.545534158e-08, 0.5434186289, 0.0, 1.230075065, -2.891665149e-08, 0.0, -0.006, 0.089)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_6"]
+shape = SubResource("2")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_6"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true
+
+[node name="FX_Sparkle_10" type="Node3D" parent="."]
+transform = Transform3D(-3.077715328, 0.0, 0.0, 0.0, -1.648292759e-07, -3.077747164, 0.0, -3.097568165, -1.637745513e-07, 0.0, 0.0, 0.097)
+
+[node name="Sparkle" type="Node3D" parent="FX_Sparkle_10"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.01)

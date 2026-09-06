@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(218.2, 117.4, 8.8)
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(0.59, 0.46, 0.18)
+
+
+[node name="Vapennyckel" type="RigidBody3D"]
+transform = Transform3D(0.002551388, 0.0, 0.0, 0.0, -1.642928409e-10, 0.002329972124, 0.0, -0.003087487164, -1.239835889e-10, 16.37428, 11.01999, -0.2469716)
+metadata/unity_tag = "weaponkey"
+groups=["unity_weaponkey"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(-16.88943, 0.0, 2.953227)
+
+[node name="FX_Sparkle_4" type="Node3D" parent="."]
+transform = Transform3D(67.34883867, 0.0, -380.7003745, -319.7634246, 2.632952494e-06, -80.18342739, 0.0, 429.1900974, 2.386722814e-06, 0.0, 0.0, 0.0)
+
+[node name="Sparkle" type="Node3D" parent="FX_Sparkle_4"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.01)
+
+[node name="Trigger_1" type="StaticBody3D" parent="."]
+transform = Transform3D(350.17, 0.0, 0.0, 0.0, 266.1, 0.0, 0.0, 0.0, 324.2, 0.0, 0.0, 0.0)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_1"]
+shape = SubResource("2")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_1"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true

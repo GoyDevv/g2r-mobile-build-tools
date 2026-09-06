@@ -1,0 +1,21 @@
+{
+  "EnemyAIGranny": "res://scripts/ai/enemy_ai_granny.gd",
+  "FPSControllerNEW": "res://scripts/player/fps_controller_new.gd",
+  "Joystick": "res://scripts/player/joystick.gd",
+  "Footsteps": "res://scripts/player/footsteps.gd",
+  "soundEffects": "res://scripts/player/sound_effects.gd",
+  "playerCaught": "res://scripts/player/player_caught.gd",
+  "playerDead": "res://scripts/player/player_dead.gd",
+  "AnimationController": "res://scripts/player/animation_controller.gd",
+  "InventoryController": "res://scripts/inventory/inventory_controller.gd",
+  "PickUp": "res://scripts/interaction/pick_up.gd",
+  "splashScreenStart": "res://scripts/menu/splash_screen_start.gd",
+  "dropDownOptions": "res://scripts/menu/drop_down_options.gd",
+  "BackToMenu": "res://scripts/menu/back_to_menu.gd",
+  "ClickPlayButton": "res://scripts/menu/click_play_button.gd",
+  "ClickContinueButton": "res://scripts/menu/click_continue_button.gd",
+  "ClickContinueButton2": "res://scripts/menu/click_continue_button.gd",
+  "clickBeartrapMenu": "res://scripts/menu/click_beartrap_menu.gd",
+  "SeeObjects": "res://scripts/ui/see_objects.gd",
+  "dropObjects": "res://scripts/ui/drop_objects.gd"
+}

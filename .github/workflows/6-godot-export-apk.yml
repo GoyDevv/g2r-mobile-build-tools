@@ -1,0 +1,72 @@
+name: "6 - Godot Android APK export"
+
+# Exports the Godot project to an installable APK with Godot 4.7.2.
+# No Unity license needed - Godot is MIT. APK is signed with a debug keystore.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Godot 4.7.2 + export templates
+        run: |
+          set -e
+          curl -sL -o /tmp/godot.zip \
+            https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_linux.x86_64.zip
+          unzip -q /tmp/godot.zip -d /tmp/godot
+          cp "$(find /tmp/godot -name 'Godot*' -type f | head -1)" /usr/local/bin/godot
+          chmod +x /usr/local/bin/godot
+          godot --version
+          curl -sL -o /tmp/templates.tpz \
+            https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz
+          mkdir -p /tmp/tpl
+          unzip -q /tmp/templates.tpz -d /tmp/tpl
+          mkdir -p "$HOME/.local/share/godot/export_templates"
+          cp -r /tmp/tpl/templates/* "$HOME/.local/share/godot/export_templates/"
+          ls "$HOME/.local/share/godot/export_templates" | head -5
+
+      - name: Create debug keystore and configure Godot
+        run: |
+          set -e
+          keytool -keyalg RSA -genkeypair -alias androiddebugkey -keypass android \
+            -keystore debug.keystore -storepass android -dname "CN=Android Debug,O=Android,C=US" \
+            -validity 9999 -keysize 2048
+          B64=$(base64 -w0 debug.keystore)
+          echo "GODOT_ANDROID_KEYSTORE_BASE64=$B64" >> "$GITHUB_ENV"
+          echo "GODOT_ANDROID_KEYSTORE_USER=androiddebugkey" >> "$GITHUB_ENV"
+          echo "GODOT_ANDROID_KEYSTORE_PASSWORD=android" >> "$GITHUB_ENV"
+
+      - name: Import assets
+        run: godot --headless --path godot --import > import.log 2>&1 || true
+
+      - name: Export APK (debug-signed, arm64 + armeabi-v7a)
+        run: |
+          set -e
+          mkdir -p build
+          godot --headless --path godot --export-debug "Android" build/GrannyForsaken.apk
+          ls -la build/
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: granny-forsaken-godot-apk
+          path: build/GrannyForsaken.apk
+          if-no-files-found: error
+          retention-days: 30

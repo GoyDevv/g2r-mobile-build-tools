@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3]
+[sub_resource type="CapsuleShape3D" id="1"]
+radius = 0.014
+height = 0.06
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(1, 1, 1)
+
+
+[node name="PepperSpray" type="RigidBody3D"]
+transform = Transform3D(5.008128, 0.0, 0.0, 0.0, -2.66494912e-07, 5.008127558, 0.0, -5.008127558, -2.66494912e-07, 17.415, 22.94, -3.807)
+metadata/unity_tag = "pepperspray"
+groups=["unity_pepperspray"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(0.0, 0.0001098844, 0.005854415)
+
+[node name="Trigger" type="StaticBody3D" parent="."]
+transform = Transform3D(0.03213631281, -0.02180843633, 1.394441661e-09, 0.02160127429, 0.03244450871, -1.060368774e-08, 3.122892707e-09, 6.346809648e-09, 0.05899689, 0.0, 0.0, 0.0034)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger"]
+shape = SubResource("2")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true
+
+[node name="FX_Sparkle_2" type="Node3D" parent="."]
+transform = Transform3D(0.1992303, 0.0, 0.0, 0.0, 0.1996755, 0.0, 0.0, 0.0, 0.2002206, 0.0, 0.0, 0.0)
+
+[node name="Sparkle" type="Node3D" parent="FX_Sparkle_2"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.01)

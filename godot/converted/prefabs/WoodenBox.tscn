@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(1, 1, 1)
+
+
+[node name="WoodenBox" type="RigidBody3D"]
+transform = Transform3D(-0.001163997811, -0.000428313958, 0.01871896731, -0.00133501923, 0.01870926565, 0.0003450769871, -0.01867621251, -0.001310687462, -0.001191329412, 12.55466, 0.1860609, -5.990198)
+metadata/unity_class = "PrefabLightmapData"
+metadata/unity_class = "changeTextureNightmare"
+
+[node name="BoxCollider" type="StaticBody3D" parent="."]
+transform = Transform3D(77.88564422, -5.864097881, 0.0, 5.864104638, 77.88555447, 0.0, 0.0, 0.0, 60.58609, 0.0, 0.0, -29.6)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BoxCollider"]
+shape = SubResource("1")
+
+[node name="Trigger_4" type="StaticBody3D" parent="."]
+transform = Transform3D(128.3601044, 1.130403768e-06, -4.14553168, -1.436012689e-06, 101.1815, 2.317290292e-08, 6.727854242, 2.960411598e-08, 79.09221277, 2, 2.2, -36.7)
+metadata/unity_class = "KartongMakeSound"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_4"]
+shape = SubResource("1")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_4"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true

@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(91.50021, 61.76493, 16.32617)
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(1, 1, 1)
+
+
+[node name="Book" type="RigidBody3D"]
+transform = Transform3D(-0.008412417895, 0.0, 0.0, 0.0, -4.476456795e-10, 0.008412419448, 0.0, 0.008412419448, -4.476456795e-10, 10.803, 22.91, -3.391)
+metadata/unity_tag = "book"
+groups=["unity_book"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(0.0, 0.6853983, 8.120652)
+
+[node name="Trigger_4" type="StaticBody3D" parent="."]
+transform = Transform3D(-131.7914, 0.0, 0.0, 0.0, -98.52592, 0.0, 0.0, 0.0, 36.29071, 0.0, 0.0, 7.4)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_4"]
+shape = SubResource("2")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_4"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true

@@ -1,0 +1,20 @@
+[gd_resource type="Animation" format=3]
+
+[resource]
+length = 1
+loop_mode = 0
+tracks/0/type = "rotation_3d"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sida")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = PackedFloat32Array(0.06666667, 1, -0.5416752, -0.4545195, 0.4545195, 0.5416752, 0.3, 1, -0.6045188, -0.3668202, 0.3668202, 0.6045188, 0.5333334, 1, -0.6743797, -0.2126311, 0.2126311, 0.6743797, 0.8333334, 1, -0.7058157, -0.04271123, 0.04271123, 0.7058157, 1, 1, -0.7071068, 0.0, 0.0, 0.7071068)
+tracks/1/type = "rotation_3d"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sida/Framsida")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = PackedFloat32Array(0.0, 1, 0.0, -0.7412366, 0.0, 0.6712438, 0.2333333, 1, 0.0, -0.6729196, 0.0, 0.7397156, 0.3666667, 1, 0.0, -0.5163028, 0.0, 0.8564061, 0.5333334, 1, 0.0, -0.3124127, 0.0, 0.9499465, 0.8000001, 1, 0.0, -0.1214043, 0.0, 0.9926032, 1, 1, 0.0, -0.04000628, 0.0, 0.9991995)
+; source unity clip: bookOpen

@@ -1,0 +1,67 @@
+[gd_scene load_steps=7 format=3]
+[ext_resource type="Animation" path="res://converted/animations/Beartrap.tres" id="1"]
+[ext_resource type="Animation" path="res://converted/animations/BeartrapOpen.tres" id="2"]
+[ext_resource type="Animation" path="res://converted/animations/BeartrapLive.tres" id="3"]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(1.79, 0.17, 0.6)
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(2.15, 0.82, 0.94)
+[sub_resource type="AnimationLibrary" id="3"]
+animations/Beartrap = ExtResource("1")
+animations/BeartrapOpen = ExtResource("2")
+animations/BeartrapLive = ExtResource("3")
+
+
+[node name="BearTrapOrganic" type="RigidBody3D"]
+transform = Transform3D(0.79097, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1.434225, 6.496669, 20.09446, -8.133719)
+metadata/unity_tag = "beartrap"
+groups=["unity_beartrap"]
+metadata/unity_class = "BearTrap"
+metadata/unity_class = "organicBeartrap"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(0.0, 0.06, 0.0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("2")
+position = Vector3(0.0, 0.35, 0.0)
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("3")
+}
+metadata/unity_autoplay = true
+
+[node name="CATRigHub001" type="Node3D" parent="."]
+transform = Transform3D(0.0, 0.0, -0.9999999, -0.9999999, 0.0, 0.0, 0.0, 0.9999999, 0.0, 2.158086e-14, 0.04226159, -6.874714e-08)
+
+[node name="CATRigHub001Bone001" type="Node3D" parent="CATRigHub001"]
+transform = Transform3D(-5.321250485e-08, 3.139166697e-07, 1.000000053, 0.0, 1, -3.139166697e-07, -1.000000053, 0.0, -5.321250485e-08, 0.0, 1.715242e-08, 0.04633316)
+
+[node name="CATRigHub001Bone001Bone001" type="Node3D" parent="CATRigHub001/CATRigHub001Bone001"]
+transform = Transform3D(0.6899480194, 0.0, -0.723858933, 0.0, 1, 0.0, 0.723858933, 0.0, 0.6899480194, -0.1278843, 0.0, 0.0)
+
+[node name="CATRigHub001Bone001Bone001Bone001" type="Node3D" parent="CATRigHub001/CATRigHub001Bone001/CATRigHub001Bone001Bone001"]
+transform = Transform3D(0.2286226115, 0.0, -0.9735152027, 0.0, 1, 0.0, 0.9735152027, 0.0, 0.2286226115, -0.2223742, 2.310117e-14, 0.0)
+
+[node name="CATRigHub001Bone002" type="Node3D" parent="CATRigHub001"]
+transform = Transform3D(-5.32126081e-08, 7.152557816e-07, -1.000000053, 0.0, 1, 7.152557816e-07, 1.000000053, 0.0, -5.32126081e-08, 0.0, 1.715242e-08, -0.04633316)
+
+[node name="CATRigHub001Bone001Bone001_1" type="Node3D" parent="CATRigHub001/CATRigHub001Bone002"]
+transform = Transform3D(0.6701675293, 0.0, 0.742209883, 0.0, 1, 0.0, -0.742209883, 0.0, 0.6701675293, -0.1278843, 0.0, 0.0)
+
+[node name="CATRigHub001Bone001Bone001Bone001_1" type="Node3D" parent="CATRigHub001/CATRigHub001Bone002/CATRigHub001Bone001Bone001_1"]
+transform = Transform3D(0.143803434, 0.0, 0.989606353, 0.0, 1, 0.0, -0.989606353, 0.0, 0.143803434, -0.2223741, 0.0, 0.0)
+
+[node name="Character001" type="Node3D" parent="."]
+transform = Transform3D(-2.000000199e-07, -2.000000199e-07, -1.0000002, -1.0000002, -2.000000199e-07, 0.0, 0.0, 1.0000002, -4.000000398e-07, 0.0, 0.0, 0.0)
+
+[node name="Plane001" type="Node3D" parent="."]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 0.6214291331, 0.0, -1.000000053, -3.306778368e-08, 0.0, 0.04084794, -0.008273026)

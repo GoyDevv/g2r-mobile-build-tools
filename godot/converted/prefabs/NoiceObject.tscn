@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(1, 1, 1)
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(5.18, 5.18, 5.18)
+
+
+[node name="NoiceObject" type="RigidBody3D"]
+transform = Transform3D(-0.4283333, 2.404609452e-08, -6.47293959e-08, 2.553065506e-08, 0.4034266, -1.594799995e-08, 1.006457318e-07, -2.335515942e-08, -0.2754787, 0.0, -7.82, 2.11)
+metadata/unity_class = "noiceObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("2")

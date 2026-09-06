@@ -1,0 +1,76 @@
+name: "5 - Godot CI (import + verify 4.7.2)"
+
+# Imports all raw assets with a real Godot editor (x64 runner: no proot crash),
+# then verifies every scene loads + runs the game headless for a few seconds.
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [master]
+    paths:
+      - 'godot/**'
+      - '.github/workflows/5-godot-verify.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Godot 4.7.2 stable (linux x86_64)
+        run: |
+          set -e
+          curl -sL -o /tmp/godot.zip \
+            https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_linux.x86_64.zip
+          unzip -q /tmp/godot.zip -d /tmp/godot
+          find /tmp/godot -type f -name 'Godot*' -exec chmod +x {} \;
+          echo "$(find /tmp/godot -name 'Godot*' -type f | head -1)" > /tmp/godot_path
+          /tmp/$(cd /tmp/godot && ls | head -1) --version || true
+          cp "$(cat /tmp/godot_path)" /usr/local/bin/godot
+          godot --version
+
+      - name: Import all assets (editor pass)
+        run: |
+          set -e
+          godot --headless --path godot --import > import.log 2>&1 || true
+          echo "=== import.log tail ==="
+          tail -30 import.log
+          echo "=== .import files generated ==="
+          find godot/assets -name '*.import' | wc -l
+
+      - name: Verify all scenes load
+        run: |
+          set -e
+          godot --headless --path godot -s res://scripts/verify_all.gd > verify.log 2>&1 || true
+          cat verify.log | grep -E "LOAD OK|LOAD NULL|INSTANTIATE NULL" || true
+          if grep -qE "LOAD NULL|INSTANTIATE NULL" verify.log; then
+            echo "::error::At least one scene failed to load"
+            exit 1
+          fi
+          echo "All scenes OK"
+
+      - name: Run game headless for 300 frames (autoloads + main scene smoke test)
+        run: |
+          set -e
+          godot --headless --path godot --quit-after 300 > run.log 2>&1 || true
+          echo "=== run.log tail ==="
+          tail -40 run.log
+          if grep -q "ERROR: Cannot load" run.log; then
+            echo "::error::Runtime failed to load a resource"
+            exit 1
+          fi
+          echo "Game booted headless without resource errors"
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: godot-ci-logs
+          path: |
+            import.log
+            verify.log
+            run.log

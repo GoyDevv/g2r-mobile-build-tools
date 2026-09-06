@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(1, 1, 1)
+
+
+[node name="ManikinDoll" type="RigidBody3D"]
+transform = Transform3D(0.02065058514, 0.01133612513, 3.22711807e-09, -3.22711944e-09, -2.006505623e-09, 0.02355746118, 0.01133612513, -0.02065058632, -3.514664679e-10, 10.69, 17.40707, 4.06)
+metadata/unity_class = "PrefabLightmapData"
+metadata/unity_class = "changeTextureNightmare"
+
+[node name="NavigationObstacle3D" type="NavigationObstacle3D" parent="."]
+
+[node name="Trigger_4" type="StaticBody3D" parent="."]
+transform = Transform3D(-73.75662, 0.0, -9.796758574e-06, 0.0, 56.59747, 0.0, 2.762237049e-05, 0.0, -26.15908, 0.0, 0.0, 132.4)
+metadata/unity_class = "objectFallFloor"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_4"]
+shape = SubResource("1")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_4"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1

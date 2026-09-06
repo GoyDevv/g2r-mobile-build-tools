@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=3]
+[sub_resource type="SphereShape3D" id="1"]
+radius = 6.54
+[sub_resource type="CapsuleShape3D" id="2"]
+radius = 7.2
+height = 57
+[sub_resource type="BoxShape3D" id="3"]
+size = Vector3(0.3, 0.3, 1)
+
+
+[node name="ShootArrowParent" type="RigidBody3D"]
+transform = Transform3D(-1.398736339e-09, -3.763073047e-10, -0.01019008054, -0.004980233288, 0.005673233316, 5.079575533e-10, 0.005673234467, 0.004980232628, -1.888080793e-09, 16.98804, 21.956, -7.680825)
+metadata/unity_tag = "arrow"
+groups=["unity_arrow"]
+metadata/unity_class = "arrowHit"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(0.0, 0.0, 20)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("2")
+position = Vector3(0.0, 0.0, -26.4)
+
+[node name="ShootArrow2" type="Node3D" parent="."]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0)
+
+[node name="Trigger_2" type="StaticBody3D" parent="ShootArrow2"]
+transform = Transform3D(10.32710091, 94.7577031, -1.024708407e-05, 79.04283232, -12.3802676, -7.110875675e-06, -1.405463586e-05, -1.858043437e-05, -47.52071405, 0.0, 0.0, -28)
+metadata/unity_class = "arrowFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ShootArrow2/Trigger_2"]
+shape = SubResource("3")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="ShootArrow2/Trigger_2"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true
+
+[node name="FX_Sparkle_5" type="Node3D" parent="ShootArrow2"]
+transform = Transform3D(-32.74400208, -99.55083244, -74.2523133, 37.30024477, -87.39046215, 84.58457403, -94.92598211, 6.582894706e-05, 58.84943553, 0.0, 0.0, -25.5)
+
+[node name="Sparkle" type="Node3D" parent="ShootArrow2/FX_Sparkle_5"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.01)

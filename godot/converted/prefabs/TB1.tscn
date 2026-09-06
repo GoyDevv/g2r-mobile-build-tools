@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(1, 1, 1)
+
+
+[node name="TB1" type="RigidBody3D"]
+transform = Transform3D(-0.01210117258, 0.001468901103, -1.400918928e-10, 4.842484816e-10, 6.217896995e-09, 0.01218999893, 0.001468901103, 0.01210117364, -4.106800667e-09, 5.639702, -2.756269, 1.609388)
+metadata/unity_tag = "tb1"
+groups=["unity_tb1"]
+
+[node name="Trigger_1" type="StaticBody3D" parent="."]
+transform = Transform3D(48.17436, 0.0, 0.0, 0.0, 54.92768, 0.0, 0.0, 0.0, 6.767465, 0.0, 0.0, 0.0)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_1"]
+shape = SubResource("1")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_1"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true

@@ -1,0 +1,5 @@
+[gd_scene format=3]
+[node name="Root" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2, 3)
+[node name="Kid" type="Node3D" parent="Root"]
+transform = Transform3D(1, 0, 0, 0, 0.7071068, -0.7071068, 0, 0.7071068, 0.7071068, 0.5, 0, 0)

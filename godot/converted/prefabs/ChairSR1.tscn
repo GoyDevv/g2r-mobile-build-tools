@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3]
+[sub_resource type="CapsuleShape3D" id="1"]
+radius = 0.31
+height = 1.94
+
+
+[node name="ChairSR1" type="RigidBody3D"]
+transform = Transform3D(0.1160955984, -0.3486369354, 0.0, 0.0, -2.351130109e-08, 0.3674585235, -0.3486368405, -0.1160956535, -2.35112883e-08, -6.786, 10.54855, 4.714039)
+metadata/unity_class = "PrefabLightmapData"
+metadata/unity_class = "changeTextureNightmare"
+
+[node name="Trigger" type="StaticBody3D" parent="."]
+transform = Transform3D(-0.002617003537, 2.385024299, 0.0, -2.883373152, -0.002164692774, 0.0, 0.0, 0.0, 2.883457, 0.0, 2.3, 8.71)
+metadata/unity_class = "objectFallFloor"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger"]
+shape = SubResource("1")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1

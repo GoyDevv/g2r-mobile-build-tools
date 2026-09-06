@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(89.51411, 33.40274, 1.856149)
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(1, 1, 1)
+
+
+[node name="TextMessage" type="RigidBody3D"]
+transform = Transform3D(-0.009970022839, 0.004839018287, 0.0, 0.0, -1.902547201e-09, 0.0110823019, 0.004839018287, 0.009970020937, -1.902547201e-09, 11.60368, -1.890279, 0.3120284)
+metadata/unity_tag = "message"
+groups=["unity_message"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(-1.137438, 0.4600696, 0.9280745)
+
+[node name="Trigger_5" type="StaticBody3D" parent="."]
+transform = Transform3D(97.45951, 0.0, 0.0, 0.0, 49.10559, 0.0, 0.0, 0.0, 7.444297, 0.0, 0.0, 0.0)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_5"]
+shape = SubResource("2")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_5"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true

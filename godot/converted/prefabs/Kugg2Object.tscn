@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3]
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(29.54754, 29.54754, 2.132807)
+[sub_resource type="BoxShape3D" id="2"]
+size = Vector3(0.56, 0.95, 0.18)
+
+
+[node name="Kugg2Object" type="RigidBody3D"]
+transform = Transform3D(0.003399723514, 0.0002097638703, 0.009306236855, -0.0006102887976, 0.009891189396, 4.878155378e-11, -0.009288567596, -0.0005731070455, 0.003406190668, 16.13, 12.09, -1.25)
+metadata/unity_tag = "kugg2"
+groups=["unity_kugg2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("1")
+position = Vector3(-9.534379e-08, -1.986329e-09, 1.066334)
+
+[node name="Trigger_3" type="StaticBody3D" parent="."]
+transform = Transform3D(-0.01758858116, -2.427343578, 216.1356284, -0.001085038503, 39.34092734, 13.33561235, -19.6014648, 2.519517178e-08, -0.1946788085, -1, 9, 1.3)
+metadata/unity_class = "HandObjectFalls"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trigger_3"]
+shape = SubResource("2")
+position = Vector3(0.0, -0.27, 0.0)
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Trigger_3"]
+volume_db = 0.0
+max_distance = 500
+unit_size = 1
+autoplay = true
+
+[node name="FX_Sparkle_2" type="Node3D" parent="."]
+transform = Transform3D(95.15578125, -6.214245014, 33.00368399, 5.871137518, 100.7166718, 2.036333384, -33.06647815, 2.831544112e-06, 95.33664012, 0.0, 0.0, 0.0)
+
+[node name="Sparkle" type="Node3D" parent="FX_Sparkle_2"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.01)

@@ -1,0 +1,532 @@
+[gd_resource type="Animation" format=3]
+
+[resource]
+length = 1
+loop_mode = 0
+tracks/0/type = "rotation_3d"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Granny")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = PackedFloat32Array(0.0, 1, -0.7071068, 0.0, 0.0, 0.7071068, 0.7666669, 1, -0.7071068, 0.0, 0.0, 0.7071068)
+tracks/1/type = "rotation_3d"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("SlendrinaMom")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = PackedFloat32Array(0.0, 1, -0.5000004, 0.4999997, 0.4999997, 0.5000004, 2.433333, 1, -0.5000004, 0.4999997, 0.4999997, 0.5000004)
+tracks/2/type = "rotation_3d"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("SlendrinaMom/Bip01 Pelvis")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = PackedFloat32Array(0.0, 1, -0.4999997, 0.5000004, 0.4999997, 0.5000004, 2.433333, 1, -0.4999997, 0.5000004, 0.4999997, 0.5000004)
+tracks/3/type = "rotation_3d"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = PackedFloat32Array(0.0, 1, -2.080476e-06, 6.93676e-07, -0.000398159, 0.9999999, 2.433333, 1, -2.080476e-06, 6.93676e-07, -0.000398159, 0.9999999)
+tracks/4/type = "rotation_3d"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = PackedFloat32Array(0.0, 1, -3.011767e-14, 0.0, 0.0, 1, 2.433333, 1, -3.011767e-14, 0.0, 0.0, 1)
+tracks/5/type = "rotation_3d"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = PackedFloat32Array(0.0, 1, 0.004164421, -8.016651e-05, -0.01146141, 0.9999257, 2.433333, 1, 0.004164421, -8.016651e-05, -0.01146141, 0.9999257)
+tracks/6/type = "rotation_3d"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = PackedFloat32Array(0.0, 1, 0.001296296, -0.002225251, 0.008773091, 0.9999582, 0.1000004, 1, -0.04633304, -0.002678515, 0.008657098, 0.998885, 0.4000001, 1, -0.1977683, -0.004085484, 0.008154402, 0.9802064, 0.4666667, 1, -0.2482435, -0.004542524, 0.007940134, 0.9686545, 0.5333338, 1, -0.3184554, -0.005167778, 0.007600932, 0.9478933, 0.5666671, 1, -0.2976039, -0.004983402, 0.007706811, 0.9546453, 0.6000004, 1, -0.1859827, -0.003977889, 0.008200987, 0.9825107, 0.6333337, 1, -0.007017246, -0.002304733, 0.008754281, 0.9999344, 0.666667, 1, 0.1595282, -0.0006828051, 0.009014858, 0.987152, 0.7000003, 1, 0.2346416, 6.961462e-05, 0.0090504, 0.9720398, 0.7333336, 1, 0.2395362, 0.0001191136, 0.009050877, 0.9708452, 2.033334, 1, 0.07616738, -0.001502468, 0.008915163, 0.997054, 2.433333, 1, 0.001296312, -0.002225251, 0.008773091, 0.9999582)
+tracks/7/type = "rotation_3d"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = PackedFloat32Array(0.0, 1, -7.276776e-12, 0.0, 0.0, 1, 2.433333, 1, -7.276776e-12, 0.0, 0.0, 1)
+tracks/8/type = "rotation_3d"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 Head")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = PackedFloat32Array(0.0, 1, -0.01437377, 0.002347848, -0.001687313, 0.9998925, 0.166667, 1, 0.03355899, -0.03742132, 0.001771645, 0.9987344, 0.4000001, 1, 0.1078874, -0.08401427, -0.006798808, 0.9905835, 0.4666667, 1, 0.1492801, -0.083053, -0.01436306, 0.9851961, 0.5333338, 1, 0.2135171, -0.0495639, -0.02455085, 0.9753723, 0.5666671, 1, 0.1900542, -0.02138055, -0.02649816, 0.9811831, 0.6000004, 1, 0.07614623, 0.005703851, -0.0304121, 0.9966165, 0.6333337, 1, -0.1003532, 0.02560039, -0.04165087, 0.99375, 0.666667, 1, -0.2572769, 0.03470237, -0.05616824, 0.9640796, 0.7000003, 1, -0.3126521, 0.03630575, -0.06436162, 0.946989, 0.7333336, 1, -0.2895387, 0.03498719, -0.06543282, 0.954286, 0.8333335, 1, -0.2583942, 0.02834597, -0.06236219, 0.9636077, 0.9333334, 1, -0.2975225, 0.02836064, -0.05783356, 0.9525394, 1.2, 1, -0.2840593, 0.02454433, -0.04755236, 0.9573122, 2.1, 1, -0.08301281, 0.01041712, -0.01261929, 0.9964141, 2.433333, 1, -0.01437378, 0.002347858, -0.001687312, 0.9998925)
+tracks/9/type = "rotation_3d"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 Head/Bip01 HeadNub")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = PackedFloat32Array(0.0, 1, -7.353824e-10, 0.0, 0.0, 1, 2.433333, 1, -7.353824e-10, 0.0, 0.0, 1)
+tracks/10/type = "rotation_3d"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = PackedFloat32Array(0.0, 1, -0.6715453, -0.0002683901, 0.7409635, -0.0002940651, 2.433333, 1, -0.6715453, -0.0002683901, 0.7409635, -0.0002940651)
+tracks/11/type = "rotation_3d"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = PackedFloat32Array(0.0, 1, 0.09596313, -0.5387124, 0.06867922, 0.8341841, 0.1000004, 1, 0.06632329, -0.5423241, 0.0316552, 0.8369491, 0.4000001, 1, -0.02937897, -0.5456083, -0.08708315, 0.8329856, 0.4666667, 1, -0.06173945, -0.5438271, -0.1270563, 0.8272226, 0.5333338, 1, -0.1071525, -0.5388168, -0.1830156, 0.8152915, 0.5666671, 1, -0.09364195, -0.5406495, -0.1663298, 0.8193069, 0.6000004, 1, -0.02201618, -0.5459217, -0.07764568, 0.83394, 0.6333337, 1, 0.09026356, -0.5396802, 0.0626723, 0.8346676, 0.666667, 1, 0.1920197, -0.5182484, 0.1912677, 0.8111496, 0.7000003, 1, 0.2370393, -0.5035585, 0.2486206, 0.7927351, 0.7333336, 1, 0.2399661, -0.5025121, 0.2523346, 0.7913439, 2.033334, 1, 0.1418343, -0.5312526, 0.1268338, 0.8255706, 2.400001, 1, 0.09881082, -0.5383754, 0.07229879, 0.8337633, 2.433333, 1, 0.09596314, -0.5387124, 0.06867923, 0.8341841)
+tracks/12/type = "rotation_3d"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = PackedFloat32Array(0.0, 1, -4.892212e-10, 3.071559e-08, 0.2579558, 0.9661568, 2.433333, 1, -4.892212e-10, 3.071559e-08, 0.2579558, 0.9661568)
+tracks/13/type = "rotation_3d"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = PackedFloat32Array(0.0, 1, 0.6643209, 0.06391373, 0.1380421, -0.7318041, 2.433333, 1, 0.6643209, 0.06391373, 0.1380421, -0.7318041)
+tracks/14/type = "rotation_3d"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/Bip01 L Finger0")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = PackedFloat32Array(0.0, 1, 0.7387888, -0.2002544, 0.2201456, 0.6046695, 2.433333, 1, 0.7387888, -0.2002544, 0.2201456, 0.6046695)
+tracks/15/type = "rotation_3d"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/Bip01 L Finger0/SlendrinaMom L Finger01")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = PackedFloat32Array(0.0, 1, 7.060559e-09, -7.821109e-09, -0.05103887, 0.9986967, 2.433333, 1, 7.060559e-09, -7.821109e-09, -0.05103887, 0.9986967)
+tracks/16/type = "rotation_3d"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/Bip01 L Finger0/SlendrinaMom L Finger01/Bip01 L Finger0Nub")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = PackedFloat32Array(0.0, 1, 1.490116e-08, 7.450553e-09, 1.490113e-08, 1, 2.433333, 1, 1.490116e-08, 7.450553e-09, 1.490113e-08, 1)
+tracks/17/type = "rotation_3d"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/SlendrinaMom L Finger1")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = PackedFloat32Array(0.0, 1, -0.005797186, -0.03287287, -0.2319653, 0.9721512, 2.433333, 1, -0.005797186, -0.03287287, -0.2319653, 0.9721512)
+tracks/18/type = "rotation_3d"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/SlendrinaMom L Finger1/SlendrinaMom L Finger11")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = PackedFloat32Array(0.0, 1, 1.490113e-08, 0.0, -1.490113e-08, 1, 2.433333, 1, 1.490113e-08, 0.0, -1.490113e-08, 1)
+tracks/19/type = "rotation_3d"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/SlendrinaMom L Finger1/SlendrinaMom L Finger11/SlendrinaMom
+    L Finger1Nub")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = PackedFloat32Array(0.0, 1, 1.490113e-08, 0.0, -1.490113e-08, 1, 2.433333, 1, 1.490113e-08, 0.0, -1.490113e-08, 1)
+tracks/20/type = "rotation_3d"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/SlendrinaMom L Finger2")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = PackedFloat32Array(0.0, 1, -0.01600675, 0.02268734, -0.1989573, 0.9796147, 2.433333, 1, -0.01600675, 0.02268734, -0.1989573, 0.9796147)
+tracks/21/type = "rotation_3d"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/SlendrinaMom L Finger2/SlendrinaMom L Finger21")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = PackedFloat32Array(0.0, 1, 7.450609e-09, 0.0, 1.490113e-08, 1, 2.433333, 1, 7.450609e-09, 0.0, 1.490113e-08, 1)
+tracks/22/type = "rotation_3d"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/SlendrinaMom L Finger2/SlendrinaMom L Finger21/SlendrinaMom
+    L Finger2Nub")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = PackedFloat32Array(0.0, 1, 7.450609e-09, 0.0, 1.490113e-08, 1, 2.433333, 1, 7.450609e-09, 0.0, 1.490113e-08, 1)
+tracks/23/type = "rotation_3d"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/SlendrinaMom L Finger3")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = PackedFloat32Array(0.0, 1, -0.02824813, 0.0266452, -0.2074183, 0.9774813, 2.433333, 1, -0.02824813, 0.0266452, -0.2074183, 0.9774813)
+tracks/24/type = "rotation_3d"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/SlendrinaMom L Finger3/SlendrinaMom L Finger31")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = PackedFloat32Array(0.0, 1, -3.725283e-09, -7.450567e-09, -1.490111e-08, 1, 2.433333, 1, -3.725283e-09, -7.450567e-09, -1.490111e-08, 1)
+tracks/25/type = "rotation_3d"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/SlendrinaMom L Finger3/SlendrinaMom L Finger31/SlendrinaMom
+    L Finger3Nub")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = PackedFloat32Array(0.0, 1, -3.725283e-09, -7.450567e-09, -1.490111e-08, 1, 2.433333, 1, -3.725283e-09, -7.450567e-09, -1.490111e-08, 1)
+tracks/26/type = "rotation_3d"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/SlendrinaMom L Finger4")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = PackedFloat32Array(0.0, 1, -0.03187367, 0.1305579, -0.2322419, 0.9633288, 2.433333, 1, -0.03187367, 0.1305579, -0.2322419, 0.9633288)
+tracks/27/type = "rotation_3d"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/SlendrinaMom L Finger4/SlendrinaMom L Finger41")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = PackedFloat32Array(0.0, 1, 2.561131e-08, 2.793958e-09, 5.676427e-14, 1, 2.433333, 1, 2.561131e-08, 2.793958e-09, 5.676427e-14, 1)
+tracks/28/type = "rotation_3d"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01
+    L Hand/SlendrinaMom L Finger4/SlendrinaMom L Finger41/SlendrinaMom
+    L Finger4Nub")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = PackedFloat32Array(0.0, 1, 2.561131e-08, 2.793958e-09, 5.676427e-14, 1, 2.433333, 1, 2.561131e-08, 2.793958e-09, 5.676427e-14, 1)
+tracks/29/type = "rotation_3d"
+tracks/29/imported = false
+tracks/29/enabled = true
+tracks/29/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle")
+tracks/29/interp = 1
+tracks/29/loop_wrap = true
+tracks/29/keys = PackedFloat32Array(0.0, 1, 0.6561625, 0.0002601923, 0.7546195, -0.0003013435, 2.433333, 1, 0.6561625, 0.0002601923, 0.7546195, -0.0003013435)
+tracks/30/type = "rotation_3d"
+tracks/30/imported = false
+tracks/30/enabled = true
+tracks/30/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm")
+tracks/30/interp = 1
+tracks/30/loop_wrap = true
+tracks/30/keys = PackedFloat32Array(0.0, 1, -0.1393743, 0.5118453, 0.0983186, 0.8419755, 0.03333378, 1, -0.09561833, 0.4625809, 0.06202436, 0.8792207, 0.1333337, 1, 0.06469776, 0.2716273, -0.06412238, 0.958082, 0.2333336, 1, 0.2401975, 0.07154158, -0.1733436, 0.9524385, 0.4000001, 1, 0.4556245, -0.06312891, -0.2477524, 0.8526663, 0.4666667, 1, 0.4972402, -0.003270918, -0.2370068, 0.8346072, 0.5333338, 1, 0.5064219, 0.1015863, -0.1117627, 0.8489559, 0.5666671, 1, 0.5101035, 0.1287528, -0.03590327, 0.8496635, 0.6000004, 1, 0.5021577, 0.1219229, 0.09164475, 0.8512189, 0.6333337, 1, 0.4268714, 0.09851213, 0.2856688, 0.8523318, 0.666667, 1, 0.278806, 0.10085, 0.4786025, 0.82646, 0.7000003, 1, 0.128925, 0.1394054, 0.6352727, 0.7485808, 0.7333336, 1, 0.08605839, 0.1603055, 0.6717855, 0.7180532, 0.7666669, 1, 0.1044406, 0.1637448, 0.6353046, 0.7474409, 0.8000002, 1, 0.1037625, 0.1726465, 0.6216344, 0.7569658, 1.633333, 1, 0.02182096, 0.3954648, 0.3485184, 0.8495095, 2.400001, 1, -0.1336125, 0.5094144, 0.1108686, 0.8428243, 2.433333, 1, -0.1393744, 0.5118454, 0.09831861, 0.8419754)
+tracks/31/type = "rotation_3d"
+tracks/31/imported = false
+tracks/31/enabled = true
+tracks/31/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm")
+tracks/31/interp = 1
+tracks/31/loop_wrap = true
+tracks/31/keys = PackedFloat32Array(0.0, 1, -3.283013e-08, -2.30651e-08, 0.2298603, 0.9732236, 0.06666708, 1, 9.126897e-09, -2.837038e-08, 0.3062555, 0.9519494, 0.2666669, 1, 4.913559e-08, -2.173285e-08, 0.5365641, 0.8438596, 0.4333334, 1, 2.316821e-08, 1.8746e-08, 0.6290103, 0.777397, 0.5333338, 1, 1.453538e-08, 2.998255e-08, 0.6097535, 0.7925911, 0.5666671, 1, 1.573893e-08, 2.936832e-08, 0.5771093, 0.8166669, 0.6000004, 1, 1.30225e-08, 7.242007e-09, 0.4860077, 0.8739545, 0.6333337, 1, -3.790861e-08, 1.841995e-08, 0.32696, 0.9450382, 0.666667, 1, 2.411328e-09, -1.470514e-08, 0.1618091, 0.9868221, 0.7000003, 1, -1.28657e-08, -3.107449e-08, 0.06641456, 0.9977921, 0.7333336, 1, 1.285901e-08, 1.059282e-08, 0.2235045, 0.9747029, 0.7666669, 1, -5.851891e-09, 1.370398e-08, 0.39271, 0.9196624, 0.8000002, 1, 0.0, -1.586222e-13, 0.3953917, 0.9185126, 2.166667, 1, 5.03181e-08, 1.371606e-08, 0.2629987, 0.9647962, 2.433333, 1, -3.283018e-08, -2.306507e-08, 0.2298603, 0.9732236)
+tracks/32/type = "rotation_3d"
+tracks/32/imported = false
+tracks/32/enabled = true
+tracks/32/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand")
+tracks/32/interp = 1
+tracks/32/loop_wrap = true
+tracks/32/keys = PackedFloat32Array(0.0, 1, 0.6684577, 0.07654659, -0.1000955, 0.7329979, 0.3000002, 1, 0.6530755, 0.07861084, -0.09848259, 0.7467355, 0.4333334, 1, 0.7651541, 0.06166457, -0.1098907, 0.6313958, 0.5333338, 1, 0.8837945, 0.03638647, -0.120642, 0.4505872, 0.5666671, 1, 0.9156073, 0.02707239, -0.1230673, 0.3818178, 0.6000004, 1, 0.9530473, 0.01292005, -0.1253458, 0.2753586, 0.6333337, 1, 0.9831082, -0.005585884, -0.1258859, 0.1327396, 0.666667, 1, 0.991842, -0.01996817, -0.1244176, 0.01926033, 0.7000003, 1, 0.9920262, -0.02208376, -0.1240596, 0.002369415, 0.7333336, 1, 0.9251724, 0.0238817, -0.1237261, 0.358019, 0.7666669, 1, 0.7476462, 0.06463925, -0.1081677, 0.6520328, 0.8000002, 1, 0.7375158, 0.06629741, -0.1071594, 0.6634696, 1.433333, 1, 0.6461558, 0.07951642, -0.09775283, 0.7527313, 2.400001, 1, 0.6699032, 0.07634889, -0.1002464, 0.731677, 2.433333, 1, 0.6684577, 0.07654659, -0.1000955, 0.7329979)
+tracks/33/type = "rotation_3d"
+tracks/33/imported = false
+tracks/33/enabled = true
+tracks/33/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/Bip01 R Finger0")
+tracks/33/interp = 1
+tracks/33/loop_wrap = true
+tracks/33/keys = PackedFloat32Array(0.0, 1, 0.7444146, -0.4782532, 0.2022458, -0.4197828, 1.366667, 1, 0.7437502, -0.4796214, 0.2046757, -0.4182188, 2.400001, 1, 0.7445146, -0.4780452, 0.201877, -0.4200196, 2.433333, 1, 0.7444145, -0.4782532, 0.2022458, -0.4197827)
+tracks/34/type = "rotation_3d"
+tracks/34/imported = false
+tracks/34/enabled = true
+tracks/34/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/Bip01 R Finger0/SlendrinaMom R Finger01")
+tracks/34/interp = 1
+tracks/34/loop_wrap = true
+tracks/34/keys = PackedFloat32Array(0.0, 1, -7.1199e-10, -1.488414e-08, -0.0477837, 0.9988577, 2.433333, 1, -7.1199e-10, -1.488414e-08, -0.0477837, 0.9988577)
+tracks/35/type = "rotation_3d"
+tracks/35/imported = false
+tracks/35/enabled = true
+tracks/35/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/Bip01 R Finger0/SlendrinaMom R Finger01/Bip01 R Finger0Nub")
+tracks/35/interp = 1
+tracks/35/loop_wrap = true
+tracks/35/keys = PackedFloat32Array(0.0, 1, 0.0, -1.490113e-08, 1, 0.0, 2.433333, 1, 0.0, -1.490113e-08, 1, 0.0)
+tracks/36/type = "rotation_3d"
+tracks/36/imported = false
+tracks/36/enabled = true
+tracks/36/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/SlendrinaMom R Finger1")
+tracks/36/interp = 1
+tracks/36/loop_wrap = true
+tracks/36/keys = PackedFloat32Array(0.0, 1, -0.002231758, 0.002904146, -0.6919161, 0.7219687, 1.633333, 1, -0.002229362, 0.002906011, -0.691307, 0.7225519, 2.400001, 1, -0.002232138, 0.002903821, -0.6920071, 0.7218814, 2.433333, 1, -0.002231758, 0.002904146, -0.6919161, 0.7219687)
+tracks/37/type = "rotation_3d"
+tracks/37/imported = false
+tracks/37/enabled = true
+tracks/37/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/SlendrinaMom R Finger1/SlendrinaMom R Finger11")
+tracks/37/interp = 1
+tracks/37/loop_wrap = true
+tracks/37/keys = PackedFloat32Array(0.0, 1, 2.21067e-08, -1.998676e-08, -0.6706451, 0.7417784, 2.433333, 1, 2.21067e-08, -1.998676e-08, -0.6706451, 0.7417784)
+tracks/38/type = "rotation_3d"
+tracks/38/imported = false
+tracks/38/enabled = true
+tracks/38/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/SlendrinaMom R Finger1/SlendrinaMom R Finger11/SlendrinaMom
+    R Finger1Nub")
+tracks/38/interp = 1
+tracks/38/loop_wrap = true
+tracks/38/keys = PackedFloat32Array(0.0, 1, 0.0, 0.0, 1, 0.0, 2.433333, 1, 0.0, 0.0, 1, 0.0)
+tracks/39/type = "rotation_3d"
+tracks/39/imported = false
+tracks/39/enabled = true
+tracks/39/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/SlendrinaMom R Finger2")
+tracks/39/interp = 1
+tracks/39/loop_wrap = true
+tracks/39/keys = PackedFloat32Array(0.0, 1, 0.02192539, -0.02416466, -0.6625343, 0.7483206, 1.633333, 1, 0.021905, -0.02418318, -0.661903, 0.748879, 2.400001, 1, 0.02192845, -0.02416191, -0.6626286, 0.7482371, 2.433333, 1, 0.02192539, -0.02416466, -0.6625343, 0.7483206)
+tracks/40/type = "rotation_3d"
+tracks/40/imported = false
+tracks/40/enabled = true
+tracks/40/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/SlendrinaMom R Finger2/SlendrinaMom R Finger21")
+tracks/40/interp = 1
+tracks/40/loop_wrap = true
+tracks/40/keys = PackedFloat32Array(0.0, 1, -3.293311e-09, 1.302177e-08, -0.6706451, 0.7417784, 2.433333, 1, -3.293311e-09, 1.302177e-08, -0.6706451, 0.7417784)
+tracks/41/type = "rotation_3d"
+tracks/41/imported = false
+tracks/41/enabled = true
+tracks/41/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/SlendrinaMom R Finger2/SlendrinaMom R Finger21/SlendrinaMom
+    R Finger2Nub")
+tracks/41/interp = 1
+tracks/41/loop_wrap = true
+tracks/41/keys = PackedFloat32Array(0.0, 1, -4.262698e-14, -3.352756e-08, 1, 0.0, 2.433333, 1, -4.262698e-14, -3.352756e-08, 1, 0.0)
+tracks/42/type = "rotation_3d"
+tracks/42/imported = false
+tracks/42/enabled = true
+tracks/42/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/SlendrinaMom R Finger3")
+tracks/42/interp = 1
+tracks/42/loop_wrap = true
+tracks/42/keys = PackedFloat32Array(0.0, 1, 0.03909048, -0.03937421, -0.6983812, 0.7135722, 1.633333, 1, 0.03905727, -0.0394072, -0.6977792, 0.7141609, 2.400001, 1, 0.03909542, -0.03936928, -0.6984711, 0.7134842, 2.433333, 1, 0.03909048, -0.03937421, -0.6983812, 0.7135722)
+tracks/43/type = "rotation_3d"
+tracks/43/imported = false
+tracks/43/enabled = true
+tracks/43/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/SlendrinaMom R Finger3/SlendrinaMom R Finger31")
+tracks/43/interp = 1
+tracks/43/loop_wrap = true
+tracks/43/keys = PackedFloat32Array(0.0, 1, -2.157671e-08, 9.463363e-09, -0.6706451, 0.7417784, 2.433333, 1, -2.157671e-08, 9.463363e-09, -0.6706451, 0.7417784)
+tracks/44/type = "rotation_3d"
+tracks/44/imported = false
+tracks/44/enabled = true
+tracks/44/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/SlendrinaMom R Finger3/SlendrinaMom R Finger31/SlendrinaMom
+    R Finger3Nub")
+tracks/44/interp = 1
+tracks/44/loop_wrap = true
+tracks/44/keys = PackedFloat32Array(0.0, 1, 7.450553e-09, -7.450581e-09, 1, 0.0, 2.433333, 1, 7.450553e-09, -7.450581e-09, 1, 0.0)
+tracks/45/type = "rotation_3d"
+tracks/45/imported = false
+tracks/45/enabled = true
+tracks/45/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/SlendrinaMom R Finger4")
+tracks/45/interp = 1
+tracks/45/loop_wrap = true
+tracks/45/keys = PackedFloat32Array(0.0, 1, 0.09305471, -0.08566457, -0.7277414, 0.6740882, 1.633333, 1, 0.09298244, -0.08574302, -0.7271727, 0.6747016, 2.400001, 1, 0.09306551, -0.08565285, -0.7278264, 0.6739964, 2.433333, 1, 0.0930547, -0.08566458, -0.7277414, 0.6740882)
+tracks/46/type = "rotation_3d"
+tracks/46/imported = false
+tracks/46/enabled = true
+tracks/46/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/SlendrinaMom R Finger4/SlendrinaMom R Finger41")
+tracks/46/interp = 1
+tracks/46/loop_wrap = true
+tracks/46/keys = PackedFloat32Array(0.0, 1, -7.712406e-10, -4.324815e-09, -0.6706451, 0.7417784, 2.433333, 1, -7.712406e-10, -4.324815e-09, -0.6706451, 0.7417784)
+tracks/47/type = "rotation_3d"
+tracks/47/imported = false
+tracks/47/enabled = true
+tracks/47/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01
+    Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01
+    R Hand/SlendrinaMom R Finger4/SlendrinaMom R Finger41/SlendrinaMom
+    R Finger4Nub")
+tracks/47/interp = 1
+tracks/47/loop_wrap = true
+tracks/47/keys = PackedFloat32Array(0.0, 1, -1.862641e-09, -2.328293e-09, 1, 0.0, 2.433333, 1, -1.862641e-09, -2.328293e-09, 1, 0.0)
+tracks/48/type = "rotation_3d"
+tracks/48/imported = false
+tracks/48/enabled = true
+tracks/48/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 L Thigh")
+tracks/48/interp = 1
+tracks/48/loop_wrap = true
+tracks/48/keys = PackedFloat32Array(0.0, 1, 0.01727174, -0.9930869, 0.001925195, -0.116088, 2.433333, 1, 0.01727174, -0.9930869, 0.001925195, -0.116088)
+tracks/49/type = "rotation_3d"
+tracks/49/imported = false
+tracks/49/enabled = true
+tracks/49/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 L Thigh/Bip01 L Calf")
+tracks/49/interp = 1
+tracks/49/loop_wrap = true
+tracks/49/keys = PackedFloat32Array(0.0, 1, -9.298043e-10, -5.315566e-11, 0.05707546, 0.9983699, 2.433333, 1, -9.298043e-10, -5.315566e-11, 0.05707546, 0.9983699)
+tracks/50/type = "rotation_3d"
+tracks/50/imported = false
+tracks/50/enabled = true
+tracks/50/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 L Thigh/Bip01 L Calf/Bip01
+    L Foot")
+tracks/50/interp = 1
+tracks/50/loop_wrap = true
+tracks/50/keys = PackedFloat32Array(0.0, 1, 0.004656193, 0.1160105, -0.03983229, 0.9924381, 2.433333, 1, 0.004656193, 0.1160105, -0.03983229, 0.9924381)
+tracks/51/type = "rotation_3d"
+tracks/51/imported = false
+tracks/51/enabled = true
+tracks/51/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 L Thigh/Bip01 L Calf/Bip01
+    L Foot/Bip01 L Toe0")
+tracks/51/interp = 1
+tracks/51/loop_wrap = true
+tracks/51/keys = PackedFloat32Array(0.0, 1, -1.545431e-08, 1.545431e-08, -0.7071068, 0.7071068, 2.433333, 1, -1.545431e-08, 1.545431e-08, -0.7071068, 0.7071068)
+tracks/52/type = "rotation_3d"
+tracks/52/imported = false
+tracks/52/enabled = true
+tracks/52/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 L Thigh/Bip01 L Calf/Bip01
+    L Foot/Bip01 L Toe0/Bip01 L Toe01")
+tracks/52/interp = 1
+tracks/52/loop_wrap = true
+tracks/52/keys = PackedFloat32Array(0.0, 1, 0.0, 0.0, 0.0, 1, 2.433333, 1, 0.0, 0.0, 0.0, 1)
+tracks/53/type = "rotation_3d"
+tracks/53/imported = false
+tracks/53/enabled = true
+tracks/53/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 L Thigh/Bip01 L Calf/Bip01
+    L Foot/Bip01 L Toe0/Bip01 L Toe01/Bip01 L Toe02")
+tracks/53/interp = 1
+tracks/53/loop_wrap = true
+tracks/53/keys = PackedFloat32Array(0.0, 1, 0.0, 0.0, 0.0, 1, 2.433333, 1, 0.0, 0.0, 0.0, 1)
+tracks/54/type = "rotation_3d"
+tracks/54/imported = false
+tracks/54/enabled = true
+tracks/54/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 L Thigh/Bip01 L Calf/Bip01
+    L Foot/Bip01 L Toe0/Bip01 L Toe01/Bip01 L Toe02/Bip01 L Toe0Nub")
+tracks/54/interp = 1
+tracks/54/loop_wrap = true
+tracks/54/keys = PackedFloat32Array(0.0, 1, 0.0, 0.0, 1, 0.0, 2.433333, 1, 0.0, 0.0, 1, 0.0)
+tracks/55/type = "rotation_3d"
+tracks/55/imported = false
+tracks/55/enabled = true
+tracks/55/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 R Thigh")
+tracks/55/interp = 1
+tracks/55/loop_wrap = true
+tracks/55/keys = PackedFloat32Array(0.0, 1, -0.002394574, -0.9928585, 0.0003812973, 0.1192732, 2.433333, 1, -0.002394574, -0.9928585, 0.0003812973, 0.1192732)
+tracks/56/type = "rotation_3d"
+tracks/56/imported = false
+tracks/56/enabled = true
+tracks/56/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 R Thigh/Bip01 R Calf")
+tracks/56/interp = 1
+tracks/56/loop_wrap = true
+tracks/56/keys = PackedFloat32Array(0.0, 1, 5.434852e-11, 7.45061e-09, 0.0005179654, 0.9999999, 2.433333, 1, 5.434852e-11, 7.45061e-09, 0.0005179654, 0.9999999)
+tracks/57/type = "rotation_3d"
+tracks/57/imported = false
+tracks/57/enabled = true
+tracks/57/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 R Thigh/Bip01 R Calf/Bip01
+    R Foot")
+tracks/57/interp = 1
+tracks/57/loop_wrap = true
+tracks/57/keys = PackedFloat32Array(0.0, 1, -0.0003969287, -0.1192732, -0.003304281, 0.9928559, 2.433333, 1, -0.0003969287, -0.1192732, -0.003304281, 0.9928559)
+tracks/58/type = "rotation_3d"
+tracks/58/imported = false
+tracks/58/enabled = true
+tracks/58/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 R Thigh/Bip01 R Calf/Bip01
+    R Foot/Bip01 R Toe0")
+tracks/58/interp = 1
+tracks/58/loop_wrap = true
+tracks/58/keys = PackedFloat32Array(0.0, 1, -1.545431e-08, 1.545431e-08, -0.7071068, 0.7071068, 2.433333, 1, -1.545431e-08, 1.545431e-08, -0.7071068, 0.7071068)
+tracks/59/type = "rotation_3d"
+tracks/59/imported = false
+tracks/59/enabled = true
+tracks/59/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 R Thigh/Bip01 R Calf/Bip01
+    R Foot/Bip01 R Toe0/Bip01 R Toe01")
+tracks/59/interp = 1
+tracks/59/loop_wrap = true
+tracks/59/keys = PackedFloat32Array(0.0, 1, 0.0, 0.0, 0.0, 1, 2.433333, 1, 0.0, 0.0, 0.0, 1)
+tracks/60/type = "rotation_3d"
+tracks/60/imported = false
+tracks/60/enabled = true
+tracks/60/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 R Thigh/Bip01 R Calf/Bip01
+    R Foot/Bip01 R Toe0/Bip01 R Toe01/Bip01 R Toe02")
+tracks/60/interp = 1
+tracks/60/loop_wrap = true
+tracks/60/keys = PackedFloat32Array(0.0, 1, 0.0, 0.0, 0.0, 1, 2.433333, 1, 0.0, 0.0, 0.0, 1)
+tracks/61/type = "rotation_3d"
+tracks/61/imported = false
+tracks/61/enabled = true
+tracks/61/path = NodePath("SlendrinaMom/Bip01 Pelvis/Bip01 Spine/Bip01 R Thigh/Bip01 R Calf/Bip01
+    R Foot/Bip01 R Toe0/Bip01 R Toe01/Bip01 R Toe02/Bip01 R Toe0Nub")
+tracks/61/interp = 1
+tracks/61/loop_wrap = true
+tracks/61/keys = PackedFloat32Array(0.0, 1, 0.0, 0.0, 0.0, 1, 2.433333, 1, 0.0, 0.0, 0.0, 1)
+; source unity clip: Hit

@@ -1,0 +1,108 @@
+[gd_scene load_steps=15 format=3]
+[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_509_10.glb" id="1"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_523_1.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_498_7.glb" id="3"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_500_0.glb" id="4"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_525_9.glb" id="5"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_512_3.glb" id="6"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_497_6.glb" id="7"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_507_4.glb" id="8"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_524_8.glb" id="9"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_526_2.glb" id="10"]
+[ext_resource type="AudioStreamWAV" path="res://assets/audio/GrannyCamera2.wav" id="11"]
+[ext_resource type="PackedScene" path="res://assets/meshes/EndSceneHouse_521_5.glb" id="12"]
+[ext_resource type="AudioStreamWAV" path="res://assets/audio/EndSceneSoundOutside2.wav" id="13"]
+[ext_resource type="AudioStreamWAV" path="res://assets/audio/EndSceneSoundOutside.wav" id="14"]
+
+
+[node name="Area_Light" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, -1.000000053, 0.0, 1.000000053, -5.32124802e-08, -0.63, 10.81, 8.97)
+visible = false
+process_mode = 3
+
+[node name="Light3D" type="OmniLight3D" parent="Area_Light"]
+light_color = Color(1, 1, 1)
+light_energy = 7
+omni_range = 10
+
+[node name="AllTrees" type="Node3D" parent=""]
+transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, -20.46696, 10.6601, 50.65667)
+
+[node name="Tree4" type="Node3D" parent="AllTrees"]
+transform = Transform3D(0.14388646, 0.0, 0.1772683865, 0.0, 0.2283142, 0.0, -0.1772684641, 0.0, 0.143886397, 31.80696, -13.6001, -26.41667)
+
+[node name="objCylinder01" type="Node3D" parent="AllTrees/Tree4"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4/objCylinder01"]
+instance = ExtResource("1")
+metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
+
+[node name="objPlane03" type="Node3D" parent="AllTrees/Tree4"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4/objPlane03"]
+instance = ExtResource("2")
+metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
+
+[node name="Tree4_1" type="Node3D" parent="AllTrees"]
+transform = Transform3D(0.1730340218, 0.0, -0.1489452445, 0.0, 0.22831, 0.0, 0.1489452445, 0.0, 0.1730340218, 8.87, -13.6001, -30.66)
+
+[node name="objCylinder01_1" type="Node3D" parent="AllTrees/Tree4_1"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_1/objCylinder01_1"]
+instance = ExtResource("3")
+metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
+
+[node name="objPlane03_1" type="Node3D" parent="AllTrees/Tree4_1"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_1/objPlane03_1"]
+instance = ExtResource("4")
+metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
+
+[node name="Tree4_2" type="Node3D" parent="AllTrees"]
+transform = Transform3D(0.1730340218, 0.0, -0.1489452445, 0.0, 0.22831, 0.0, 0.1489452445, 0.0, 0.1730340218, 7.9, -13.6001, -15.1)
+
+[node name="objCylinder01_2" type="Node3D" parent="AllTrees/Tree4_2"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_2/objCylinder01_2"]
+instance = ExtResource("5")
+metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
+
+[node name="objPlane03_2" type="Node3D" parent="AllTrees/Tree4_2"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_2/objPlane03_2"]
+instance = ExtResource("6")
+metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
+
+[node name="Tree4_3" type="Node3D" parent="AllTrees"]
+transform = Transform3D(0.1730340218, 0.0, -0.1489452445, 0.0, 0.22831, 0.0, 0.1489452445, 0.0, 0.1730340218, 24.4, -13.6001, -8.68)
+
+[node name="objCylinder01_3" type="Node3D" parent="AllTrees/Tree4_3"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_3/objCylinder01_3"]
+instance = ExtResource("7")
+metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
+
+[node name="objPlane03_3" type="Node3D" parent="AllTrees/Tree4_3"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_3/objPlane03_3"]
+instance = ExtResource("8")
+metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
+
+[node name="Tree4_4" type="Node3D" parent="AllTrees"]
+transform = Transform3D(0.1730340218, 0.0, -0.1489452445, 0.0, 0.22831, 0.0, 0.1489452445, 0.0, 0.1730340218, 31.17, -13.6001, 3.63)
+
+[node name="objCylinder01_4" type="Node3D" parent="AllTrees/Tree4_4"]
+transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
+
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_4/objCylinder01_4"]
+instance = ExtResource("9")
+metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
+
