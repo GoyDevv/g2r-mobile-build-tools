@@ -89,6 +89,8 @@ offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
 texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Head" type="TextureRect" parent="MenuBackground/Bakgrundsbild"]
 anchor_left = 0.496
@@ -101,6 +103,8 @@ offset_right = 49.2000008
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(0.4433962, 0.4433962, 0.4433962, 1)
 
 [node name="Teddy" type="TextureRect" parent="MenuBackground/Bakgrundsbild"]
@@ -114,6 +118,8 @@ offset_right = 282
 offset_bottom = 113
 mouse_filter = 2
 texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(0.5943396, 0.5943396, 0.5943396, 1)
 
 [node name="Text" type="Label" parent="MenuBackground"]
@@ -162,6 +168,7 @@ offset_top = -91.8
 offset_right = 258.5
 offset_bottom = -61.8
 texture_normal = ExtResource("7")
+flat = true
 script = ExtResource("8")
 metadata/unity_class = "ClickPlayButton"
 
@@ -175,6 +182,7 @@ offset_top = 71.4
 offset_right = 258.5
 offset_bottom = 101.4
 texture_normal = ExtResource("9")
+flat = true
 
 [node name="QuitButton" type="Button" parent="MenuButtons"]
 anchor_left = 0.0
@@ -186,6 +194,7 @@ offset_top = 138.6
 offset_right = 258.4999
 offset_bottom = 168.6
 texture_normal = ExtResource("10")
+flat = true
 
 [node name="BeartrapOpen" type="Button" parent="MenuButtons"]
 anchor_left = 0.5
@@ -197,6 +206,7 @@ offset_top = -80.3
 offset_right = 112
 offset_bottom = -50.3
 texture_normal = ExtResource("11")
+flat = true
 script = ExtResource("12")
 metadata/unity_class = "clickBeartrapMenu"
 
@@ -213,6 +223,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("13")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MenuOptionBackground" type="Control" parent="."]
 anchor_left = 0.0
@@ -238,6 +250,8 @@ offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
 texture = ExtResource("14")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="GDPRmenu" type="Control" parent="."]
 anchor_left = 0.0
@@ -263,6 +277,8 @@ offset_right = 50
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("15")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DeclineButton" type="Button" parent="GDPRmenu/Background"]
 anchor_left = 0.5
@@ -327,6 +343,7 @@ offset_top = 25.6
 offset_right = 30
 offset_bottom = 50.6
 texture_normal = ExtResource("17")
+flat = true
 
 [node name="OptionMenuParent" type="Control" parent="."]
 anchor_left = 0.0
@@ -352,6 +369,8 @@ offset_right = 187
 offset_bottom = 1
 mouse_filter = 2
 texture = ExtResource("18")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Difficulty_Dropdown" type="Button" parent="OptionMenuParent/DifficultyText"]
 anchor_left = 0.5
@@ -363,6 +382,7 @@ offset_top = 87.9283
 offset_right = 46.55084
 offset_bottom = 117.9283
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Label" type="Label" parent="OptionMenuParent/DifficultyText/Difficulty_Dropdown"]
 anchor_left = 0.0
@@ -388,6 +408,8 @@ offset_right = -2.88
 offset_bottom = 7.5
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Template" type="TextureRect" parent="OptionMenuParent/DifficultyText/Difficulty_Dropdown"]
 anchor_left = 0.0
@@ -402,6 +424,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("19")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Viewport" type="Control" parent="OptionMenuParent/DifficultyText/Difficulty_Dropdown/Template"]
 anchor_left = 0.0
@@ -458,6 +482,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label" type="Label" parent="OptionMenuParent/DifficultyText/Difficulty_Dropdown/Template/Viewport/Content/Item"]
 anchor_left = 0.0
@@ -482,6 +508,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Sliding_Area" type="Control" parent="OptionMenuParent/DifficultyText/Difficulty_Dropdown/Template/Scrollbar"]
 anchor_left = 0.0
@@ -516,6 +543,8 @@ offset_right = -90
 offset_bottom = 0.0
 mouse_filter = 2
 texture = ExtResource("21")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Quality_dropdown" type="Button" parent="OptionMenuParent/QualityText"]
 anchor_left = 0.5
@@ -527,6 +556,7 @@ offset_top = 87.9293
 offset_right = 48.66
 offset_bottom = 117.9293
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Label_1" type="Label" parent="OptionMenuParent/QualityText/Quality_dropdown"]
 anchor_left = 0.0
@@ -552,6 +582,8 @@ offset_right = -7.5
 offset_bottom = 7.5
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Template_1" type="TextureRect" parent="OptionMenuParent/QualityText/Quality_dropdown"]
 anchor_left = 0.0
@@ -566,6 +598,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("19")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Viewport_1" type="Control" parent="OptionMenuParent/QualityText/Quality_dropdown/Template_1"]
 anchor_left = 0.0
@@ -622,6 +656,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_1" type="Label" parent="OptionMenuParent/QualityText/Quality_dropdown/Template_1/Viewport_1/Content_1/Item_1"]
 anchor_left = 0.0
@@ -646,6 +682,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Sliding_Area_1" type="Control" parent="OptionMenuParent/QualityText/Quality_dropdown/Template_1/Scrollbar_1"]
 anchor_left = 0.0
@@ -682,6 +719,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("22")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MediumQualityVarningText" type="TextureRect" parent="OptionMenuParent"]
 anchor_left = 0.5
@@ -696,6 +735,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("23")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DarkerText" type="TextureRect" parent="OptionMenuParent"]
 anchor_left = 0.301861
@@ -708,6 +749,8 @@ offset_right = 51
 offset_bottom = 149
 mouse_filter = 2
 texture = ExtResource("24")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DarkerToggle" type="Button" parent="OptionMenuParent/DarkerText"]
 anchor_left = 0.5
@@ -730,6 +773,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark" type="TextureRect" parent="OptionMenuParent/DarkerText/DarkerToggle/Background_1"]
 anchor_left = 0.5
@@ -742,6 +787,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="ExtraLocksText" type="TextureRect" parent="OptionMenuParent"]
 anchor_left = 0.457861
@@ -754,6 +801,8 @@ offset_right = 51.099998
 offset_bottom = 149
 mouse_filter = 2
 texture = ExtResource("26")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="ExtraLocksToggle" type="Button" parent="OptionMenuParent/ExtraLocksText"]
 anchor_left = 0.5
@@ -776,6 +825,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_1" type="TextureRect" parent="OptionMenuParent/ExtraLocksText/ExtraLocksToggle/Background_2"]
 anchor_left = 0.5
@@ -788,6 +839,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MusicText" type="TextureRect" parent="OptionMenuParent"]
 anchor_left = 0.6122357
@@ -800,6 +853,8 @@ offset_right = 50.0999985
 offset_bottom = 150
 mouse_filter = 2
 texture = ExtResource("27")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MusicToggle" type="Button" parent="OptionMenuParent/MusicText"]
 anchor_left = 0.5
@@ -822,6 +877,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_2" type="TextureRect" parent="OptionMenuParent/MusicText/MusicToggle/Background_3"]
 anchor_left = 0.5
@@ -834,6 +891,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NightmareText" type="TextureRect" parent="OptionMenuParent"]
 anchor_left = 0.7726254
@@ -846,6 +905,8 @@ offset_right = 50
 offset_bottom = 149.00003
 mouse_filter = 2
 texture = ExtResource("28")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NightmareToggle" type="Button" parent="OptionMenuParent/NightmareText"]
 anchor_left = 0.5
@@ -868,6 +929,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_3" type="TextureRect" parent="OptionMenuParent/NightmareText/NightmareToggle/Background_4"]
 anchor_left = 0.5
@@ -880,6 +943,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="ExtraScaryText" type="TextureRect" parent="OptionMenuParent"]
 anchor_left = 0.7726254
@@ -894,6 +959,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("29")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DiffEasyText" type="TextureRect" parent="OptionMenuParent"]
 anchor_left = 0.5
@@ -908,6 +975,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("30")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DiffNormalText" type="TextureRect" parent="OptionMenuParent"]
 anchor_left = 0.5
@@ -922,6 +991,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("31")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DiffHardText" type="TextureRect" parent="OptionMenuParent"]
 anchor_left = 0.5
@@ -936,6 +1007,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("32")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DiffExtremeText" type="TextureRect" parent="OptionMenuParent"]
 anchor_left = 0.5
@@ -950,6 +1023,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("33")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DiffPracticeText" type="TextureRect" parent="OptionMenuParent"]
 anchor_left = 0.5
@@ -964,6 +1039,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("34")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="ContinueButton" type="Button" parent="OptionMenuParent"]
 anchor_left = 1
@@ -975,6 +1052,7 @@ offset_top = -77
 offset_right = -41
 offset_bottom = -47
 texture_normal = ExtResource("35")
+flat = true
 script = ExtResource("36")
 metadata/unity_class = "ClickContinueButton2"
 
@@ -988,6 +1066,7 @@ offset_top = -53
 offset_right = 87
 offset_bottom = -23
 texture_normal = ExtResource("37")
+flat = true
 
 [node name="GDPRmenuOptionMenu" type="Control" parent="."]
 anchor_left = 0.0
@@ -1013,6 +1092,8 @@ offset_right = 50
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("15")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DeclineButton_1" type="Button" parent="GDPRmenuOptionMenu/Background_5"]
 anchor_left = 0.5
@@ -1077,6 +1158,7 @@ offset_top = 25.6
 offset_right = 30
 offset_bottom = 50.6
 texture_normal = ExtResource("17")
+flat = true
 
 [node name="TextScreen" type="Control" parent="."]
 anchor_left = 0.0
@@ -1102,6 +1184,8 @@ offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
 texture = ExtResource("38")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="ContinueButton_1" type="Button" parent="TextScreen"]
 anchor_left = 0.5
@@ -1113,6 +1197,7 @@ offset_top = -80
 offset_right = 86
 offset_bottom = -50
 texture_normal = ExtResource("35")
+flat = true
 script = ExtResource("36")
 metadata/unity_class = "ClickContinueButton"
 
@@ -1151,6 +1236,8 @@ offset_right = -46
 offset_bottom = -11
 mouse_filter = 2
 texture = ExtResource("39")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_1" type="Control" parent="."]
 anchor_left = 0.0
@@ -1220,6 +1307,7 @@ offset_top = -53
 offset_right = 87
 offset_bottom = -23
 texture_normal = ExtResource("37")
+flat = true
 
 [node name="OrphanRoot_4" type="Control" parent="."]
 anchor_left = 0.0
@@ -1253,6 +1341,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_4" type="TextureRect" parent="OrphanRoot_4/DarkerToggle_1/Background_6"]
 anchor_left = 0.5
@@ -1265,6 +1355,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_5" type="Control" parent="."]
 anchor_left = 0.0
@@ -1288,6 +1380,8 @@ offset_right = 51.099998
 offset_bottom = 149
 mouse_filter = 2
 texture = ExtResource("26")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="ExtraLocksToggle_1" type="Button" parent="OrphanRoot_5/ExtraLocksText_1"]
 anchor_left = 0.5
@@ -1310,6 +1404,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_5" type="TextureRect" parent="OrphanRoot_5/ExtraLocksText_1/ExtraLocksToggle_1/Background_7"]
 anchor_left = 0.5
@@ -1322,6 +1418,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_6" type="Control" parent="."]
 anchor_left = 0.0
@@ -1345,6 +1443,8 @@ offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
 texture = ExtResource("14")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_7" type="Control" parent="."]
 anchor_left = 0.0
@@ -1370,6 +1470,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("32")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_8" type="Control" parent="."]
 anchor_left = 0.0
@@ -1393,6 +1495,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_6" type="TextureRect" parent="OrphanRoot_8/Background_8"]
 anchor_left = 0.5
@@ -1405,6 +1509,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_9" type="Control" parent="."]
 anchor_left = 0.0
@@ -1427,6 +1533,7 @@ offset_top = 25.6
 offset_right = 30
 offset_bottom = 50.6
 texture_normal = ExtResource("17")
+flat = true
 
 [node name="OrphanRoot_10" type="Control" parent="."]
 anchor_left = 0.0
@@ -1493,6 +1600,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_7" type="TextureRect" parent="OrphanRoot_11/ExtraLocksToggle_2/Background_9"]
 anchor_left = 0.5
@@ -1505,6 +1614,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_12" type="Control" parent="."]
 anchor_left = 0.0
@@ -1528,6 +1639,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_8" type="TextureRect" parent="OrphanRoot_12/Background_10"]
 anchor_left = 0.5
@@ -1540,6 +1653,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_13" type="Control" parent="."]
 anchor_left = 0.0
@@ -1562,6 +1677,7 @@ offset_top = -91.8
 offset_right = 258.5
 offset_bottom = -61.8
 texture_normal = ExtResource("7")
+flat = true
 script = ExtResource("8")
 metadata/unity_class = "ClickPlayButton"
 
@@ -1587,6 +1703,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_9" type="TextureRect" parent="OrphanRoot_14/Background_11"]
 anchor_left = 0.5
@@ -1599,6 +1717,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_15" type="Control" parent="."]
 anchor_left = 0.0
@@ -1621,6 +1741,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Sliding_Area_3" type="Control" parent="OrphanRoot_15/Scrollbar_2"]
 anchor_left = 0.0
@@ -1668,6 +1789,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("22")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_17" type="Control" parent="."]
 anchor_left = 0.0
@@ -1690,6 +1813,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Sliding_Area_4" type="Control" parent="OrphanRoot_17/Scrollbar_3"]
 anchor_left = 0.0
@@ -1757,6 +1881,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_2" type="Label" parent="OrphanRoot_18/Item_2"]
 anchor_left = 0.0
@@ -1793,6 +1919,8 @@ offset_right = 50
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("15")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DeclineButton_2" type="Button" parent="OrphanRoot_19/Background_12"]
 anchor_left = 0.5
@@ -1857,6 +1985,7 @@ offset_top = 25.6
 offset_right = 30
 offset_bottom = 50.6
 texture_normal = ExtResource("17")
+flat = true
 
 [node name="OrphanRoot_20" type="Control" parent="."]
 anchor_left = 0.0
@@ -1880,6 +2009,8 @@ offset_right = 49.2000008
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(0.4433962, 0.4433962, 0.4433962, 1)
 
 [node name="OrphanRoot_21" type="Control" parent="."]
@@ -1904,6 +2035,8 @@ offset_right = 50
 offset_bottom = 149.00003
 mouse_filter = 2
 texture = ExtResource("28")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NightmareToggle_1" type="Button" parent="OrphanRoot_21/NightmareText_1"]
 anchor_left = 0.5
@@ -1926,6 +2059,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_10" type="TextureRect" parent="OrphanRoot_21/NightmareText_1/NightmareToggle_1/Background_13"]
 anchor_left = 0.5
@@ -1938,6 +2073,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_22" type="Control" parent="."]
 anchor_left = 0.0
@@ -2021,6 +2158,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("19")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Viewport_2" type="Control" parent="OrphanRoot_24/Template_2"]
 anchor_left = 0.0
@@ -2077,6 +2216,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_3" type="Label" parent="OrphanRoot_24/Template_2/Viewport_2/Content_2/Item_3"]
 anchor_left = 0.0
@@ -2101,6 +2242,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Sliding_Area_6" type="Control" parent="OrphanRoot_24/Template_2/Scrollbar_4"]
 anchor_left = 0.0
@@ -2145,6 +2287,7 @@ offset_top = -80.3
 offset_right = 112
 offset_bottom = -50.3
 texture_normal = ExtResource("11")
+flat = true
 script = ExtResource("12")
 metadata/unity_class = "clickBeartrapMenu"
 
@@ -2172,6 +2315,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("33")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_27" type="Control" parent="."]
 anchor_left = 0.0
@@ -2195,6 +2340,8 @@ offset_right = -46
 offset_bottom = -11
 mouse_filter = 2
 texture = ExtResource("39")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_28" type="Control" parent="."]
 anchor_left = 0.0
@@ -2291,6 +2438,7 @@ offset_top = 87.9283
 offset_right = 46.55084
 offset_bottom = 117.9283
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Label_2" type="Label" parent="OrphanRoot_30/Difficulty_Dropdown_1"]
 anchor_left = 0.0
@@ -2316,6 +2464,8 @@ offset_right = -2.88
 offset_bottom = 7.5
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Template_3" type="TextureRect" parent="OrphanRoot_30/Difficulty_Dropdown_1"]
 anchor_left = 0.0
@@ -2330,6 +2480,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("19")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Viewport_3" type="Control" parent="OrphanRoot_30/Difficulty_Dropdown_1/Template_3"]
 anchor_left = 0.0
@@ -2386,6 +2538,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_4" type="Label" parent="OrphanRoot_30/Difficulty_Dropdown_1/Template_3/Viewport_3/Content_3/Item_4"]
 anchor_left = 0.0
@@ -2410,6 +2564,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Sliding_Area_7" type="Control" parent="OrphanRoot_30/Difficulty_Dropdown_1/Template_3/Scrollbar_5"]
 anchor_left = 0.0
@@ -2478,6 +2633,7 @@ offset_top = 25.6
 offset_right = 30
 offset_bottom = 50.6
 texture_normal = ExtResource("17")
+flat = true
 
 [node name="OrphanRoot_33" type="Control" parent="."]
 anchor_left = 0.0
@@ -2511,6 +2667,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_11" type="TextureRect" parent="OrphanRoot_33/MusicToggle_1/Background_14"]
 anchor_left = 0.5
@@ -2523,6 +2681,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_34" type="Control" parent="."]
 anchor_left = 0.0
@@ -2632,6 +2792,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("30")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_38" type="Control" parent="."]
 anchor_left = 0.0
@@ -2688,6 +2850,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_5" type="Label" parent="OrphanRoot_38/Content_4/Item_5"]
 anchor_left = 0.0
@@ -2726,6 +2890,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("23")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_40" type="Control" parent="."]
 anchor_left = 0.0
@@ -2749,6 +2915,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_41" type="Control" parent="."]
 anchor_left = 0.0
@@ -2772,6 +2940,8 @@ offset_right = 50.0999985
 offset_bottom = 150
 mouse_filter = 2
 texture = ExtResource("27")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MusicToggle_2" type="Button" parent="OrphanRoot_41/MusicText_1"]
 anchor_left = 0.5
@@ -2794,6 +2964,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_12" type="TextureRect" parent="OrphanRoot_41/MusicText_1/MusicToggle_2/Background_15"]
 anchor_left = 0.5
@@ -2806,6 +2978,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_42" type="Control" parent="."]
 anchor_left = 0.0
@@ -2829,6 +3003,8 @@ offset_right = 51
 offset_bottom = 149
 mouse_filter = 2
 texture = ExtResource("24")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DarkerToggle_2" type="Button" parent="OrphanRoot_42/DarkerText_1"]
 anchor_left = 0.5
@@ -2851,6 +3027,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_13" type="TextureRect" parent="OrphanRoot_42/DarkerText_1/DarkerToggle_2/Background_16"]
 anchor_left = 0.5
@@ -2863,6 +3041,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_43" type="Control" parent="."]
 anchor_left = 0.0
@@ -2886,6 +3066,8 @@ offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
 texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Head_2" type="TextureRect" parent="OrphanRoot_43/Bakgrundsbild_3"]
 anchor_left = 0.496
@@ -2898,6 +3080,8 @@ offset_right = 49.2000008
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(0.4433962, 0.4433962, 0.4433962, 1)
 
 [node name="Teddy_1" type="TextureRect" parent="OrphanRoot_43/Bakgrundsbild_3"]
@@ -2911,6 +3095,8 @@ offset_right = 282
 offset_bottom = 113
 mouse_filter = 2
 texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(0.5943396, 0.5943396, 0.5943396, 1)
 
 [node name="OrphanRoot_44" type="Control" parent="."]
@@ -2935,6 +3121,8 @@ offset_right = -2.88
 offset_bottom = 7.5
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_45" type="Control" parent="."]
 anchor_left = 0.0
@@ -2981,6 +3169,7 @@ offset_top = 87.9293
 offset_right = 48.66
 offset_bottom = 117.9293
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Label_4" type="Label" parent="OrphanRoot_46/Quality_dropdown_1"]
 anchor_left = 0.0
@@ -3006,6 +3195,8 @@ offset_right = -7.5
 offset_bottom = 7.5
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Template_4" type="TextureRect" parent="OrphanRoot_46/Quality_dropdown_1"]
 anchor_left = 0.0
@@ -3020,6 +3211,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("19")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Viewport_4" type="Control" parent="OrphanRoot_46/Quality_dropdown_1/Template_4"]
 anchor_left = 0.0
@@ -3076,6 +3269,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_6" type="Label" parent="OrphanRoot_46/Quality_dropdown_1/Template_4/Viewport_4/Content_5/Item_6"]
 anchor_left = 0.0
@@ -3100,6 +3295,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Sliding_Area_8" type="Control" parent="OrphanRoot_46/Quality_dropdown_1/Template_4/Scrollbar_6"]
 anchor_left = 0.0
@@ -3144,6 +3340,7 @@ offset_top = -77
 offset_right = -41
 offset_bottom = -47
 texture_normal = ExtResource("35")
+flat = true
 script = ExtResource("36")
 metadata/unity_class = "ClickContinueButton2"
 
@@ -3169,6 +3366,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_49" type="Control" parent="."]
 anchor_left = 0.0
@@ -3192,6 +3391,8 @@ offset_right = 50
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("15")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DeclineButton_5" type="Button" parent="OrphanRoot_49/Background_17"]
 anchor_left = 0.5
@@ -3256,6 +3457,7 @@ offset_top = 25.6
 offset_right = 30
 offset_bottom = 50.6
 texture_normal = ExtResource("17")
+flat = true
 
 [node name="OrphanRoot_50" type="Control" parent="."]
 anchor_left = 0.0
@@ -3345,6 +3547,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_7" type="Label" parent="OrphanRoot_51/Viewport_5/Content_6/Item_7"]
 anchor_left = 0.0
@@ -3381,6 +3585,8 @@ offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
 texture = ExtResource("38")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_53" type="Control" parent="."]
 anchor_left = 0.0
@@ -3406,6 +3612,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("13")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_54" type="Control" parent="."]
 anchor_left = 0.0
@@ -3429,6 +3637,8 @@ offset_right = 187
 offset_bottom = 1
 mouse_filter = 2
 texture = ExtResource("18")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Difficulty_Dropdown_2" type="Button" parent="OrphanRoot_54/DifficultyText_1"]
 anchor_left = 0.5
@@ -3440,6 +3650,7 @@ offset_top = 87.9283
 offset_right = 46.55084
 offset_bottom = 117.9283
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Label_5" type="Label" parent="OrphanRoot_54/DifficultyText_1/Difficulty_Dropdown_2"]
 anchor_left = 0.0
@@ -3465,6 +3676,8 @@ offset_right = -2.88
 offset_bottom = 7.5
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Template_5" type="TextureRect" parent="OrphanRoot_54/DifficultyText_1/Difficulty_Dropdown_2"]
 anchor_left = 0.0
@@ -3479,6 +3692,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("19")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Viewport_6" type="Control" parent="OrphanRoot_54/DifficultyText_1/Difficulty_Dropdown_2/Template_5"]
 anchor_left = 0.0
@@ -3535,6 +3750,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_8" type="Label" parent="OrphanRoot_54/DifficultyText_1/Difficulty_Dropdown_2/Template_5/Viewport_6/Content_7/Item_8"]
 anchor_left = 0.0
@@ -3559,6 +3776,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Sliding_Area_9" type="Control" parent="OrphanRoot_54/DifficultyText_1/Difficulty_Dropdown_2/Template_5/Scrollbar_7"]
 anchor_left = 0.0
@@ -3651,6 +3869,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_58" type="Control" parent="."]
 anchor_left = 0.0
@@ -3676,6 +3896,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("19")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Viewport_7" type="Control" parent="OrphanRoot_58/Template_6"]
 anchor_left = 0.0
@@ -3732,6 +3954,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_9" type="Label" parent="OrphanRoot_58/Template_6/Viewport_7/Content_8/Item_9"]
 anchor_left = 0.0
@@ -3756,6 +3980,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Sliding_Area_10" type="Control" parent="OrphanRoot_58/Template_6/Scrollbar_8"]
 anchor_left = 0.0
@@ -3803,6 +4028,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("31")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_60" type="Control" parent="."]
 anchor_left = 0.0
@@ -3848,6 +4075,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_10" type="Label" parent="OrphanRoot_60/Item_10"]
 anchor_left = 0.0
@@ -3883,6 +4112,7 @@ offset_top = 138.6
 offset_right = 258.4999
 offset_bottom = 168.6
 texture_normal = ExtResource("10")
+flat = true
 
 [node name="OrphanRoot_62" type="Control" parent="."]
 anchor_left = 0.0
@@ -3916,6 +4146,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_16" type="TextureRect" parent="OrphanRoot_62/NightmareToggle_2/Background_18"]
 anchor_left = 0.5
@@ -3928,6 +4160,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_63" type="Control" parent="."]
 anchor_left = 0.0
@@ -3951,6 +4185,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_64" type="Control" parent="."]
 anchor_left = 0.0
@@ -3986,6 +4222,7 @@ offset_top = -76
 offset_right = -53
 offset_bottom = -46
 texture_normal = ExtResource("40")
+flat = true
 script = ExtResource("16")
 metadata/unity_click_target = "GameController"
 metadata/unity_click_method = "remove_ads"
@@ -4014,6 +4251,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("34")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_66" type="Control" parent="."]
 anchor_left = 0.0
@@ -4105,6 +4344,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_12" type="Label" parent="OrphanRoot_67/Viewport_8/Content_9/Item_11"]
 anchor_left = 0.0
@@ -4165,6 +4406,7 @@ offset_top = 71.4
 offset_right = 258.5
 offset_bottom = 101.4
 texture_normal = ExtResource("9")
+flat = true
 
 [node name="OrphanRoot_70" type="Control" parent="."]
 anchor_left = 0.0
@@ -4188,6 +4430,8 @@ offset_right = 282
 offset_bottom = 113
 mouse_filter = 2
 texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(0.5943396, 0.5943396, 0.5943396, 1)
 
 [node name="OrphanRoot_71" type="Control" parent="."]
@@ -4214,6 +4458,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("29")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_72" type="Control" parent="."]
 anchor_left = 0.0
@@ -4270,6 +4516,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_13" type="Label" parent="OrphanRoot_72/Content_10/Item_12"]
 anchor_left = 0.0
@@ -4305,6 +4553,7 @@ offset_top = -76
 offset_right = -53
 offset_bottom = -46
 texture_normal = ExtResource("40")
+flat = true
 script = ExtResource("16")
 metadata/unity_click_target = "GameController"
 metadata/unity_click_method = "remove_ads"
@@ -4331,6 +4580,8 @@ offset_right = -7.5
 offset_bottom = 7.5
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_75" type="Control" parent="."]
 anchor_left = 0.0
@@ -4353,6 +4604,7 @@ offset_top = -80
 offset_right = 86
 offset_bottom = -50
 texture_normal = ExtResource("35")
+flat = true
 script = ExtResource("36")
 metadata/unity_class = "ClickContinueButton"
 
@@ -4402,6 +4654,8 @@ offset_right = -90
 offset_bottom = 0.0
 mouse_filter = 2
 texture = ExtResource("21")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Quality_dropdown_2" type="Button" parent="OrphanRoot_77/QualityText_1"]
 anchor_left = 0.5
@@ -4413,6 +4667,7 @@ offset_top = 87.9293
 offset_right = 48.66
 offset_bottom = 117.9293
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Label_7" type="Label" parent="OrphanRoot_77/QualityText_1/Quality_dropdown_2"]
 anchor_left = 0.0
@@ -4438,6 +4693,8 @@ offset_right = -7.5
 offset_bottom = 7.5
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Template_7" type="TextureRect" parent="OrphanRoot_77/QualityText_1/Quality_dropdown_2"]
 anchor_left = 0.0
@@ -4452,6 +4709,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("19")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Viewport_9" type="Control" parent="OrphanRoot_77/QualityText_1/Quality_dropdown_2/Template_7"]
 anchor_left = 0.0
@@ -4508,6 +4767,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Item_Label_15" type="Label" parent="OrphanRoot_77/QualityText_1/Quality_dropdown_2/Template_7/Viewport_9/Content_11/Item_13"]
 anchor_left = 0.0
@@ -4532,6 +4793,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 texture_normal = ExtResource("19")
+flat = true
 
 [node name="Sliding_Area_11" type="Control" parent="OrphanRoot_77/QualityText_1/Quality_dropdown_2/Template_7/Scrollbar_9"]
 anchor_left = 0.0
@@ -4660,6 +4922,8 @@ offset_right = 16
 offset_bottom = 6
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_82" type="Control" parent="."]
 anchor_left = 0.0
@@ -4683,6 +4947,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_83" type="Control" parent="."]
 anchor_left = 0.0
@@ -4706,6 +4972,8 @@ offset_right = 20
 offset_bottom = 20
 mouse_filter = 2
 texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Checkmark_19" type="TextureRect" parent="OrphanRoot_83/Background_19"]
 anchor_left = 0.5
@@ -4718,6 +4986,8 @@ offset_right = 10
 offset_bottom = 10
 mouse_filter = 2
 texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_84" type="Control" parent="."]
 anchor_left = 0.0

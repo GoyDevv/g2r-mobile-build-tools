@@ -1100,6 +1100,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("266")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="CuttingPliersText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1114,6 +1116,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("267")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="HammerText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1128,6 +1132,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("268")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MasterKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1142,6 +1148,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("269")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="PadlockKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1156,6 +1164,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("270")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="SafeKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1170,6 +1180,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("271")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedSafeKeyText_1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1184,6 +1196,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("272")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedPadlockKeyText_1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1198,6 +1212,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("273")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedMasterKeyText_1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1212,6 +1228,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("274")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedHammerText_1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1226,6 +1244,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("275")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedCuttingPliersText_1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1240,6 +1260,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("276")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="CantOpenDoorYet" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1254,6 +1276,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("277")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedPadlockCodeText_2" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1268,6 +1292,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("278")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="PadlockCodeText_1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1282,6 +1308,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("279")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="CrossbowText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1296,6 +1324,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("280")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="TranquilizerDartText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1310,6 +1340,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("281")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedCrossbowText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1324,6 +1356,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("282")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedWeaponKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1338,6 +1372,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("283")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="weaponKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1352,6 +1388,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("284")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="screwdriverText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1366,6 +1404,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("285")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedScrewdriverText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1380,6 +1420,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("286")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="PlankText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1394,6 +1436,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("287")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="GrannyIsGone_NormalText1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1406,6 +1450,8 @@ offset_right = 50
 offset_bottom = -127.5
 mouse_filter = 2
 texture = ExtResource("288")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="GrannyIsGone_EasyText2" type="Control" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1429,6 +1475,8 @@ offset_right = 50
 offset_bottom = -127.5001
 mouse_filter = 2
 texture = ExtResource("289")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="GrannyIsGone_ExtremeText4" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1441,6 +1489,8 @@ offset_right = 50.00006104
 offset_bottom = -127.5001
 mouse_filter = 2
 texture = ExtResource("290")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="GrannyIsGone_Easy_ShotText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1453,6 +1503,8 @@ offset_right = 50
 offset_bottom = -127.5001
 mouse_filter = 2
 texture = ExtResource("291")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="GrannyIsGone_Normal_ShotText" type="Control" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1476,6 +1528,8 @@ offset_right = 50
 offset_bottom = -127.5001
 mouse_filter = 2
 texture = ExtResource("289")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MaybeUsePlanksText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1490,6 +1544,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("292")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="BatteryText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1504,6 +1560,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("293")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedBatteryText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1518,6 +1576,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("294")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="PieceOfPaintingText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1532,6 +1592,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("295")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="GrannyRewardedExtraDay" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1544,6 +1606,8 @@ offset_right = 50.00006104
 offset_bottom = -65.5
 mouse_filter = 2
 texture = ExtResource("296")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="GrannyPlacedExtraLockOnDoor" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1556,6 +1620,8 @@ offset_right = 50
 offset_bottom = -65.5
 mouse_filter = 2
 texture = ExtResource("297")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="SaknasBitarAvTavlan" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1570,6 +1636,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("298")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="PlayhouseKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1584,6 +1652,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("299")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedPlayhouseKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1598,6 +1668,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("300")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="DangerousCuttingToolText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1612,6 +1684,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("301")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MelonText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1626,6 +1700,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("302")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="SomethingMissingHereText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1640,6 +1716,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("303")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="SomethingInsideMelon" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1654,6 +1732,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("304")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="TeddyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1668,6 +1748,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("305")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="CogwheelText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1682,6 +1764,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("306")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="WinchHandleText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1696,6 +1780,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("307")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedWinchHandleText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1710,6 +1796,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("308")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedFindSwitchText" type="Control" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1737,6 +1825,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("309")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="AmmoText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1751,6 +1841,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("310")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedShotgunText" type="Control" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1778,6 +1870,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("311")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="ShotgunLoadedText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1792,6 +1886,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("312")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedCarKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1806,6 +1902,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("313")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="CarKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1820,6 +1918,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("314")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedGasolineText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1834,6 +1934,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("315")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedCarBatteryText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1848,6 +1950,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("316")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedEnginePartText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1862,6 +1966,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("317")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedSparkPlugText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1876,6 +1982,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("318")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedWrenchText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1890,6 +1998,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("319")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="GasolineCanText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1904,6 +2014,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("320")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="CarBatteryText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1918,6 +2030,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("321")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="SparkPlugText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1932,6 +2046,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("322")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="WrenchText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1946,6 +2062,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("323")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="EnginePartText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1960,6 +2078,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("324")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="garagedoorLockedText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1974,6 +2094,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("325")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="CanNotStartTheCarYet" type="Control" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2001,6 +2123,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("326")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MeatText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2015,6 +2139,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("327")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="EmptyPlateText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2029,6 +2155,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("328")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="SpecialKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2043,6 +2171,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("329")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedSpecialKey" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2057,6 +2187,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("330")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MaybePlaceSomethingHere" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2071,6 +2203,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("331")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="BookText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2085,6 +2219,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("332")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="PeppersprayText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2099,6 +2235,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("333")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="RemoteControlText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2113,6 +2251,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("334")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="NeedRemoteControlText" type="Control" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2140,6 +2280,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("335")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="SprayIsEmptyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2154,6 +2296,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("336")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="EmptyBowlText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2168,6 +2312,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("337")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="BirdSeedText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2182,6 +2328,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("338")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="FreezeTrapText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2196,6 +2344,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("339")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="BloodScreens" type="Control" parent="."]
 anchor_left = 0.0
@@ -2221,6 +2371,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("340")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="BloodScreenBiten" type="TextureRect" parent="BloodScreens"]
 anchor_left = 0.0
@@ -2235,6 +2387,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("341")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="BloodScreenPlayerHit" type="TextureRect" parent="BloodScreens"]
 anchor_left = 0.0
@@ -2249,6 +2403,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("342")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="BloodScreenEnd" type="TextureRect" parent="BloodScreens"]
 anchor_left = 0.0
@@ -2263,6 +2419,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("340")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.5019608)
 
 [node name="FrostScreen" type="TextureRect" parent="BloodScreens"]
@@ -2276,6 +2434,8 @@ offset_right = -6.103515989e-05
 offset_bottom = 0.0
 mouse_filter = 2
 texture = ExtResource("343")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="BloodScreenDay4" type="TextureRect" parent="BloodScreens"]
 anchor_left = 0.0
@@ -2290,6 +2450,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("340")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="ShootGunButtonParent" type="Control" parent="."]
 anchor_left = 0.0
@@ -2314,6 +2476,7 @@ offset_bottom = -68.4
 visible = false
 process_mode = 3
 texture_normal = ExtResource("344")
+flat = true
 
 [node name="TheEndTexts" type="Control" parent="."]
 anchor_left = 0.0
@@ -2339,6 +2502,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("345")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="TheEndTextPractice" type="TextureRect" parent="TheEndTexts"]
 anchor_left = 0.5
@@ -2353,6 +2518,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("346")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="ShootArrowButtonParent" type="Control" parent="."]
 anchor_left = 0.0
@@ -2377,6 +2544,7 @@ offset_bottom = -68.4
 visible = false
 process_mode = 3
 texture_normal = ExtResource("344")
+flat = true
 
 [node name="PlaceButtonParent" type="Control" parent="."]
 anchor_left = 0.0
@@ -2401,6 +2569,7 @@ offset_bottom = -59.10001
 visible = false
 process_mode = 3
 texture_normal = ExtResource("347")
+flat = true
 
 [node name="Pepperspray_RemoteButtonParent" type="Control" parent="."]
 anchor_left = 0.0
@@ -2425,6 +2594,7 @@ offset_bottom = -68.4
 visible = false
 process_mode = 3
 texture_normal = ExtResource("348")
+flat = true
 
 [node name="RemoteButton" type="Button" parent="Pepperspray_RemoteButtonParent"]
 anchor_left = 1
@@ -2461,6 +2631,7 @@ offset_top = 36
 offset_right = 14
 offset_bottom = 66
 texture_normal = ExtResource("349")
+flat = true
 
 [node name="DifferentSpritesAndButtons" type="Control" parent="."]
 anchor_left = 0.0
@@ -2484,6 +2655,8 @@ offset_right = 50
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("350")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="FuelMeterBG" type="TextureRect" parent="DifferentSpritesAndButtons"]
 anchor_left = 1
@@ -2498,6 +2671,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("351")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="FuelMeter" type="TextureRect" parent="DifferentSpritesAndButtons/FuelMeterBG"]
 anchor_left = 0.5
@@ -2510,6 +2685,8 @@ offset_right = 50.00003052
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("351")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="Mittenprick" type="TextureRect" parent="DifferentSpritesAndButtons"]
 anchor_left = 0.5
@@ -2524,6 +2701,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("352")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MittenRing" type="TextureRect" parent="DifferentSpritesAndButtons"]
 anchor_left = 0.5
@@ -2538,6 +2717,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("353")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OpenDoorButton" type="Button" parent="DifferentSpritesAndButtons"]
 anchor_left = 1
@@ -2551,6 +2732,7 @@ offset_bottom = -71.59998
 visible = false
 process_mode = 3
 texture_normal = ExtResource("354")
+flat = true
 
 [node name="BrunnsVevButton" type="Button" parent="DifferentSpritesAndButtons"]
 anchor_left = 1
@@ -2564,6 +2746,7 @@ offset_bottom = -71.5
 visible = false
 process_mode = 3
 texture_normal = ExtResource("355")
+flat = true
 
 [node name="FillFuelButton" type="Button" parent="DifferentSpritesAndButtons"]
 anchor_left = 1
@@ -2577,6 +2760,7 @@ offset_bottom = -72.4
 visible = false
 process_mode = 3
 texture_normal = ExtResource("356")
+flat = true
 
 [node name="PickUpButtonParent" type="Control" parent="."]
 anchor_left = 0.0
@@ -2601,6 +2785,7 @@ offset_bottom = -71.59998
 visible = false
 process_mode = 3
 texture_normal = ExtResource("354")
+flat = true
 script = ExtResource("357")
 metadata/unity_class = "SeeObjects"
 
@@ -2625,6 +2810,7 @@ offset_top = -0.4
 offset_right = 15
 offset_bottom = 29.6
 texture_normal = ExtResource("358")
+flat = true
 
 [node name="DropButtonParent" type="Control" parent="."]
 anchor_left = 0.0
@@ -2649,6 +2835,7 @@ offset_bottom = -45
 visible = false
 process_mode = 3
 texture_normal = ExtResource("359")
+flat = true
 script = ExtResource("360")
 metadata/unity_class = "dropObjects"
 
@@ -2676,6 +2863,8 @@ offset_right = 50
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("361")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MainMenuButton" type="Button" parent="optionMenu/OptionBackgroundImage"]
 anchor_left = 0.0
@@ -2687,6 +2876,7 @@ offset_top = -35.43008
 offset_right = 101.07937
 offset_bottom = -4.43008
 texture_normal = ExtResource("362")
+flat = true
 script = ExtResource("363")
 metadata/unity_class = "BackToMenu"
 
@@ -2700,6 +2890,7 @@ offset_top = -35.04382
 offset_right = 57.85848
 offset_bottom = -5.04382
 texture_normal = ExtResource("364")
+flat = true
 
 [node name="BlackscreenAdsParent" type="Control" parent="."]
 anchor_left = 0.0
@@ -2747,6 +2938,8 @@ offset_right = 33.115
 offset_bottom = -63.16001
 mouse_filter = 2
 texture = ExtResource("365")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="Day2Text" type="TextureRect" parent="All_days_texter"]
@@ -2760,6 +2953,8 @@ offset_right = 33.11506104
 offset_bottom = -63.16001
 mouse_filter = 2
 texture = ExtResource("366")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="Day3Text" type="TextureRect" parent="All_days_texter"]
@@ -2773,6 +2968,8 @@ offset_right = 33.11518311
 offset_bottom = -63.16001
 mouse_filter = 2
 texture = ExtResource("367")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="Day4Text" type="TextureRect" parent="All_days_texter"]
@@ -2786,6 +2983,8 @@ offset_right = 33.11518311
 offset_bottom = -63.16001
 mouse_filter = 2
 texture = ExtResource("368")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="Day5Text" type="TextureRect" parent="All_days_texter"]
@@ -2799,6 +2998,8 @@ offset_right = 33.11518311
 offset_bottom = -63.16001
 mouse_filter = 2
 texture = ExtResource("369")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="Day5LastDayText" type="TextureRect" parent="All_days_texter"]
@@ -2812,6 +3013,8 @@ offset_right = 103.7
 offset_bottom = -61.85
 mouse_filter = 2
 texture = ExtResource("370")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="Day6LastDayText" type="TextureRect" parent="All_days_texter"]
@@ -2827,6 +3030,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("371")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="BonusDayLastDayText" type="TextureRect" parent="All_days_texter"]
@@ -2840,6 +3045,8 @@ offset_right = 102.600085
 offset_bottom = -60.75
 mouse_filter = 2
 texture = ExtResource("372")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="OrphanRoot_1" type="Control" parent="."]
@@ -2888,6 +3095,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("373")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_2" type="Control" parent="."]
 anchor_left = 0.0
@@ -2935,6 +3144,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("373")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_4" type="Control" parent="."]
 anchor_left = 0.0
@@ -2959,6 +3170,7 @@ offset_bottom = -71.59998
 visible = false
 process_mode = 3
 texture_normal = ExtResource("354")
+flat = true
 script = ExtResource("357")
 metadata/unity_class = "SeeObjects"
 
@@ -3006,6 +3218,8 @@ offset_right = 50
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("361")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="MainMenuButton_1" type="Button" parent="OrphanRoot_6/OptionBackgroundImage_1"]
 anchor_left = 0.0
@@ -3017,6 +3231,7 @@ offset_top = -35.43008
 offset_right = 101.07937
 offset_bottom = -4.43008
 texture_normal = ExtResource("362")
+flat = true
 script = ExtResource("363")
 metadata/unity_class = "BackToMenu"
 
@@ -3030,6 +3245,7 @@ offset_top = -35.04382
 offset_right = 57.85848
 offset_bottom = -5.04382
 texture_normal = ExtResource("364")
+flat = true
 
 [node name="OrphanRoot_7" type="Control" parent="."]
 anchor_left = 0.0
@@ -3052,6 +3268,7 @@ offset_top = -35.43008
 offset_right = 101.07937
 offset_bottom = -4.43008
 texture_normal = ExtResource("362")
+flat = true
 script = ExtResource("363")
 metadata/unity_class = "BackToMenu"
 
@@ -3076,6 +3293,7 @@ offset_top = -35.04382
 offset_right = 57.85848
 offset_bottom = -5.04382
 texture_normal = ExtResource("364")
+flat = true
 
 [node name="OrphanRoot_9" type="Control" parent="."]
 anchor_left = 0.0
@@ -3101,6 +3319,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("266")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_10" type="Control" parent="."]
 anchor_left = 0.0
@@ -3126,6 +3346,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("267")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_11" type="Control" parent="."]
 anchor_left = 0.0
@@ -3151,6 +3373,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("268")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_12" type="Control" parent="."]
 anchor_left = 0.0
@@ -3176,6 +3400,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("269")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_13" type="Control" parent="."]
 anchor_left = 0.0
@@ -3201,6 +3427,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("270")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_14" type="Control" parent="."]
 anchor_left = 0.0
@@ -3226,6 +3454,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("271")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_15" type="Control" parent="."]
 anchor_left = 0.0
@@ -3251,6 +3481,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("272")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_16" type="Control" parent="."]
 anchor_left = 0.0
@@ -3276,6 +3508,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("273")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_17" type="Control" parent="."]
 anchor_left = 0.0
@@ -3301,6 +3535,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("274")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_18" type="Control" parent="."]
 anchor_left = 0.0
@@ -3326,6 +3562,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("275")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_19" type="Control" parent="."]
 anchor_left = 0.0
@@ -3351,6 +3589,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("276")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_20" type="Control" parent="."]
 anchor_left = 0.0
@@ -3376,6 +3616,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("277")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_21" type="Control" parent="."]
 anchor_left = 0.0
@@ -3401,6 +3643,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("278")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_22" type="Control" parent="."]
 anchor_left = 0.0
@@ -3426,6 +3670,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("279")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_23" type="Control" parent="."]
 anchor_left = 0.0
@@ -3451,6 +3697,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("280")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_24" type="Control" parent="."]
 anchor_left = 0.0
@@ -3476,6 +3724,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("281")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_25" type="Control" parent="."]
 anchor_left = 0.0
@@ -3501,6 +3751,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("282")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_26" type="Control" parent="."]
 anchor_left = 0.0
@@ -3526,6 +3778,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("283")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_27" type="Control" parent="."]
 anchor_left = 0.0
@@ -3551,6 +3805,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("284")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_28" type="Control" parent="."]
 anchor_left = 0.0
@@ -3576,6 +3832,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("285")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_29" type="Control" parent="."]
 anchor_left = 0.0
@@ -3601,6 +3859,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("286")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_30" type="Control" parent="."]
 anchor_left = 0.0
@@ -3626,6 +3886,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("287")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_31" type="Control" parent="."]
 anchor_left = 0.0
@@ -3649,6 +3911,8 @@ offset_right = 50
 offset_bottom = -127.5
 mouse_filter = 2
 texture = ExtResource("288")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_32" type="Control" parent="."]
 anchor_left = 0.0
@@ -3694,6 +3958,8 @@ offset_right = 50
 offset_bottom = -127.5001
 mouse_filter = 2
 texture = ExtResource("289")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_34" type="Control" parent="."]
 anchor_left = 0.0
@@ -3717,6 +3983,8 @@ offset_right = 50.00006104
 offset_bottom = -127.5001
 mouse_filter = 2
 texture = ExtResource("290")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_35" type="Control" parent="."]
 anchor_left = 0.0
@@ -3740,6 +4008,8 @@ offset_right = 50
 offset_bottom = -127.5001
 mouse_filter = 2
 texture = ExtResource("291")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_36" type="Control" parent="."]
 anchor_left = 0.0
@@ -3785,6 +4055,8 @@ offset_right = 50
 offset_bottom = -127.5001
 mouse_filter = 2
 texture = ExtResource("289")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_38" type="Control" parent="."]
 anchor_left = 0.0
@@ -3810,6 +4082,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("292")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_39" type="Control" parent="."]
 anchor_left = 0.0
@@ -3835,6 +4109,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("293")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_40" type="Control" parent="."]
 anchor_left = 0.0
@@ -3860,6 +4136,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("294")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_41" type="Control" parent="."]
 anchor_left = 0.0
@@ -3885,6 +4163,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("295")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_42" type="Control" parent="."]
 anchor_left = 0.0
@@ -3908,6 +4188,8 @@ offset_right = 50.00006104
 offset_bottom = -65.5
 mouse_filter = 2
 texture = ExtResource("296")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_43" type="Control" parent="."]
 anchor_left = 0.0
@@ -3931,6 +4213,8 @@ offset_right = 50
 offset_bottom = -65.5
 mouse_filter = 2
 texture = ExtResource("297")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_44" type="Control" parent="."]
 anchor_left = 0.0
@@ -3956,6 +4240,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("298")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_45" type="Control" parent="."]
 anchor_left = 0.0
@@ -3981,6 +4267,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("299")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_46" type="Control" parent="."]
 anchor_left = 0.0
@@ -4006,6 +4294,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("300")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_47" type="Control" parent="."]
 anchor_left = 0.0
@@ -4031,6 +4321,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("301")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_48" type="Control" parent="."]
 anchor_left = 0.0
@@ -4056,6 +4348,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("302")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_49" type="Control" parent="."]
 anchor_left = 0.0
@@ -4081,6 +4375,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("303")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_50" type="Control" parent="."]
 anchor_left = 0.0
@@ -4106,6 +4402,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("304")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_51" type="Control" parent="."]
 anchor_left = 0.0
@@ -4131,6 +4429,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("305")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_52" type="Control" parent="."]
 anchor_left = 0.0
@@ -4156,6 +4456,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("306")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_53" type="Control" parent="."]
 anchor_left = 0.0
@@ -4181,6 +4483,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("307")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_54" type="Control" parent="."]
 anchor_left = 0.0
@@ -4206,6 +4510,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("308")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_55" type="Control" parent="."]
 anchor_left = 0.0
@@ -4255,6 +4561,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("309")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_57" type="Control" parent="."]
 anchor_left = 0.0
@@ -4280,6 +4588,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("310")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_58" type="Control" parent="."]
 anchor_left = 0.0
@@ -4329,6 +4639,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("311")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_60" type="Control" parent="."]
 anchor_left = 0.0
@@ -4354,6 +4666,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("312")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_61" type="Control" parent="."]
 anchor_left = 0.0
@@ -4379,6 +4693,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("313")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_62" type="Control" parent="."]
 anchor_left = 0.0
@@ -4404,6 +4720,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("314")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_63" type="Control" parent="."]
 anchor_left = 0.0
@@ -4429,6 +4747,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("315")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_64" type="Control" parent="."]
 anchor_left = 0.0
@@ -4454,6 +4774,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("316")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_65" type="Control" parent="."]
 anchor_left = 0.0
@@ -4479,6 +4801,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("317")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_66" type="Control" parent="."]
 anchor_left = 0.0
@@ -4504,6 +4828,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("318")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_67" type="Control" parent="."]
 anchor_left = 0.0
@@ -4529,6 +4855,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("319")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_68" type="Control" parent="."]
 anchor_left = 0.0
@@ -4554,6 +4882,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("320")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_69" type="Control" parent="."]
 anchor_left = 0.0
@@ -4579,6 +4909,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("321")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_70" type="Control" parent="."]
 anchor_left = 0.0
@@ -4604,6 +4936,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("322")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_71" type="Control" parent="."]
 anchor_left = 0.0
@@ -4629,6 +4963,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("323")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_72" type="Control" parent="."]
 anchor_left = 0.0
@@ -4654,6 +4990,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("324")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_73" type="Control" parent="."]
 anchor_left = 0.0
@@ -4679,6 +5017,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("325")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_74" type="Control" parent="."]
 anchor_left = 0.0
@@ -4728,6 +5068,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("326")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_76" type="Control" parent="."]
 anchor_left = 0.0
@@ -4753,6 +5095,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("327")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_77" type="Control" parent="."]
 anchor_left = 0.0
@@ -4778,6 +5122,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("328")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_78" type="Control" parent="."]
 anchor_left = 0.0
@@ -4803,6 +5149,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("329")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_79" type="Control" parent="."]
 anchor_left = 0.0
@@ -4828,6 +5176,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("330")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_80" type="Control" parent="."]
 anchor_left = 0.0
@@ -4853,6 +5203,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("331")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_81" type="Control" parent="."]
 anchor_left = 0.0
@@ -4878,6 +5230,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("332")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_82" type="Control" parent="."]
 anchor_left = 0.0
@@ -4903,6 +5257,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("333")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_83" type="Control" parent="."]
 anchor_left = 0.0
@@ -4928,6 +5284,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("334")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_84" type="Control" parent="."]
 anchor_left = 0.0
@@ -4977,6 +5335,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("335")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_86" type="Control" parent="."]
 anchor_left = 0.0
@@ -5002,6 +5362,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("336")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_87" type="Control" parent="."]
 anchor_left = 0.0
@@ -5027,6 +5389,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("337")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_88" type="Control" parent="."]
 anchor_left = 0.0
@@ -5052,6 +5416,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("338")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_89" type="Control" parent="."]
 anchor_left = 0.0
@@ -5077,6 +5443,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("339")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_90" type="Control" parent="."]
 anchor_left = 0.0
@@ -5112,6 +5480,7 @@ offset_bottom = -18.4
 visible = false
 process_mode = 3
 texture_normal = ExtResource("374")
+flat = true
 
 [node name="ReverseButton" type="Button" parent="OrphanRoot_90/CarControlls"]
 anchor_left = 0.5
@@ -5137,6 +5506,7 @@ offset_bottom = -25.3
 visible = false
 process_mode = 3
 texture_normal = ExtResource("375")
+flat = true
 
 [node name="OrphanRoot_91" type="Control" parent="."]
 anchor_left = 0.0
@@ -5161,6 +5531,7 @@ offset_bottom = -18.4
 visible = false
 process_mode = 3
 texture_normal = ExtResource("374")
+flat = true
 
 [node name="OrphanRoot_92" type="Control" parent="."]
 anchor_left = 0.0
@@ -5208,6 +5579,7 @@ offset_bottom = -25.3
 visible = false
 process_mode = 3
 texture_normal = ExtResource("375")
+flat = true
 
 [node name="OrphanRoot_94" type="Control" parent="."]
 anchor_left = 0.0
@@ -5232,6 +5604,7 @@ offset_bottom = -45
 visible = false
 process_mode = 3
 texture_normal = ExtResource("359")
+flat = true
 script = ExtResource("360")
 metadata/unity_class = "dropObjects"
 
@@ -5258,6 +5631,7 @@ offset_bottom = -68.4
 visible = false
 process_mode = 3
 texture_normal = ExtResource("344")
+flat = true
 
 [node name="OrphanRoot_96" type="Control" parent="."]
 anchor_left = 0.0
@@ -5280,6 +5654,7 @@ offset_top = 36
 offset_right = 14
 offset_bottom = 66
 texture_normal = ExtResource("349")
+flat = true
 
 [node name="OrphanRoot_97" type="Control" parent="."]
 anchor_left = 0.0
@@ -5305,6 +5680,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("340")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_98" type="Control" parent="."]
 anchor_left = 0.0
@@ -5330,6 +5707,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("341")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_99" type="Control" parent="."]
 anchor_left = 0.0
@@ -5355,6 +5734,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("342")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_100" type="Control" parent="."]
 anchor_left = 0.0
@@ -5380,6 +5761,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("340")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.5019608)
 
 [node name="OrphanRoot_101" type="Control" parent="."]
@@ -5404,6 +5787,8 @@ offset_right = -6.103515989e-05
 offset_bottom = 0.0
 mouse_filter = 2
 texture = ExtResource("343")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_102" type="Control" parent="."]
 anchor_left = 0.0
@@ -5429,6 +5814,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("340")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_103" type="Control" parent="."]
 anchor_left = 0.0
@@ -5451,6 +5838,7 @@ offset_top = -0.4
 offset_right = 15
 offset_bottom = 29.6
 texture_normal = ExtResource("358")
+flat = true
 
 [node name="OrphanRoot_104" type="Control" parent="."]
 anchor_left = 0.0
@@ -5522,6 +5910,7 @@ offset_bottom = 82.19995
 visible = false
 process_mode = 3
 texture_normal = ExtResource("376")
+flat = true
 
 [node name="CoffinBackyardButton" type="Button" parent="OrphanRoot_104/AllBedButtons"]
 anchor_left = 1
@@ -5535,6 +5924,7 @@ offset_bottom = 82.19995
 visible = false
 process_mode = 3
 texture_normal = ExtResource("376")
+flat = true
 
 [node name="InCarButton" type="Button" parent="OrphanRoot_104/AllBedButtons"]
 anchor_left = 1
@@ -5548,6 +5938,7 @@ offset_bottom = 82.19995
 visible = false
 process_mode = 3
 texture_normal = ExtResource("377")
+flat = true
 
 [node name="OrphanRoot_105" type="Control" parent="."]
 anchor_left = 0.0
@@ -5641,6 +6032,7 @@ offset_bottom = 82.19995
 visible = false
 process_mode = 3
 texture_normal = ExtResource("376")
+flat = true
 
 [node name="OrphanRoot_109" type="Control" parent="."]
 anchor_left = 0.0
@@ -5665,6 +6057,7 @@ offset_bottom = 82.19995
 visible = false
 process_mode = 3
 texture_normal = ExtResource("376")
+flat = true
 
 [node name="OrphanRoot_110" type="Control" parent="."]
 anchor_left = 0.0
@@ -5689,6 +6082,7 @@ offset_bottom = 82.19995
 visible = false
 process_mode = 3
 texture_normal = ExtResource("377")
+flat = true
 
 [node name="OrphanRoot_111" type="Control" parent="."]
 anchor_left = 0.0
@@ -5714,6 +6108,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("345")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_112" type="Control" parent="."]
 anchor_left = 0.0
@@ -5739,6 +6135,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("346")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_113" type="Control" parent="."]
 anchor_left = 0.0
@@ -5774,6 +6172,7 @@ offset_top = -12.799988
 offset_right = 168
 offset_bottom = 17.200012
 texture_normal = ExtResource("378")
+flat = true
 
 [node name="OrphanRoot_114" type="Control" parent="."]
 anchor_left = 0.0
@@ -5796,6 +6195,7 @@ offset_top = -12.799988
 offset_right = 168
 offset_bottom = 17.200012
 texture_normal = ExtResource("378")
+flat = true
 
 [node name="OrphanRoot_115" type="Control" parent="."]
 anchor_left = 0.0
@@ -5819,6 +6219,8 @@ offset_right = 33.115
 offset_bottom = -63.16001
 mouse_filter = 2
 texture = ExtResource("365")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="OrphanRoot_116" type="Control" parent="."]
@@ -5843,6 +6245,8 @@ offset_right = 33.11506104
 offset_bottom = -63.16001
 mouse_filter = 2
 texture = ExtResource("366")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="OrphanRoot_117" type="Control" parent="."]
@@ -5867,6 +6271,8 @@ offset_right = 33.11518311
 offset_bottom = -63.16001
 mouse_filter = 2
 texture = ExtResource("367")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="OrphanRoot_118" type="Control" parent="."]
@@ -5891,6 +6297,8 @@ offset_right = 33.11518311
 offset_bottom = -63.16001
 mouse_filter = 2
 texture = ExtResource("368")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="OrphanRoot_119" type="Control" parent="."]
@@ -5915,6 +6323,8 @@ offset_right = 33.11518311
 offset_bottom = -63.16001
 mouse_filter = 2
 texture = ExtResource("369")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="OrphanRoot_120" type="Control" parent="."]
@@ -5939,6 +6349,8 @@ offset_right = 103.7
 offset_bottom = -61.85
 mouse_filter = 2
 texture = ExtResource("370")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="OrphanRoot_121" type="Control" parent="."]
@@ -5965,6 +6377,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("371")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="OrphanRoot_122" type="Control" parent="."]
@@ -5989,6 +6403,8 @@ offset_right = 102.600085
 offset_bottom = -60.75
 mouse_filter = 2
 texture = ExtResource("372")
+expand_mode = 1
+stretch_mode = 0
 modulate = Color(1, 1, 1, 0.0)
 
 [node name="OrphanRoot_123" type="Control" parent="."]
@@ -6013,6 +6429,8 @@ offset_right = 50
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("350")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_124" type="Control" parent="."]
 anchor_left = 0.0
@@ -6038,6 +6456,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("351")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="FuelMeter_1" type="TextureRect" parent="OrphanRoot_124/FuelMeterBG_1"]
 anchor_left = 0.5
@@ -6050,6 +6470,8 @@ offset_right = 50.00003052
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("351")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_125" type="Control" parent="."]
 anchor_left = 0.0
@@ -6073,6 +6495,8 @@ offset_right = 50.00003052
 offset_bottom = 50
 mouse_filter = 2
 texture = ExtResource("351")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_126" type="Control" parent="."]
 anchor_left = 0.0
@@ -6098,6 +6522,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("352")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_127" type="Control" parent="."]
 anchor_left = 0.0
@@ -6123,6 +6549,8 @@ mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("353")
+expand_mode = 1
+stretch_mode = 0
 
 [node name="OrphanRoot_128" type="Control" parent="."]
 anchor_left = 0.0
@@ -6147,6 +6575,7 @@ offset_bottom = -71.59998
 visible = false
 process_mode = 3
 texture_normal = ExtResource("354")
+flat = true
 
 [node name="OrphanRoot_129" type="Control" parent="."]
 anchor_left = 0.0
@@ -6171,6 +6600,7 @@ offset_bottom = -71.5
 visible = false
 process_mode = 3
 texture_normal = ExtResource("355")
+flat = true
 
 [node name="OrphanRoot_130" type="Control" parent="."]
 anchor_left = 0.0
@@ -6195,6 +6625,7 @@ offset_bottom = -72.4
 visible = false
 process_mode = 3
 texture_normal = ExtResource("356")
+flat = true
 
 [node name="OrphanRoot_131" type="Control" parent="."]
 anchor_left = 0.0
@@ -6219,6 +6650,7 @@ offset_bottom = -68.4
 visible = false
 process_mode = 3
 texture_normal = ExtResource("344")
+flat = true
 
 [node name="OrphanRoot_132" type="Control" parent="."]
 anchor_left = 0.0
@@ -6243,6 +6675,7 @@ offset_bottom = -59.10001
 visible = false
 process_mode = 3
 texture_normal = ExtResource("347")
+flat = true
 
 [node name="OrphanRoot_133" type="Control" parent="."]
 anchor_left = 0.0
@@ -6267,6 +6700,7 @@ offset_bottom = -68.4
 visible = false
 process_mode = 3
 texture_normal = ExtResource("348")
+flat = true
 
 [node name="OrphanRoot_134" type="Control" parent="."]
 anchor_left = 0.0
