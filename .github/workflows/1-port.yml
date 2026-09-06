@@ -1,0 +1,173 @@
+name: "1 - Port game (AssetRipper)"
+
+# Runs automatically when a new game zip is pushed to games/, or manually.
+# Rips the PC build into a working Unity project under ported/<GameName>/
+# and commits it to master, so your phone never has to do any heavy lifting.
+on:
+  workflow_dispatch:
+    inputs:
+      game_zip:
+        description: 'Zip file name inside games/ (leave empty to auto-detect the first one)'
+        required: false
+        default: ''
+  push:
+    branches: [master]
+    paths:
+      - 'games/*.zip'
+
+permissions:
+  contents: write
+
+jobs:
+  port:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repo with LFS
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+          fetch-depth: 0
+
+      - name: Pick the game zip
+        id: pick
+        run: |
+          set -e
+          if [ -n "${{ github.event.inputs.game_zip }}" ]; then
+            ZIP="games/${{ github.event.inputs.game_zip }}"
+          else
+            ZIP=$(find games -maxdepth 1 -name '*.zip' | head -1)
+          fi
+          if [ -z "$ZIP" ] || [ ! -f "$ZIP" ]; then
+            echo "::error::No zip found in games/ — paste your game zip there first."
+            exit 1
+          fi
+          NAME=$(basename "$ZIP" .zip)
+          SAFE=$(echo "$NAME" | tr ' ' '_' | tr -cd 'A-Za-z0-9_.-')
+          echo "zip=$ZIP"  >> "$GITHUB_OUTPUT"
+          echo "name=$SAFE" >> "$GITHUB_OUTPUT"
+          echo "Selected: $ZIP (project will be ported/$SAFE)"
+
+      - name: Unzip the game build
+        run: |
+          set -e
+          mkdir -p game
+          unzip -q "${{ steps.pick.outputs.zip }}" -d game
+          echo "=== Game layout (top level) ==="
+          find game -maxdepth 3 -type d | sort | head -40
+
+      - name: Detect Mono vs IL2CPP
+        id: backend
+        run: |
+          set -e
+          if find game -name 'GameAssembly.dll' | grep -q .; then
+            echo "backend=il2cpp" >> "$GITHUB_OUTPUT"
+            echo "::warning::GameAssembly.dll found — this is an IL2CPP build. Assets and scenes can be ported, but the C# game logic cannot be fully recovered. The APK may not be playable."
+          elif find game -path '*/Managed/Assembly-CSharp.dll' | grep -q .; then
+            echo "backend=mono" >> "$GITHUB_OUTPUT"
+            echo "Mono build detected — full port possible."
+          else
+            echo "backend=unknown" >> "$GITHUB_OUTPUT"
+            echo "::warning::Could not find Assembly-CSharp.dll or GameAssembly.dll. Continuing anyway."
+          fi
+
+      - name: Install AssetRipper (headless web GUI)
+        run: |
+          set -e
+          URL=$(curl -s https://api.github.com/repos/AssetRipper/AssetRipper/releases/latest | \
+            python3 -c "import json,sys; d=json.load(sys.stdin); print([a['browser_download_url'] for a in d['assets'] if a['name']=='AssetRipper_linux_x64.tar.xz'][0])")
+          echo "Downloading $URL"
+          mkdir -p /tmp/ar
+          curl -sL -o /tmp/ar.tar.xz "$URL"
+          tar -xJf /tmp/ar.tar.xz -C /tmp/ar
+          chmod +x /tmp/ar/AssetRipper.GUI.Free
+          /tmp/ar/AssetRipper.GUI.Free --version 2>/dev/null || true
+
+      - name: Run AssetRipper export (headless)
+        run: |
+          set -e
+          mkdir -p ported
+          # Start the local web GUI headlessly on a fixed port
+          /tmp/ar/AssetRipper.GUI.Free --headless --port 18345 > ar.log 2>&1 &
+          ARPID=$!
+          echo "AssetRipper PID: $ARPID"
+
+          wait_for_rip() {
+            for i in $(seq 1 600); do
+              if curl -s -o /dev/null http://127.0.0.1:18345/; then echo "AssetRipper web UI is up"; return 0; fi
+              sleep 1
+            done
+            echo "AssetRipper did not come up in time"; tail -50 ar.log; return 1
+          }
+          wait_for_rip
+
+          GAME_DIR="$PWD/game"
+          echo ">> Loading folder: $GAME_DIR"
+          curl -s -X POST http://127.0.0.1:18345/LoadFolder \
+            --data-urlencode "Path=$GAME_DIR" -o /dev/null
+
+          echo ">> Waiting for load to finish (this can take a few minutes)..."
+          for i in $(seq 1 900); do
+            if grep -qE "Finished processing|Processing finished|Load.*complete" ar.log 2>/dev/null; then break; fi
+            sleep 2
+          done
+
+          echo ">> Exporting Unity project"
+          curl -s -X POST http://127.0.0.1:18345/Export/UnityProject \
+            --data-urlencode "Path=$PWD/ported/${{ steps.pick.outputs.name }}" \
+            --data-urlencode "CreateSubfolder=false" -o /dev/null
+
+          echo ">> Waiting for export to finish..."
+          for i in $(seq 1 1800); do
+            # Export is done when the process goes quiet and files exist
+            if [ -f "ported/${{ steps.pick.outputs.name }}/ProjectSettings/ProjectVersion.txt" ]; then
+              sleep 20   # grace period for remaining writes
+              break
+            fi
+            sleep 2
+          done
+
+          kill $ARPID 2>/dev/null || true
+          echo "=== Export result ==="
+          du -sh ported/ 2>/dev/null || true
+          ls -la "ported/${{ steps.pick.outputs.name }}" 2>/dev/null || { echo "::error::Export produced no project — AssetRipper log follows"; tail -100 ar.log; exit 1; }
+
+      - name: Summarize what was recovered
+        run: |
+          set -e
+          P="ported/${{ steps.pick.outputs.name }}"
+          echo "=== Project summary ==="
+          echo "Assets folders:  $(find $P/Assets -maxdepth 1 -type d 2>/dev/null | wc -l)"
+          echo "C# scripts:      $(find $P/Assets -name '*.cs' 2>/dev/null | wc -l)"
+          echo "Scenes:          $(find $P/Assets -name '*.unity' 2>/dev/null | wc -l)"
+          find $P/Assets -name '*.unity' 2>/dev/null | head -20 || true
+
+      - name: Handle oversized files (>90 MB) with Git LFS
+        run: |
+          git lfs install
+          BIG=$(find ported -type f -size +90M 2>/dev/null || true)
+          if [ -n "$BIG" ]; then
+            echo "$BIG" | while IFS= read -r f; do git lfs track "${f#./}"; done
+            echo "LFS-tracked $(echo "$BIG" | wc -l) oversized file(s)"
+          fi
+
+      - name: Commit and push the ported project
+        run: |
+          set -e
+          git config user.name  "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add ported
+          if git diff --cached --quiet; then
+            echo "No changes to commit — port already up to date"
+            exit 0
+          fi
+          git commit -m "Port ${{ steps.pick.outputs.name }} from PC build (AssetRipper, backend=${{ steps.backend.outputs.backend }})"
+          git push origin master
+          echo ">> Pushed. Next: run workflow '2 - Build Android APK'"
+
+      - name: Upload rip log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: assetripper-log
+          path: ar.log

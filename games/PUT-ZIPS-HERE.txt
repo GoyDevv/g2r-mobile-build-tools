@@ -1,0 +1,8 @@
+Paste your game .zip files here (e.g. Granny_Forsaken.zip).
+
+Rules:
+- Keep them as .zip — do NOT unzip before uploading.
+- Files over 25 MB must be uploaded with git/LFS (they are already LFS-tracked
+  via .gitattributes), not the GitHub web UI.
+- As soon as a zip lands here, the "1 - Port game (AssetRipper)" workflow runs
+  automatically, or you can trigger it manually from the Actions tab.

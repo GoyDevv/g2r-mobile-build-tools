@@ -1,0 +1,12 @@
+# Unzipped game builds are never committed (only the .zip via LFS)
+games/*/
+!games/PUT-ZIPS-HERE.txt
+
+# Ripped projects are committed on purpose, but local junk is not
+ported/**/Library/
+ported/**/Logs/
+ported/**/Temp/
+ported/**/obj/
+
+# Build output (uploaded as workflow artifacts instead)
+build/

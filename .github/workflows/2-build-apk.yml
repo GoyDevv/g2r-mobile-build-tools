@@ -1,0 +1,99 @@
+name: "2 - Build Android APK"
+
+# Compiles the ported Unity project (from workflow 1) into a signed APK,
+# entirely on GitHub's servers. You just download the artifact.
+#
+# Requires these repo secrets (Settings > Secrets and variables > Actions):
+#   UNITY_LICENSE   - contents of your Unity_lic.ulf file (free personal license)
+#   UNITY_EMAIL     - your Unity account email
+#   UNITY_PASSWORD  - your Unity account password
+# Run workflow "0 - Setup Unity license" once to get the activation file.
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: 'Project folder name under ported/ (leave empty for the first one)'
+        required: false
+        default: ''
+      performance_mode:
+        description: 'Force low-end-friendly quality settings (recommended)'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repo with LFS
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+          fetch-depth: 0
+
+      - name: Pick the project
+        id: pick
+        run: |
+          set -e
+          if [ -n "${{ github.event.inputs.project }}" ]; then
+            P="ported/${{ github.event.inputs.project }}"
+          else
+            P=$(find ported -maxdepth 1 -mindepth 1 -type d | head -1)
+          fi
+          if [ ! -f "$P/ProjectSettings/ProjectVersion.txt" ]; then
+            echo "::error::No valid Unity project found under ported/ — run workflow '1 - Port game' first."
+            exit 1
+          fi
+          echo "project=$P" >> "$GITHUB_OUTPUT"
+          cat "$P/ProjectSettings/ProjectVersion.txt"
+
+      - name: Apply low-end performance settings
+        if: ${{ github.event.inputs.performance_mode == 'true' }}
+        run: |
+          set -e
+          P="${{ steps.pick.outputs.project }}"
+          mkdir -p "$P/Assets/Editor"
+          cat > "$P/Assets/Editor/ForcePerformanceSettings.cs" <<'EOF'
+          using UnityEditor;
+          using UnityEngine;
+
+          public static class ForcePerformanceSettings
+          {
+              [InitializeOnLoadMethod]
+              private static void Apply()
+              {
+                  QualitySettings.SetQualityLevel(0, true);
+                  PlayerSettings.SetMobileAntialiasing(0);
+                  PlayerSettings.targetFrameRate = 30;
+                  AssetDatabase.SaveAssets();
+                  Debug.Log("[G2R] Low-end performance settings applied.");
+              }
+          }
+          EOF
+          # Disable soft shadows + drop shadow quality via project settings
+          sed -i 's/m_Shadows: 2/m_Shadows: 0/g' "$P/ProjectSettings/GraphicsSettings.asset" 2>/dev/null || true
+
+      - name: Build Android APK
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          projectPath: ${{ steps.pick.outputs.project }}
+          targetPlatform: Android
+          androidExportType: androidPackage
+          androidTargetSdkVersion: AndroidApiLevelAuto
+          buildsPath: build
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-apk
+          path: build/Android/**/*.apk
+          if-no-files-found: error
+          retention-days: 30
