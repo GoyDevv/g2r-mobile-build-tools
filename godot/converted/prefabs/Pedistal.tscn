@@ -9,7 +9,6 @@ size = Vector3(1, 1, 1)
 [node name="Pedistal" type="RigidBody3D"]
 transform = Transform3D(0.2256523, 0.0, 0.0, 0.0, -1.200752387e-08, 0.225652412, 0.0, -0.225652412, -1.200752387e-08, 4.54438, -2.027717, 7.928036)
 metadata/unity_class = "PrefabLightmapData"
-metadata/unity_class = "changeTextureNightmare"
 metadata/unity_class = "changeTextureNightmareSecond"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]

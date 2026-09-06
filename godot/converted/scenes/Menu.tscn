@@ -1,4 +1,4 @@
-[gd_scene load_steps=42 format=3]
+[gd_scene load_steps=41 format=3]
 [ext_resource type="Texture2D" path="res://assets/textures/privacyOptionsButton.png" id="4"]
 [ext_resource type="Texture2D" path="res://assets/textures/TestToggleBG3.png" id="5"]
 [ext_resource type="Texture2D" path="res://assets/textures/TestToggleBock1.png" id="6"]
@@ -36,7 +36,6 @@
 [ext_resource type="Texture2D" path="res://assets/textures/QuitButton.png" id="38"]
 [ext_resource type="Texture2D" path="res://assets/textures/RemoveAdsButton.png" id="39"]
 [ext_resource type="Texture2D" path="res://assets/textures/MoreGamesButton6.png" id="40"]
-[ext_resource type="Texture2D" path="res://assets/textures/BlackScreenTexture.png" id="41"]
 [ext_resource type="Script" path="res://scripts/menu/drop_down_options.gd" id="1"]
 [ext_resource type="AudioStreamWAV" path="res://assets/audio/Menu.wav" id="2"]
 [ext_resource type="AudioStreamWAV" path="res://assets/audio/BackgroundNoice1.wav" id="3"]
@@ -3210,7 +3209,7 @@ offset_bottom = 0.0
 visible = false
 process_mode = 3
 
-[node name="TextScreenBild_2" type="TextureRect" parent="LoadindScreen"]
+[node name="TextScreenBild_2" type="Control" parent="LoadindScreen"]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1
@@ -3219,7 +3218,6 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
-texture = ExtResource("41")
 
 [node name="LoadingText_1" type="TextureRect" parent="LoadindScreen"]
 anchor_left = 1
@@ -3507,7 +3505,7 @@ visible = false
 process_mode = 3
 texture = ExtResource("37")
 
-[node name="TextScreenBild_3" type="TextureRect" parent="."]
+[node name="TextScreenBild_3" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -3516,7 +3514,6 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
-texture = ExtResource("41")
 
 [node name="Item_Background_15" type="ColorRect" parent="."]
 anchor_left = 0.0
@@ -3588,7 +3585,6 @@ metadata/unity_class = "NoMoreAds"
 script = ExtResource("1")
 metadata/unity_class = "dropDownOptions"
 metadata/unity_class = "CheckingGDPR"
-metadata/unity_class = "CheckingGDPRoption"
 metadata/unity_class = "clickPrivacyOption"
 metadata/unity_class = "ClickPlayButton"
 metadata/unity_class = "ClickMoregamesButton"

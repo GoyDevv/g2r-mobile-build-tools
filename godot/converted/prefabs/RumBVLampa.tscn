@@ -11,7 +11,6 @@ radius = 0.5
 [node name="RumBVLampa" type="RigidBody3D"]
 transform = Transform3D(0.4396045, 0.0, 0.0, 0.0, -2.339247236e-08, 0.2853104152, 0.0, -0.4396050234, -1.518207401e-08, -10.16, 3.797335, -0.46)
 metadata/unity_class = "PrefabLightmapData"
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("1")

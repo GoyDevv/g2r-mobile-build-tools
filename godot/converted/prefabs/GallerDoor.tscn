@@ -8,7 +8,6 @@ size = Vector3(1, 1, 1)
 [node name="GallerDoor" type="RigidBody3D"]
 transform = Transform3D(-0.01032568716, 0.003694333824, -0.002001865127, 6.345935178e-05, 0.001747668306, 0.0405451104, 0.003732358945, 0.01019077256, -0.006227596631, 0.79, -2.04, -4.693)
 metadata/unity_class = "PrefabLightmapData"
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("1")

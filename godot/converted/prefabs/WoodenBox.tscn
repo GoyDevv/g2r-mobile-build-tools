@@ -6,7 +6,6 @@ size = Vector3(1, 1, 1)
 [node name="WoodenBox" type="RigidBody3D"]
 transform = Transform3D(-0.001163997811, -0.000428313958, 0.01871896731, -0.00133501923, 0.01870926565, 0.0003450769871, -0.01867621251, -0.001310687462, -0.001191329412, 12.55466, 0.1860609, -5.990198)
 metadata/unity_class = "PrefabLightmapData"
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="BoxCollider" type="StaticBody3D" parent="."]
 transform = Transform3D(77.88564422, -5.864097881, 0.0, 5.864104638, 77.88555447, 0.0, 0.0, 0.0, 60.58609, 0.0, 0.0, -29.6)

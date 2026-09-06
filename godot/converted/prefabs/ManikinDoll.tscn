@@ -6,7 +6,6 @@ size = Vector3(1, 1, 1)
 [node name="ManikinDoll" type="RigidBody3D"]
 transform = Transform3D(0.02065058514, 0.01133612513, 3.22711807e-09, -3.22711944e-09, -2.006505623e-09, 0.02355746118, 0.01133612513, -0.02065058632, -3.514664679e-10, 10.69, 17.40707, 4.06)
 metadata/unity_class = "PrefabLightmapData"
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="NavigationObstacle3D" type="NavigationObstacle3D" parent="."]
 

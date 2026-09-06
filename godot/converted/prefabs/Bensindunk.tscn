@@ -52,7 +52,6 @@ autoplay = true
 
 [node name="ExplosionMobile" type="Node3D" parent="Explosion"]
 transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0)
-metadata/unity_class = "ExplosionPhysicsForce"
 metadata/unity_class = "ParticleSystemMultiplier"
 
 [node name="TrailsWhite" type="Node3D" parent="Explosion/ExplosionMobile"]

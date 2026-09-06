@@ -17,7 +17,6 @@ transform = Transform3D(0.79097, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1.434225, 6.49
 metadata/unity_tag = "beartrap"
 groups=["unity_beartrap"]
 metadata/unity_class = "BearTrap"
-metadata/unity_class = "organicBeartrap"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("1")

@@ -6,7 +6,6 @@ radius = 0.5
 [node name="LitetBordVR" type="RigidBody3D"]
 transform = Transform3D(0.2952893, 0.0, 0.0, 0.0, -1.571308135e-08, 0.2952894157, 0.0, -0.2952894157, -1.571308135e-08, 8.99, 3.82, -4.77)
 metadata/unity_class = "PrefabLightmapData"
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="NavigationObstacle3D" type="NavigationObstacle3D" parent="."]
 

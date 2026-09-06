@@ -1,50 +1,47 @@
-[gd_scene load_steps=31 format=3]
-[ext_resource type="Texture2D" path="res://assets/textures/BlackScreenTexture.png" id="25"]
+[gd_scene load_steps=28 format=3]
 [ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_509_10.glb" id="1"]
 [ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_523_1.glb" id="2"]
 [ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_498_7.glb" id="3"]
-[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_500_0.glb" id="4"]
-[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_525_9.glb" id="5"]
-[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_512_3.glb" id="6"]
-[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_497_6.glb" id="7"]
-[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_507_4.glb" id="8"]
-[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_524_8.glb" id="9"]
-[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_526_2.glb" id="10"]
-[ext_resource type="Animation" path="res://converted/animations/idle_2.tres" id="11"]
-[ext_resource type="Animation" path="res://converted/animations/Hit.tres" id="12"]
-[ext_resource type="Animation" path="res://converted/animations/Walk_1.tres" id="13"]
-[ext_resource type="Animation" path="res://converted/animations/walkArms.tres" id="14"]
-[ext_resource type="Animation" path="res://converted/animations/Look.tres" id="15"]
-[ext_resource type="Animation" path="res://converted/animations/lookBed.tres" id="16"]
-[ext_resource type="Animation" path="res://converted/animations/GrannyLookTeddy.tres" id="17"]
-[ext_resource type="Animation" path="res://converted/animations/GrannyMoveCamera.tres" id="18"]
-[ext_resource type="AudioStreamWAV" path="res://assets/audio/GrannyCamera2.wav" id="19"]
-[ext_resource type="PackedScene" path="res://assets/meshes/EndSceneHouse_521_5.glb" id="20"]
-[ext_resource type="AudioStreamWAV" path="res://assets/audio/EndSceneSoundOutside2.wav" id="21"]
-[ext_resource type="Animation" path="res://converted/animations/EndSceneCam.tres" id="22"]
-[ext_resource type="AudioStreamWAV" path="res://assets/audio/EndSceneSoundOutside.wav" id="23"]
-[ext_resource type="Animation" path="res://converted/animations/TeddyCamera.tres" id="24"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_525_9.glb" id="4"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_512_3.glb" id="5"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objCylinder01_497_6.glb" id="6"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_507_4.glb" id="7"]
+[ext_resource type="PackedScene" path="res://assets/meshes/objPlane03_526_2.glb" id="8"]
+[ext_resource type="Animation" path="res://converted/animations/idle_2.tres" id="9"]
+[ext_resource type="Animation" path="res://converted/animations/Hit.tres" id="10"]
+[ext_resource type="Animation" path="res://converted/animations/Walk_1.tres" id="11"]
+[ext_resource type="Animation" path="res://converted/animations/walkArms.tres" id="12"]
+[ext_resource type="Animation" path="res://converted/animations/Look.tres" id="13"]
+[ext_resource type="Animation" path="res://converted/animations/lookBed.tres" id="14"]
+[ext_resource type="Animation" path="res://converted/animations/GrannyLookTeddy.tres" id="15"]
+[ext_resource type="Animation" path="res://converted/animations/GrannyMoveCamera.tres" id="16"]
+[ext_resource type="AudioStreamWAV" path="res://assets/audio/GrannyCamera2.wav" id="17"]
+[ext_resource type="PackedScene" path="res://assets/meshes/EndSceneHouse_521_5.glb" id="18"]
+[ext_resource type="AudioStreamWAV" path="res://assets/audio/EndSceneSoundOutside2.wav" id="19"]
+[ext_resource type="Animation" path="res://converted/animations/EndSceneCam.tres" id="20"]
+[ext_resource type="AudioStreamWAV" path="res://assets/audio/EndSceneSoundOutside.wav" id="21"]
+[ext_resource type="Animation" path="res://converted/animations/TeddyCamera.tres" id="22"]
 [sub_resource type="AnimationLibrary" id="1"]
-animations/idle_2 = ExtResource("11")
-animations/Hit = ExtResource("12")
-animations/Walk_1 = ExtResource("13")
-animations/walkArms = ExtResource("14")
-animations/Look = ExtResource("15")
-animations/lookBed = ExtResource("16")
+animations/idle_2 = ExtResource("9")
+animations/Hit = ExtResource("10")
+animations/Walk_1 = ExtResource("11")
+animations/walkArms = ExtResource("12")
+animations/Look = ExtResource("13")
+animations/lookBed = ExtResource("14")
 [sub_resource type="AnimationLibrary" id="2"]
-animations/GrannyLookTeddy = ExtResource("17")
+animations/GrannyLookTeddy = ExtResource("15")
 [sub_resource type="AnimationLibrary" id="3"]
-animations/GrannyMoveCamera = ExtResource("18")
+animations/GrannyMoveCamera = ExtResource("16")
 [sub_resource type="AnimationLibrary" id="4"]
-animations/EndSceneCam = ExtResource("22")
+animations/EndSceneCam = ExtResource("20")
 [sub_resource type="AnimationLibrary" id="5"]
-animations/TeddyCamera = ExtResource("24")
+animations/TeddyCamera = ExtResource("22")
 
 
 [node name="SceneRoot" type="Node3D"]
 
 
-[node name="BlackScreenStart_1" type="TextureRect" parent="."]
+[node name="BlackScreenStart_1" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -53,7 +50,6 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
-texture = ExtResource("25")
 
 [node name="BlackScreenStartParent" type="Control" parent="."]
 anchor_left = 0.0
@@ -65,7 +61,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 
-[node name="BlackScreenStart_2" type="TextureRect" parent="BlackScreenStartParent"]
+[node name="BlackScreenStart_2" type="Control" parent="BlackScreenStartParent"]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1
@@ -74,7 +70,6 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
-texture = ExtResource("25")
 [node name="Area_Light" type="Node3D" parent="."]
 transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, -1.000000053, 0.0, 1.000000053, -5.32124802e-08, -0.63, 10.81, 8.97)
 visible = false
@@ -115,22 +110,19 @@ metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
 [node name="objPlane03_1" type="Node3D" parent="AllTrees/Tree4_1"]
 transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
 
-[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_1/objPlane03_1" instance=ExtResource("4")]
-metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
-
 [node name="Tree4_2" type="Node3D" parent="AllTrees"]
 transform = Transform3D(0.1730340218, 0.0, -0.1489452445, 0.0, 0.22831, 0.0, 0.1489452445, 0.0, 0.1730340218, 7.9, -13.6001, -15.1)
 
 [node name="objCylinder01_2" type="Node3D" parent="AllTrees/Tree4_2"]
 transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
 
-[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_2/objCylinder01_2" instance=ExtResource("5")]
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_2/objCylinder01_2" instance=ExtResource("4")]
 metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
 
 [node name="objPlane03_2" type="Node3D" parent="AllTrees/Tree4_2"]
 transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
 
-[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_2/objPlane03_2" instance=ExtResource("6")]
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_2/objPlane03_2" instance=ExtResource("5")]
 metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
 
 [node name="Tree4_3" type="Node3D" parent="AllTrees"]
@@ -139,13 +131,13 @@ transform = Transform3D(0.1730340218, 0.0, -0.1489452445, 0.0, 0.22831, 0.0, 0.1
 [node name="objCylinder01_3" type="Node3D" parent="AllTrees/Tree4_3"]
 transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
 
-[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_3/objCylinder01_3" instance=ExtResource("7")]
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_3/objCylinder01_3" instance=ExtResource("6")]
 metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
 
 [node name="objPlane03_3" type="Node3D" parent="AllTrees/Tree4_3"]
 transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
 
-[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_3/objPlane03_3" instance=ExtResource("8")]
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_3/objPlane03_3" instance=ExtResource("7")]
 metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
 
 [node name="Tree4_4" type="Node3D" parent="AllTrees"]
@@ -154,13 +146,10 @@ transform = Transform3D(0.1730340218, 0.0, -0.1489452445, 0.0, 0.22831, 0.0, 0.1
 [node name="objCylinder01_4" type="Node3D" parent="AllTrees/Tree4_4"]
 transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
 
-[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_4/objCylinder01_4" instance=ExtResource("9")]
-metadata/unity_materials = ["86f1d3f16345431a920d55be65ca912b"]
-
 [node name="objPlane03_4" type="Node3D" parent="AllTrees/Tree4_4"]
 transform = Transform3D(1, 0.0, 0.0, 0.0, -5.32124802e-08, 1.000000053, 0.0, -1.000000053, -5.32124802e-08, 0.0, 0.0, 0.0)
 
-[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_4/objPlane03_4" instance=ExtResource("10")]
+[node name="Mesh" type="Node3D" parent="AllTrees/Tree4_4/objPlane03_4" instance=ExtResource("8")]
 metadata/unity_materials = ["e7b64e72aa324cb39fd2d76e00a49530"]
 
 [node name="TheEndTextNoGranny" type="Node3D" parent="."]
@@ -208,7 +197,6 @@ process_mode = 3
 
 [node name="Granny" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6"]
 transform = Transform3D(0.7850235, 0.0, 0.0, 0.0, -3.776212483e-08, 1.222186065, 0.0, -0.7096479378, -6.503554833e-08, -0.2320186, 0.0, -0.4640371)
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="SlendrinaMom" type="Node3D" parent="GrannyParent2/GrannyMove/GrannyTest6"]
 transform = Transform3D(1.19999952e-06, -1.0000001, 0.0, 0.0, -2.000004799e-07, 1.0000002, -1.0000001, -1.4e-06, -2.000004999e-07, -0.07880962, 115.7509, -2.893595)
@@ -413,11 +401,9 @@ transform = Transform3D(0.0154910892, 0.5445753188, 0.005997466902, -0.543003235
 
 [node name="Teddy" type="Node3D" parent="GrannyParent2"]
 transform = Transform3D(0.1464624286, -0.002409118517, 0.009575793358, 0.0006007526388, 0.1442691135, 0.02710728169, -0.009855900098, -0.02700669865, 0.143952222, -1.934, 3.179, 0.3360004)
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="TeddyGrannyGone" type="Node3D" parent="GrannyParent2"]
 transform = Transform3D(0.02633673718, -0.144400736, -0.001451646889, 0.03973969374, 0.005828632286, 0.1411881272, -0.1388324047, -0.02572465666, 0.04013862334, -1.93, 2.776, -1.016)
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="Slendrina2" type="Node3D" parent="GrannyParent2"]
 transform = Transform3D(0.02429118, 0.0, 0.0, 0.0, 0.02429118, 0.0, 0.0, 0.0, 0.02429118, -0.77, 2.625961, -4.78)
@@ -462,7 +448,6 @@ process_mode = 3
 
 [node name="Granny_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1"]
 transform = Transform3D(0.7850235, 0.0, 0.0, 0.0, -3.776212483e-08, 1.222186065, 0.0, -0.7096479378, -6.503554833e-08, -0.2320186, 0.0, -0.4640371)
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="SlendrinaMom_1" type="Node3D" parent="GrannyParentHome/GrannyMove_1/GrannyTest6_1"]
 transform = Transform3D(1.19999952e-06, -1.0000001, 0.0, 0.0, -2.000004799e-07, 1.0000002, -1.0000001, -1.4e-06, -2.000004999e-07, -0.07880962, 115.7509, -2.893595)
@@ -671,7 +656,7 @@ visible = false
 process_mode = 3
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="ScareSoundeffects/Audio_Source"]
-stream = ExtResource("19")
+stream = ExtResource("17")
 volume_db = 0.0
 max_distance = 500
 unit_size = 1
@@ -706,7 +691,6 @@ process_mode = 3
 
 [node name="Granny_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2"]
 transform = Transform3D(0.7850235, 0.0, 0.0, 0.0, -3.776212483e-08, 1.222186065, 0.0, -0.7096479378, -6.503554833e-08, -0.2320186, 0.0, -0.4640371)
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="SlendrinaMom_2" type="Node3D" parent="GrannyParent/GrannyMove_2/GrannyTest6_2"]
 transform = Transform3D(1.19999952e-06, -1.0000001, 0.0, 0.0, -2.000004799e-07, 1.0000002, -1.0000001, -1.4e-06, -2.000004999e-07, -0.07880962, 115.7509, -2.893595)
@@ -906,7 +890,7 @@ transform = Transform3D(0.0154910892, 0.5445753188, 0.005997466902, -0.543003235
 [node name="EndSceneHouse" type="Node3D" parent="."]
 transform = Transform3D(0.255376, 0.0, 0.0, 0.0, -1.358919566e-08, 0.08387716446, 0.0, -0.2553761136, -4.463311716e-09, -0.7597237, -0.7207794, -0.03731346)
 
-[node name="Mesh" type="Node3D" parent="EndSceneHouse" instance=ExtResource("20")]
+[node name="Mesh" type="Node3D" parent="EndSceneHouse" instance=ExtResource("18")]
 metadata/unity_materials = ["c4324d06c72f4d3495f77880ef4d88aa"]
 
 [node name="BlackScreenStart" type="Node3D" parent="."]
@@ -929,7 +913,7 @@ near = 0.3
 far = 1000
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="CamHolder/Main_Camera"]
-stream = ExtResource("21")
+stream = ExtResource("19")
 volume_db = 0.0
 max_distance = 500
 unit_size = 1
@@ -954,7 +938,7 @@ near = 0.3
 far = 1000
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="CamHolder/Main_Camera2"]
-stream = ExtResource("23")
+stream = ExtResource("21")
 volume_db = 0.0
 max_distance = 500
 unit_size = 1

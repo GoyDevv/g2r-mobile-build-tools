@@ -8,7 +8,6 @@ height = 1.84
 transform = Transform3D(-0.06799240762, 0.04688505959, -0.08898824808, 3.098190551e-08, 0.1078417316, 0.05698285993, 0.09887575913, 0.03224070155, -0.06119323158, 2.321275, 8.267725, -10.60697)
 metadata/unity_tag = "teddy"
 groups=["unity_teddy"]
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="Trigger_2" type="StaticBody3D" parent="."]
 transform = Transform3D(7.485933, 0.0, 0.0, 0.0, 6.509114, 0.0, 0.0, 0.0, 14.43303, 0.0, 0.0, 0.0)

@@ -119,35 +119,17 @@
 "verts": 4976,
 "tris": 4004
 },
-"95cb77ddd00dc49833fe47997927cf4a": {
-"glb": "res://assets/meshes/Garage_4432_15.glb",
-"name": "Garage_4432_15",
-"verts": 2221,
-"tris": 1493
-},
 "20a56534d00dc49833fe4799fe3f1fd4": {
 "glb": "res://assets/meshes/Giljotin01_4500_20.glb",
 "name": "Giljotin01_4500_20",
 "verts": 432,
 "tris": 292
 },
-"39af64f9d00dc49833fe47992144df1c": {
-"glb": "res://assets/meshes/GiljotinBluprint_4366_0.glb",
-"name": "GiljotinBluprint_4366_0",
-"verts": 121,
-"tris": 200
-},
 "a5d72cdfd00dc49833fe479999f8b879": {
 "glb": "res://assets/meshes/Golv1_4477_1.glb",
 "name": "Golv1_4477_1",
 "verts": 591,
 "tris": 378
-},
-"3be878e0d00dc49833fe4799a41d2ffe": {
-"glb": "res://assets/meshes/GolvHuset_4464_38.glb",
-"name": "GolvHuset_4464_38",
-"verts": 1232,
-"tris": 708
 },
 "8987cf9ed00dc49833fe479981767022": {
 "glb": "res://assets/meshes/HallFurniture2_4776_32.glb",
@@ -191,59 +173,17 @@
 "verts": 1420,
 "tris": 730
 },
-"f0750bd1d00dc49833fe47997b66ef36": {
-"glb": "res://assets/meshes/HyllaHall_4470_50.glb",
-"name": "HyllaHall_4470_50",
-"verts": 24,
-"tris": 12
-},
-"46ec267bd00dc49833fe4799c3da8853": {
-"glb": "res://assets/meshes/HyllaPrison_4663_51.glb",
-"name": "HyllaPrison_4663_51",
-"verts": 24,
-"tris": 12
-},
-"293ecd62d00dc49833fe47995e0db0ea": {
-"glb": "res://assets/meshes/HyllaUnderTrapp_4708_52.glb",
-"name": "HyllaUnderTrapp_4708_52",
-"verts": 24,
-"tris": 12
-},
-"2b75cad2d00dc49833fe47995677f723": {
-"glb": "res://assets/meshes/HyllorLampaOuthouse_4686_43.glb",
-"name": "HyllorLampaOuthouse_4686_43",
-"verts": 583,
-"tris": 384
-},
 "4c491974d00dc49833fe47993b8b373b": {
 "glb": "res://assets/meshes/InvinsibleRopeCube_4485_28.glb",
 "name": "InvinsibleRopeCube_4485_28",
 "verts": 24,
 "tris": 12
 },
-"64d5fa33d00dc49833fe4799fc7e3fa8": {
-"glb": "res://assets/meshes/KitchenFurniture_4363_41.glb",
-"name": "KitchenFurniture_4363_41",
-"verts": 3329,
-"tris": 2428
-},
-"b2ffa7f3d00dc49833fe4799731ca8ff": {
-"glb": "res://assets/meshes/KlockdelOutside_4676_45.glb",
-"name": "KlockdelOutside_4676_45",
-"verts": 609,
-"tris": 540
-},
 "dac131efd00dc49833fe4799cba0cf9a": {
 "glb": "res://assets/meshes/Klockdel_4274_44.glb",
 "name": "Klockdel_4274_44",
 "verts": 609,
 "tris": 540
-},
-"1c5b97f9d00dc49833fe4799a65c0f82": {
-"glb": "res://assets/meshes/Larmdosa_4879_27.glb",
-"name": "Larmdosa_4879_27",
-"verts": 24,
-"tris": 12
 },
 "25308116d00dc49833fe4799d9156074": {
 "glb": "res://assets/meshes/Lekhus_4467_47.glb",
@@ -269,18 +209,6 @@
 "verts": 7354,
 "tris": 7152
 },
-"10907034d00dc49833fe479993c3dfcc": {
-"glb": "res://assets/meshes/MomPlace_4507_35.glb",
-"name": "MomPlace_4507_35",
-"verts": 3773,
-"tris": 2694
-},
-"3201109bd00dc49833fe4799a8e528cf": {
-"glb": "res://assets/meshes/OldHouseWalls_4520_67.glb",
-"name": "OldHouseWalls_4520_67",
-"verts": 2963,
-"tris": 1744
-},
 "c61a8c6bd00dc49833fe479961a90711": {
 "glb": "res://assets/meshes/OutHouseFloor_4301_46.glb",
 "name": "OutHouseFloor_4301_46",
@@ -305,12 +233,6 @@
 "verts": 696,
 "tris": 348
 },
-"274acbc9e72a38a2ddae45a04ef93f78": {
-"glb": "res://assets/meshes/ProppSkop_4667_10.glb",
-"name": "ProppSkop_4667_10",
-"verts": 2099,
-"tris": 1776
-},
 "59c55a86d00dc49833fe4799ac676837": {
 "glb": "res://assets/meshes/Regel_4864_57.glb",
 "name": "Regel_4864_57",
@@ -329,30 +251,6 @@
 "verts": 24,
 "tris": 12
 },
-"10cf3d08d00dc49833fe47996b9260a4": {
-"glb": "res://assets/meshes/SpiderWeb__1__4340_12.glb",
-"name": "SpiderWeb__1__4340_12",
-"verts": 24,
-"tris": 12
-},
-"030f1a55d00dc49833fe47995c4c9096": {
-"glb": "res://assets/meshes/SpiderWeb__2__4283_9.glb",
-"name": "SpiderWeb__2__4283_9",
-"verts": 24,
-"tris": 12
-},
-"182110ffd00dc49833fe4799042f80c0": {
-"glb": "res://assets/meshes/SpiderWeb__3__4624_6.glb",
-"name": "SpiderWeb__3__4624_6",
-"verts": 24,
-"tris": 12
-},
-"fadc364ad00dc49833fe47994ef93f78": {
-"glb": "res://assets/meshes/SpiderWeb__4__4648_10.glb",
-"name": "SpiderWeb__4__4648_10",
-"verts": 24,
-"tris": 12
-},
 "fd861df2d00dc49833fe479933f170f2": {
 "glb": "res://assets/meshes/SpiderWeb__5__4766_3.glb",
 "name": "SpiderWeb__5__4766_3",
@@ -365,21 +263,9 @@
 "verts": 24,
 "tris": 12
 },
-"1b481220d00dc49833fe4799e4f0f7f3": {
-"glb": "res://assets/meshes/SpiderWeb__7__4348_8.glb",
-"name": "SpiderWeb__7__4348_8",
-"verts": 24,
-"tris": 12
-},
 "e43dba79d00dc49833fe4799169a2f2e": {
 "glb": "res://assets/meshes/SpiderWeb__8__4761_5.glb",
 "name": "SpiderWeb__8__4761_5",
-"verts": 24,
-"tris": 12
-},
-"f0762c46d00dc49833fe4799f645581d": {
-"glb": "res://assets/meshes/SpiderWeb__9__4813_11.glb",
-"name": "SpiderWeb__9__4813_11",
 "verts": 24,
 "tris": 12
 },
@@ -413,29 +299,11 @@
 "verts": 145,
 "tris": 116
 },
-"b9b3f3c8d00dc49833fe47992305ff60": {
-"glb": "res://assets/meshes/Tunna_4567_61.glb",
-"name": "Tunna_4567_61",
-"verts": 145,
-"tris": 116
-},
 "e1e1e445d00dc49833fe4799ec8ab03a": {
 "glb": "res://assets/meshes/Vagga_4715_23.glb",
 "name": "Vagga_4715_23",
 "verts": 1250,
 "tris": 1000
-},
-"531ba027e72a38a2ddae45a0c19ba82f": {
-"glb": "res://assets/meshes/VapenSkop_4270_14.glb",
-"name": "VapenSkop_4270_14",
-"verts": 396,
-"tris": 316
-},
-"98e4d1d1d00dc49833fe4799b4e9a06c": {
-"glb": "res://assets/meshes/Vind2_4773_24.glb",
-"name": "Vind2_4773_24",
-"verts": 1999,
-"tris": 1257
 },
 "6c14406bd00dc49833fe47990c55c709": {
 "glb": "res://assets/meshes/Vind_4675_25.glb",
@@ -448,24 +316,6 @@
 "name": "Water2_4379_17",
 "verts": 121,
 "tris": 200
-},
-"74234207d00dc49833fe4799db544008": {
-"glb": "res://assets/meshes/Water_4276_18.glb",
-"name": "Water_4276_18",
-"verts": 121,
-"tris": 200
-},
-"5c70dc82d00dc49833fe4799e6b1d78f": {
-"glb": "res://assets/meshes/Wheelchair_4631_53.glb",
-"name": "Wheelchair_4631_53",
-"verts": 4726,
-"tris": 3068
-},
-"348ff389d00dc49833fe47992b7fb8a9": {
-"glb": "res://assets/meshes/YtterWall_4796_34.glb",
-"name": "YtterWall_4796_34",
-"verts": 72,
-"tris": 52
 },
 "8c12fbf5e72a38a2ddae45a0ae26484b": {
 "glb": "res://assets/meshes/chest02_4789_4.glb",
@@ -503,12 +353,6 @@
 "verts": 329,
 "tris": 320
 },
-"8f7803b6d00dc49833fe4799483a5ffc": {
-"glb": "res://assets/meshes/left_hand02_4240_77.glb",
-"name": "left_hand02_4240_77",
-"verts": 876,
-"tris": 534
-},
 "0233e0ebe72a38a2ddae45a033f170f2": {
 "glb": "res://assets/meshes/left_shoulder02_4368_3.glb",
 "name": "left_shoulder02_4368_3",
@@ -520,12 +364,6 @@
 "name": "left_thigh02_4651_1",
 "verts": 276,
 "tris": 262
-},
-"0793baecd00dc49833fe4799f0863899": {
-"glb": "res://assets/meshes/left_up_hand02_4431_76.glb",
-"name": "left_up_hand02_4431_76",
-"verts": 178,
-"tris": 186
 },
 "c65adea4d00dc49833fe4799c758c8ab": {
 "glb": "res://assets/meshes/neck02_4593_73.glb",
@@ -551,23 +389,11 @@
 "verts": 84,
 "tris": 84
 },
-"047aca08df2ce19bf6f84da4e4f0f7f3": {
-"glb": "res://assets/meshes/objCylinder01_524_8.glb",
-"name": "objCylinder01_524_8",
-"verts": 84,
-"tris": 84
-},
 "7b61f7e4df2ce19bf6f84da45c4c9096": {
 "glb": "res://assets/meshes/objCylinder01_525_9.glb",
 "name": "objCylinder01_525_9",
 "verts": 84,
 "tris": 84
-},
-"b46a4993df2ce19bf6f84da42144df1c": {
-"glb": "res://assets/meshes/objPlane03_500_0.glb",
-"name": "objPlane03_500_0",
-"verts": 64,
-"tris": 72
 },
 "c8600977df2ce19bf6f84da4ae26484b": {
 "glb": "res://assets/meshes/objPlane03_507_4.glb",
@@ -616,12 +442,6 @@
 "name": "right_foot02_4608_68",
 "verts": 1020,
 "tris": 616
-},
-"cd0c6a61d00dc49833fe4799d5ed6745": {
-"glb": "res://assets/meshes/right_fore_arm02_4704_74.glb",
-"name": "right_fore_arm02_4704_74",
-"verts": 318,
-"tris": 320
 },
 "05103065d00dc49833fe47997fe4afce": {
 "glb": "res://assets/meshes/right_hand02_4438_72.glb",

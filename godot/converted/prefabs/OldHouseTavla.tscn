@@ -11,7 +11,6 @@ size = Vector3(0.06, 1.23, 0.94)
 transform = Transform3D(-0.140505, 0.0, 0.0, 0.0, 0.1970925, 0.0, 0.0, 0.0, -0.17292, 0.692, 6.148, -35.87)
 metadata/unity_class = "rivNerTavla"
 metadata/unity_class = "PrefabLightmapData"
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("1")

@@ -45,7 +45,6 @@ transform = Transform3D(0.0203708, 0.0, 0.0, 0.0, 0.0203708, 0.0, 0.0, 0.0, 0.02
 
 [node name="Granny" type="Node3D" parent="GrannyTest6"]
 transform = Transform3D(0.7850235, 0.0, 0.0, 0.0, -3.776212483e-08, 1.222186065, 0.0, -0.7096479378, -6.503554833e-08, -0.2320186, 0.0, -0.4640371)
-metadata/unity_class = "changeTextureNightmare"
 
 [node name="SlendrinaMom" type="Node3D" parent="GrannyTest6"]
 transform = Transform3D(1.19999952e-06, -1.0000001, 0.0, 0.0, -2.000004799e-07, 1.0000002, -1.0000001, -1.4e-06, -2.000004999e-07, -0.07880962, 115.7509, -2.893595)

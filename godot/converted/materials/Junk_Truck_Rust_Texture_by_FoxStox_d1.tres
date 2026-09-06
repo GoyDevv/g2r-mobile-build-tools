@@ -1,7 +1,5 @@
 [gd_resource type="StandardMaterial3D" format=3]
-[ext_resource type="Texture2D" path="res://assets/textures/Junk_Truck_Rust_Texture_by_FoxStox.png" id="1"]
 [resource]
-albedo_texture = ExtResource("1")
 albedo_color = Color(0.0, 0.0, 0.0, 0.0)
 roughness = 0.5
 transparency = 1
