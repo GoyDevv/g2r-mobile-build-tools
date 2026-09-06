@@ -154,6 +154,14 @@ jobs:
           done
 
           kill $ARPID 2>/dev/null || true
+          # AssetRipper 2.x nests the real project inside ExportedProject/ - flatten it
+          X="ported/${{ steps.pick.outputs.name }}/ExportedProject"
+          if [ -d "$X" ]; then
+            shopt -s dotglob
+            mv "$X"/* "ported/${{ steps.pick.outputs.name }}/"
+            rmdir "$X"
+            echo "Flattened ExportedProject into ported/${{ steps.pick.outputs.name }}"
+          fi
           echo "=== Export result ==="
           du -sh ported/ 2>/dev/null || true
           ls -la "ported/${{ steps.pick.outputs.name }}" 2>/dev/null || { echo "::error::Export produced no project — AssetRipper log follows"; tail -100 ar.log; exit 1; }
