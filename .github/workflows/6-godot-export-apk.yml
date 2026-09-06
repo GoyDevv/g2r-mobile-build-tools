@@ -38,9 +38,13 @@ jobs:
             https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz
           mkdir -p /tmp/tpl
           unzip -q /tmp/templates.tpz -d /tmp/tpl
-          mkdir -p "$HOME/.local/share/godot/export_templates"
-          cp -r /tmp/tpl/templates/* "$HOME/.local/share/godot/export_templates/"
-          ls "$HOME/.local/share/godot/export_templates" | head -5
+          # Godot expects templates under export_templates/<version>/ where version
+          # is the tag without the ".official.<hash>" suffix, e.g. "4.7.2.stable"
+          GODOT_VER=$(godot --version | sed 's/\.official.*//')
+          echo "Template dir: $GODOT_VER"
+          mkdir -p "$HOME/.local/share/godot/export_templates/$GODOT_VER"
+          cp -r /tmp/tpl/templates/* "$HOME/.local/share/godot/export_templates/$GODOT_VER/"
+          ls "$HOME/.local/share/godot/export_templates/$GODOT_VER" | head -5
 
       - name: Create debug keystore and configure Godot
         run: |
@@ -59,9 +63,9 @@ jobs:
       - name: Export APK (debug-signed, arm64 + armeabi-v7a)
         run: |
           set -e
-          mkdir -p build
-          godot --headless --path godot --export-debug "Android" build/GrannyForsaken.apk
-          ls -la build/
+          mkdir -p "$PWD/build"
+          godot --headless --path godot --export-debug "Android" "$PWD/build/GrannyForsaken.apk"
+          ls -la "$PWD/build/"
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
