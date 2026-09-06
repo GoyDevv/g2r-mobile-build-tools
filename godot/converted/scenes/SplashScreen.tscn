@@ -6,28 +6,6 @@
 [node name="SceneRoot" type="Node3D"]
 
 
-[node name="Image" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="DVloperText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("2")
-modulate = Color(1, 1, 1, 0.0)
-
 [node name="SplashScreen" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
@@ -37,8 +15,9 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 
-[node name="Image_1" type="Control" parent="SplashScreen"]
+[node name="Image" type="Control" parent="SplashScreen"]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1
@@ -47,8 +26,9 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 
-[node name="DVloperText_1" type="TextureRect" parent="SplashScreen"]
+[node name="DVloperText" type="TextureRect" parent="SplashScreen"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -57,6 +37,53 @@ offset_left = -50
 offset_top = -50
 offset_right = 50
 offset_bottom = 50
+mouse_filter = 2
+texture = ExtResource("2")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="OrphanRoot_1" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Image_1" type="Control" parent="OrphanRoot_1"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 1
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="OrphanRoot_2" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="DVloperText_1" type="TextureRect" parent="OrphanRoot_2"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -50
+offset_right = 50
+offset_bottom = 50
+mouse_filter = 2
 texture = ExtResource("2")
 modulate = Color(1, 1, 1, 0.0)
 [node name="EventSystem" type="Node3D" parent="."]

@@ -1,117 +1,117 @@
 [gd_scene load_steps=679 format=3]
-[ext_resource type="Texture2D" path="res://assets/textures/BloodTexture3.png" id="266"]
-[ext_resource type="Texture2D" path="res://assets/textures/BloodTexturePlayerHit2.png" id="267"]
-[ext_resource type="Texture2D" path="res://assets/textures/BloodTextureSpiderBite.png" id="268"]
-[ext_resource type="Texture2D" path="res://assets/textures/FreezeTrapText.png" id="269"]
-[ext_resource type="Texture2D" path="res://assets/textures/ShootText.png" id="270"]
-[ext_resource type="Texture2D" path="res://assets/textures/RemoteControlText.png" id="271"]
-[ext_resource type="Texture2D" path="res://assets/textures/PushHand.png" id="272"]
-[ext_resource type="Script" path="res://scripts/ui/see_objects.gd" id="273"]
-[ext_resource type="Texture2D" path="res://assets/textures/PractiseModeText3.png" id="274"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedCuttingpliersText.png" id="275"]
-[ext_resource type="Texture2D" path="res://assets/textures/GasolineCanText.png" id="276"]
-[ext_resource type="Texture2D" path="res://assets/textures/StartButton.png" id="277"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedWrenchText.png" id="278"]
-[ext_resource type="Texture2D" path="res://assets/textures/SprayText.png" id="279"]
-[ext_resource type="Texture2D" path="res://assets/textures/ShotgunLoaded.png" id="280"]
-[ext_resource type="Texture2D" path="res://assets/textures/EmptyPlateText.png" id="281"]
-[ext_resource type="Texture2D" path="res://assets/textures/WeaponKeyText.png" id="282"]
-[ext_resource type="Texture2D" path="res://assets/textures/Day1.png" id="283"]
-[ext_resource type="Texture2D" path="res://assets/textures/BonusDayTheLastDay.png" id="284"]
-[ext_resource type="Texture2D" path="res://assets/textures/Day5TheLastDay.png" id="285"]
-[ext_resource type="Texture2D" path="res://assets/textures/Day5.png" id="286"]
-[ext_resource type="Texture2D" path="res://assets/textures/Day4.png" id="287"]
-[ext_resource type="Texture2D" path="res://assets/textures/Day3.png" id="288"]
-[ext_resource type="Texture2D" path="res://assets/textures/Day2.png" id="289"]
-[ext_resource type="Texture2D" path="res://assets/textures/DropText.png" id="290"]
-[ext_resource type="Script" path="res://scripts/ui/drop_objects.gd" id="291"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedEnginePart.png" id="292"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedMasterKeyText.png" id="293"]
-[ext_resource type="Texture2D" path="res://assets/textures/PlacedExtraLockOnDoor2.png" id="294"]
-[ext_resource type="Texture2D" path="res://assets/textures/TheEndText.png" id="295"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedSpecialKeyText.png" id="296"]
-[ext_resource type="Texture2D" path="res://assets/textures/ShotgunText.png" id="297"]
-[ext_resource type="Texture2D" path="res://assets/textures/WinchHandleText.png" id="298"]
-[ext_resource type="Texture2D" path="res://assets/textures/ShouldopenGarageDoorFirst.png" id="299"]
-[ext_resource type="Texture2D" path="res://assets/textures/RemoveBeartrapButton4.png" id="300"]
-[ext_resource type="Texture2D" path="res://assets/textures/MasterKeyText.png" id="301"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedCarBattery.png" id="302"]
-[ext_resource type="Texture2D" path="res://assets/textures/InCoffinButton.png" id="303"]
-[ext_resource type="Texture2D" path="res://assets/textures/carButtonIn5.png" id="304"]
-[ext_resource type="Texture2D" path="res://assets/textures/DangerousCuttinToolText.png" id="305"]
-[ext_resource type="Texture2D" path="res://assets/textures/OptionsMenuIG2.png" id="306"]
-[ext_resource type="Texture2D" path="res://assets/textures/MainMenuButton.png" id="307"]
-[ext_resource type="Script" path="res://scripts/menu/back_to_menu.gd" id="308"]
-[ext_resource type="Texture2D" path="res://assets/textures/ResumeButton.png" id="309"]
-[ext_resource type="Texture2D" path="res://assets/textures/ForwardButton2.png" id="310"]
-[ext_resource type="Texture2D" path="res://assets/textures/BirdSeedText.png" id="311"]
-[ext_resource type="Texture2D" path="res://assets/textures/iHaveToLeaveThisHouseText.png" id="312"]
-[ext_resource type="Texture2D" path="res://assets/textures/CuttingPliersText.png" id="313"]
-[ext_resource type="Texture2D" path="res://assets/textures/HammerText.png" id="314"]
-[ext_resource type="Texture2D" path="res://assets/textures/PadlockKeyText.png" id="315"]
-[ext_resource type="Texture2D" path="res://assets/textures/SafeKeyText.png" id="316"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedSafeKeyText.png" id="317"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedPadlockKeyText.png" id="318"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedHammerText.png" id="319"]
-[ext_resource type="Texture2D" path="res://assets/textures/CantOpenDoorYet.png" id="320"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedPadlockCodeText.png" id="321"]
-[ext_resource type="Texture2D" path="res://assets/textures/PadlockCodeText.png" id="322"]
-[ext_resource type="Texture2D" path="res://assets/textures/CrossbowText.png" id="323"]
-[ext_resource type="Texture2D" path="res://assets/textures/TranquilizerDartText.png" id="324"]
-[ext_resource type="Texture2D" path="res://assets/textures/IneedAcrossbowText.png" id="325"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedWeaponKeyText.png" id="326"]
-[ext_resource type="Texture2D" path="res://assets/textures/ScrewdriverText.png" id="327"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedScrewdriver.png" id="328"]
-[ext_resource type="Texture2D" path="res://assets/textures/PlankText.png" id="329"]
-[ext_resource type="Texture2D" path="res://assets/textures/GrannyIsGoneText1.png" id="330"]
-[ext_resource type="Texture2D" path="res://assets/textures/GrannyIsGoneText3.png" id="331"]
-[ext_resource type="Texture2D" path="res://assets/textures/GrannyIsGoneText4.png" id="332"]
-[ext_resource type="Texture2D" path="res://assets/textures/GrannyIsGoneText_Easy_Shot.png" id="333"]
-[ext_resource type="Texture2D" path="res://assets/textures/MaybeUsePlanksText.png" id="334"]
-[ext_resource type="Texture2D" path="res://assets/textures/BatteryText.png" id="335"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedBatteryText.png" id="336"]
-[ext_resource type="Texture2D" path="res://assets/textures/PieceOfPaintingText.png" id="337"]
-[ext_resource type="Texture2D" path="res://assets/textures/ExtraDayText2.png" id="338"]
-[ext_resource type="Texture2D" path="res://assets/textures/SaknasBitarAvTavlan.png" id="339"]
-[ext_resource type="Texture2D" path="res://assets/textures/PlayhouseKeyText.png" id="340"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedPlayhouseKeyText.png" id="341"]
-[ext_resource type="Texture2D" path="res://assets/textures/MelonText.png" id="342"]
-[ext_resource type="Texture2D" path="res://assets/textures/SomethingMissingHereText.png" id="343"]
-[ext_resource type="Texture2D" path="res://assets/textures/SomethingInsideMelonText2.png" id="344"]
-[ext_resource type="Texture2D" path="res://assets/textures/TeddyText.png" id="345"]
-[ext_resource type="Texture2D" path="res://assets/textures/cogwheelText.png" id="346"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedWinchHandle.png" id="347"]
-[ext_resource type="Texture2D" path="res://assets/textures/AmmoText.png" id="348"]
-[ext_resource type="Texture2D" path="res://assets/textures/PartOfaShotgun.png" id="349"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedCarKeyText2.png" id="350"]
-[ext_resource type="Texture2D" path="res://assets/textures/CarKeyText.png" id="351"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedGasoline.png" id="352"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedSparkPlug.png" id="353"]
-[ext_resource type="Texture2D" path="res://assets/textures/CarBatteryText.png" id="354"]
-[ext_resource type="Texture2D" path="res://assets/textures/SparkPlugText.png" id="355"]
-[ext_resource type="Texture2D" path="res://assets/textures/WrenchText.png" id="356"]
-[ext_resource type="Texture2D" path="res://assets/textures/EnginePartText.png" id="357"]
-[ext_resource type="Texture2D" path="res://assets/textures/DoorLockedText.png" id="358"]
-[ext_resource type="Texture2D" path="res://assets/textures/MeatText.png" id="359"]
-[ext_resource type="Texture2D" path="res://assets/textures/SpecialKeyText.png" id="360"]
-[ext_resource type="Texture2D" path="res://assets/textures/MaybePutSomethingHere.png" id="361"]
-[ext_resource type="Texture2D" path="res://assets/textures/BookText.png" id="362"]
-[ext_resource type="Texture2D" path="res://assets/textures/PepperSprayText.png" id="363"]
-[ext_resource type="Texture2D" path="res://assets/textures/NeedToGetCloser.png" id="364"]
-[ext_resource type="Texture2D" path="res://assets/textures/ItsEmptyText.png" id="365"]
-[ext_resource type="Texture2D" path="res://assets/textures/EmptyBowlText.png" id="366"]
-[ext_resource type="Texture2D" path="res://assets/textures/Ring.png" id="367"]
-[ext_resource type="Texture2D" path="res://assets/textures/FuelImage.png" id="368"]
-[ext_resource type="Texture2D" path="res://assets/textures/GameOverText.png" id="369"]
-[ext_resource type="Texture2D" path="res://assets/textures/SnurraKnapp2.png" id="370"]
-[ext_resource type="Texture2D" path="res://assets/textures/OptionButtonInGame.png" id="371"]
-[ext_resource type="Texture2D" path="res://assets/textures/FrostScreen.png" id="372"]
-[ext_resource type="Texture2D" path="res://assets/textures/StandButton.png" id="373"]
-[ext_resource type="Texture2D" path="res://assets/textures/TestBar2.png" id="374"]
-[ext_resource type="Texture2D" path="res://assets/textures/PlaceText2.png" id="375"]
-[ext_resource type="Texture2D" path="res://assets/textures/ScreenDot.png" id="376"]
-[ext_resource type="Texture2D" path="res://assets/textures/FillingGasCanButton.png" id="377"]
-[ext_resource type="Texture2D" path="res://assets/textures/Day6TheLastDay.png" id="378"]
+[ext_resource type="Texture2D" path="res://assets/textures/iHaveToLeaveThisHouseText.png" id="266"]
+[ext_resource type="Texture2D" path="res://assets/textures/CuttingPliersText.png" id="267"]
+[ext_resource type="Texture2D" path="res://assets/textures/HammerText.png" id="268"]
+[ext_resource type="Texture2D" path="res://assets/textures/MasterKeyText.png" id="269"]
+[ext_resource type="Texture2D" path="res://assets/textures/PadlockKeyText.png" id="270"]
+[ext_resource type="Texture2D" path="res://assets/textures/SafeKeyText.png" id="271"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedSafeKeyText.png" id="272"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedPadlockKeyText.png" id="273"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedMasterKeyText.png" id="274"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedHammerText.png" id="275"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedCuttingpliersText.png" id="276"]
+[ext_resource type="Texture2D" path="res://assets/textures/CantOpenDoorYet.png" id="277"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedPadlockCodeText.png" id="278"]
+[ext_resource type="Texture2D" path="res://assets/textures/PadlockCodeText.png" id="279"]
+[ext_resource type="Texture2D" path="res://assets/textures/CrossbowText.png" id="280"]
+[ext_resource type="Texture2D" path="res://assets/textures/TranquilizerDartText.png" id="281"]
+[ext_resource type="Texture2D" path="res://assets/textures/IneedAcrossbowText.png" id="282"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedWeaponKeyText.png" id="283"]
+[ext_resource type="Texture2D" path="res://assets/textures/WeaponKeyText.png" id="284"]
+[ext_resource type="Texture2D" path="res://assets/textures/ScrewdriverText.png" id="285"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedScrewdriver.png" id="286"]
+[ext_resource type="Texture2D" path="res://assets/textures/PlankText.png" id="287"]
+[ext_resource type="Texture2D" path="res://assets/textures/GrannyIsGoneText1.png" id="288"]
+[ext_resource type="Texture2D" path="res://assets/textures/GrannyIsGoneText3.png" id="289"]
+[ext_resource type="Texture2D" path="res://assets/textures/GrannyIsGoneText4.png" id="290"]
+[ext_resource type="Texture2D" path="res://assets/textures/GrannyIsGoneText_Easy_Shot.png" id="291"]
+[ext_resource type="Texture2D" path="res://assets/textures/MaybeUsePlanksText.png" id="292"]
+[ext_resource type="Texture2D" path="res://assets/textures/BatteryText.png" id="293"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedBatteryText.png" id="294"]
+[ext_resource type="Texture2D" path="res://assets/textures/PieceOfPaintingText.png" id="295"]
+[ext_resource type="Texture2D" path="res://assets/textures/ExtraDayText2.png" id="296"]
+[ext_resource type="Texture2D" path="res://assets/textures/PlacedExtraLockOnDoor2.png" id="297"]
+[ext_resource type="Texture2D" path="res://assets/textures/SaknasBitarAvTavlan.png" id="298"]
+[ext_resource type="Texture2D" path="res://assets/textures/PlayhouseKeyText.png" id="299"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedPlayhouseKeyText.png" id="300"]
+[ext_resource type="Texture2D" path="res://assets/textures/DangerousCuttinToolText.png" id="301"]
+[ext_resource type="Texture2D" path="res://assets/textures/MelonText.png" id="302"]
+[ext_resource type="Texture2D" path="res://assets/textures/SomethingMissingHereText.png" id="303"]
+[ext_resource type="Texture2D" path="res://assets/textures/SomethingInsideMelonText2.png" id="304"]
+[ext_resource type="Texture2D" path="res://assets/textures/TeddyText.png" id="305"]
+[ext_resource type="Texture2D" path="res://assets/textures/cogwheelText.png" id="306"]
+[ext_resource type="Texture2D" path="res://assets/textures/WinchHandleText.png" id="307"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedWinchHandle.png" id="308"]
+[ext_resource type="Texture2D" path="res://assets/textures/ShotgunText.png" id="309"]
+[ext_resource type="Texture2D" path="res://assets/textures/AmmoText.png" id="310"]
+[ext_resource type="Texture2D" path="res://assets/textures/PartOfaShotgun.png" id="311"]
+[ext_resource type="Texture2D" path="res://assets/textures/ShotgunLoaded.png" id="312"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedCarKeyText2.png" id="313"]
+[ext_resource type="Texture2D" path="res://assets/textures/CarKeyText.png" id="314"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedGasoline.png" id="315"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedCarBattery.png" id="316"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedEnginePart.png" id="317"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedSparkPlug.png" id="318"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedWrenchText.png" id="319"]
+[ext_resource type="Texture2D" path="res://assets/textures/GasolineCanText.png" id="320"]
+[ext_resource type="Texture2D" path="res://assets/textures/CarBatteryText.png" id="321"]
+[ext_resource type="Texture2D" path="res://assets/textures/SparkPlugText.png" id="322"]
+[ext_resource type="Texture2D" path="res://assets/textures/WrenchText.png" id="323"]
+[ext_resource type="Texture2D" path="res://assets/textures/EnginePartText.png" id="324"]
+[ext_resource type="Texture2D" path="res://assets/textures/DoorLockedText.png" id="325"]
+[ext_resource type="Texture2D" path="res://assets/textures/ShouldopenGarageDoorFirst.png" id="326"]
+[ext_resource type="Texture2D" path="res://assets/textures/MeatText.png" id="327"]
+[ext_resource type="Texture2D" path="res://assets/textures/EmptyPlateText.png" id="328"]
+[ext_resource type="Texture2D" path="res://assets/textures/SpecialKeyText.png" id="329"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedSpecialKeyText.png" id="330"]
+[ext_resource type="Texture2D" path="res://assets/textures/MaybePutSomethingHere.png" id="331"]
+[ext_resource type="Texture2D" path="res://assets/textures/BookText.png" id="332"]
+[ext_resource type="Texture2D" path="res://assets/textures/PepperSprayText.png" id="333"]
+[ext_resource type="Texture2D" path="res://assets/textures/RemoteControlText.png" id="334"]
+[ext_resource type="Texture2D" path="res://assets/textures/NeedToGetCloser.png" id="335"]
+[ext_resource type="Texture2D" path="res://assets/textures/ItsEmptyText.png" id="336"]
+[ext_resource type="Texture2D" path="res://assets/textures/EmptyBowlText.png" id="337"]
+[ext_resource type="Texture2D" path="res://assets/textures/BirdSeedText.png" id="338"]
+[ext_resource type="Texture2D" path="res://assets/textures/FreezeTrapText.png" id="339"]
+[ext_resource type="Texture2D" path="res://assets/textures/BloodTexture3.png" id="340"]
+[ext_resource type="Texture2D" path="res://assets/textures/BloodTextureSpiderBite.png" id="341"]
+[ext_resource type="Texture2D" path="res://assets/textures/BloodTexturePlayerHit2.png" id="342"]
+[ext_resource type="Texture2D" path="res://assets/textures/FrostScreen.png" id="343"]
+[ext_resource type="Texture2D" path="res://assets/textures/ShootText.png" id="344"]
+[ext_resource type="Texture2D" path="res://assets/textures/TheEndText.png" id="345"]
+[ext_resource type="Texture2D" path="res://assets/textures/PractiseModeText3.png" id="346"]
+[ext_resource type="Texture2D" path="res://assets/textures/PlaceText2.png" id="347"]
+[ext_resource type="Texture2D" path="res://assets/textures/SprayText.png" id="348"]
+[ext_resource type="Texture2D" path="res://assets/textures/OptionButtonInGame.png" id="349"]
+[ext_resource type="Texture2D" path="res://assets/textures/TestBar2.png" id="350"]
+[ext_resource type="Texture2D" path="res://assets/textures/FuelImage.png" id="351"]
+[ext_resource type="Texture2D" path="res://assets/textures/ScreenDot.png" id="352"]
+[ext_resource type="Texture2D" path="res://assets/textures/Ring.png" id="353"]
+[ext_resource type="Texture2D" path="res://assets/textures/PushHand.png" id="354"]
+[ext_resource type="Texture2D" path="res://assets/textures/SnurraKnapp2.png" id="355"]
+[ext_resource type="Texture2D" path="res://assets/textures/FillingGasCanButton.png" id="356"]
+[ext_resource type="Script" path="res://scripts/ui/see_objects.gd" id="357"]
+[ext_resource type="Texture2D" path="res://assets/textures/RemoveBeartrapButton4.png" id="358"]
+[ext_resource type="Texture2D" path="res://assets/textures/DropText.png" id="359"]
+[ext_resource type="Script" path="res://scripts/ui/drop_objects.gd" id="360"]
+[ext_resource type="Texture2D" path="res://assets/textures/OptionsMenuIG2.png" id="361"]
+[ext_resource type="Texture2D" path="res://assets/textures/MainMenuButton.png" id="362"]
+[ext_resource type="Script" path="res://scripts/menu/back_to_menu.gd" id="363"]
+[ext_resource type="Texture2D" path="res://assets/textures/ResumeButton.png" id="364"]
+[ext_resource type="Texture2D" path="res://assets/textures/Day1.png" id="365"]
+[ext_resource type="Texture2D" path="res://assets/textures/Day2.png" id="366"]
+[ext_resource type="Texture2D" path="res://assets/textures/Day3.png" id="367"]
+[ext_resource type="Texture2D" path="res://assets/textures/Day4.png" id="368"]
+[ext_resource type="Texture2D" path="res://assets/textures/Day5.png" id="369"]
+[ext_resource type="Texture2D" path="res://assets/textures/Day5TheLastDay.png" id="370"]
+[ext_resource type="Texture2D" path="res://assets/textures/Day6TheLastDay.png" id="371"]
+[ext_resource type="Texture2D" path="res://assets/textures/BonusDayTheLastDay.png" id="372"]
+[ext_resource type="Texture2D" path="res://assets/textures/GameOverText.png" id="373"]
+[ext_resource type="Texture2D" path="res://assets/textures/StartButton.png" id="374"]
+[ext_resource type="Texture2D" path="res://assets/textures/ForwardButton2.png" id="375"]
+[ext_resource type="Texture2D" path="res://assets/textures/InCoffinButton.png" id="376"]
+[ext_resource type="Texture2D" path="res://assets/textures/carButtonIn5.png" id="377"]
+[ext_resource type="Texture2D" path="res://assets/textures/StandButton.png" id="378"]
 [ext_resource type="Animation" path="res://converted/animations/FanSpinn.tres" id="1"]
 [ext_resource type="AudioStreamWAV" path="res://assets/audio/OldFanSound.wav" id="2"]
 [ext_resource type="Animation" path="res://converted/animations/prisondoorClose.tres" id="3"]
@@ -1076,713 +1076,6 @@ size = Vector3(0.31, 0.48, 0.61)
 [node name="SceneRoot" type="Node3D"]
 
 
-[node name="BloodScreen" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("266")
-
-[node name="BloodScreenPlayerHit" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("267")
-
-[node name="BloodScreenBiten" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("268")
-
-[node name="FreezeTrapText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("269")
-
-[node name="ArrowButton" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("270")
-
-[node name="RemoteControlText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("271")
-
-[node name="PickUpButtonParent" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="PickUpButton" type="Button" parent="PickUpButtonParent"]
-anchor_left = 1
-anchor_top = 0.5
-anchor_right = 1
-anchor_bottom = 0.5
-offset_left = -182.2
-offset_top = -101.59998
-offset_right = -22.2
-offset_bottom = -71.59998
-visible = false
-process_mode = 3
-texture_normal = ExtResource("272")
-script = ExtResource("273")
-metadata/unity_class = "SeeObjects"
-
-[node name="TheEndTextPractice" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("274")
-
-[node name="NeedCuttingPliersText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("275")
-
-[node name="GasolineCanText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("276")
-
-[node name="StartCarButton" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("277")
-
-[node name="NeedWrenchText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("278")
-
-[node name="PeppersprayButton" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("279")
-
-[node name="ShotgunLoadedText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("280")
-
-[node name="EmptyPlateText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("281")
-
-[node name="weaponKeyText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("282")
-
-[node name="BloodScreenEnd" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("266")
-modulate = Color(1, 1, 1, 0.5019608)
-
-[node name="GrannyIsGone_EasyText2" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="Day1Text" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("283")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="BonusDayLastDayText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("284")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="Day5LastDayText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("285")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="Day5Text" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("286")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="Day4Text" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("287")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="Day3Text" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("288")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="Day2Text" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("289")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="DropObjectButton" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("290")
-script = ExtResource("291")
-metadata/unity_class = "dropObjects"
-
-[node name="NeedEnginePartText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("292")
-
-[node name="NeedMasterKeyText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("293")
-
-[node name="GrannyPlacedExtraLockOnDoor" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("294")
-
-[node name="TheEndText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("295")
-
-[node name="NeedSpecialKey" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("296")
-
-[node name="ShotgunText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("297")
-
-[node name="WinchHandleText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("298")
-
-[node name="BlackscreenAdsParent" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-
-[node name="BlackScreenAdsPlay" type="Control" parent="BlackscreenAdsParent"]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1
-anchor_bottom = 1
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="ProbablyOpenGarageDoorFirstText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("299")
-
-[node name="BlackScreenStart" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="RemoveBeartrapButton" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture_normal = ExtResource("300")
-
-[node name="GrannyIsGone_Normal_ShotText" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="MasterKeyText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("301")
-
-[node name="Bed3Button" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-
-[node name="NeedCarBatteryText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("302")
-
-[node name="AllBedButtons" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="Bed1Button" type="Button" parent="AllBedButtons"]
-anchor_left = 1
-anchor_top = 1
-anchor_right = 1
-anchor_bottom = 1
-offset_left = -174.29999
-offset_top = -1027.8
-offset_right = -14.29999
-offset_bottom = -997.8
-visible = false
-process_mode = 3
-
-[node name="Bed2Button" type="Button" parent="AllBedButtons"]
-anchor_left = 1
-anchor_top = 1
-anchor_right = 1
-anchor_bottom = 1
-offset_left = -174.30005
-offset_top = -1027.80005
-offset_right = -14.30005
-offset_bottom = -997.80005
-visible = false
-process_mode = 3
-
-[node name="Bed3Button_1" type="Button" parent="AllBedButtons"]
-anchor_left = 1
-anchor_top = 1
-anchor_right = 1
-anchor_bottom = 1
-offset_left = -174.30005
-offset_top = -1027.80005
-offset_right = -14.30005
-offset_bottom = -997.80005
-visible = false
-process_mode = 3
-
-[node name="CoffinVindButton" type="Button" parent="AllBedButtons"]
-anchor_left = 1
-anchor_top = 1
-anchor_right = 1
-anchor_bottom = 1
-offset_left = -174.30005
-offset_top = -1027.80005
-offset_right = -14.30005
-offset_bottom = -997.80005
-visible = false
-process_mode = 3
-texture_normal = ExtResource("303")
-
-[node name="CoffinBackyardButton" type="Button" parent="AllBedButtons"]
-anchor_left = 1
-anchor_top = 1
-anchor_right = 1
-anchor_bottom = 1
-offset_left = -174.30005
-offset_top = -1027.80005
-offset_right = -14.30005
-offset_bottom = -997.80005
-visible = false
-process_mode = 3
-texture_normal = ExtResource("303")
-
-[node name="InCarButton" type="Button" parent="AllBedButtons"]
-anchor_left = 1
-anchor_top = 1
-anchor_right = 1
-anchor_bottom = 1
-offset_left = -174.30005
-offset_top = -1027.80005
-offset_right = -14.30005
-offset_bottom = -997.80005
-visible = false
-process_mode = 3
-texture_normal = ExtResource("304")
-
-[node name="DangerousCuttingToolText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("305")
-
-[node name="optionMenu" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-
-[node name="OptionBackgroundImage" type="TextureRect" parent="optionMenu"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -50
-offset_top = -50
-offset_right = 50
-offset_bottom = 50
-texture = ExtResource("306")
-
-[node name="MainMenuButton" type="Button" parent="optionMenu/OptionBackgroundImage"]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_left = -56.92063
-offset_top = 64.56992
-offset_right = 101.07937
-offset_bottom = 95.56992
-texture_normal = ExtResource("307")
-script = ExtResource("308")
-metadata/unity_class = "BackToMenu"
-
-[node name="ResumeButton" type="Button" parent="optionMenu/OptionBackgroundImage"]
-anchor_left = 1
-anchor_top = 0.0
-anchor_right = 1
-anchor_bottom = 0.0
-offset_left = -102.14152
-offset_top = 64.95618
-offset_right = 57.85848
-offset_bottom = 94.95618
-texture_normal = ExtResource("309")
-
-[node name="ForwardButton" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("310")
-
-[node name="BirdSeedText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("311")
-
 [node name="AllaTexter" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
@@ -1792,6 +1085,7 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 
 [node name="HaveToLeaveThisHouseText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1802,9 +1096,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("312")
+texture = ExtResource("266")
 
 [node name="CuttingPliersText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1815,9 +1110,10 @@ offset_left = -50
 offset_top = 40.6
 offset_right = 50
 offset_bottom = 140.6
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("313")
+texture = ExtResource("267")
 
 [node name="HammerText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1828,11 +1124,12 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("314")
+texture = ExtResource("268")
 
-[node name="MasterKeyText_1" type="TextureRect" parent="AllaTexter"]
+[node name="MasterKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -1841,9 +1138,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("301")
+texture = ExtResource("269")
 
 [node name="PadlockKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1854,9 +1152,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("315")
+texture = ExtResource("270")
 
 [node name="SafeKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1867,9 +1166,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("316")
+texture = ExtResource("271")
 
 [node name="NeedSafeKeyText_1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1880,9 +1180,10 @@ offset_left = -49.99993896
 offset_top = 1.1
 offset_right = 50.00006104
 offset_bottom = 101.1
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("317")
+texture = ExtResource("272")
 
 [node name="NeedPadlockKeyText_1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1893,11 +1194,12 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("318")
+texture = ExtResource("273")
 
-[node name="NeedMasterKeyText_1_1" type="TextureRect" parent="AllaTexter"]
+[node name="NeedMasterKeyText_1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -1906,9 +1208,10 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("293")
+texture = ExtResource("274")
 
 [node name="NeedHammerText_1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1919,11 +1222,12 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("319")
+texture = ExtResource("275")
 
-[node name="NeedCuttingPliersText_1_1" type="TextureRect" parent="AllaTexter"]
+[node name="NeedCuttingPliersText_1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -1932,9 +1236,10 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("275")
+texture = ExtResource("276")
 
 [node name="CantOpenDoorYet" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1945,9 +1250,10 @@ offset_left = -50
 offset_top = 41.1
 offset_right = 50
 offset_bottom = 141.1
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("320")
+texture = ExtResource("277")
 
 [node name="NeedPadlockCodeText_2" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1958,9 +1264,10 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("321")
+texture = ExtResource("278")
 
 [node name="PadlockCodeText_1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1971,9 +1278,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("322")
+texture = ExtResource("279")
 
 [node name="CrossbowText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1984,9 +1292,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("323")
+texture = ExtResource("280")
 
 [node name="TranquilizerDartText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -1997,9 +1306,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("324")
+texture = ExtResource("281")
 
 [node name="NeedCrossbowText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2010,9 +1320,10 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("325")
+texture = ExtResource("282")
 
 [node name="NeedWeaponKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2023,11 +1334,12 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("326")
+texture = ExtResource("283")
 
-[node name="weaponKeyText_1" type="TextureRect" parent="AllaTexter"]
+[node name="weaponKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2036,9 +1348,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("282")
+texture = ExtResource("284")
 
 [node name="screwdriverText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2049,9 +1362,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("327")
+texture = ExtResource("285")
 
 [node name="NeedScrewdriverText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2062,9 +1376,10 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("328")
+texture = ExtResource("286")
 
 [node name="PlankText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2075,9 +1390,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("329")
+texture = ExtResource("287")
 
 [node name="GrannyIsGone_NormalText1" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2088,9 +1404,10 @@ offset_left = -50
 offset_top = -227.5
 offset_right = 50
 offset_bottom = -127.5
-texture = ExtResource("330")
+mouse_filter = 2
+texture = ExtResource("288")
 
-[node name="GrannyIsGone_EasyText2_1" type="Control" parent="AllaTexter"]
+[node name="GrannyIsGone_EasyText2" type="Control" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2099,6 +1416,7 @@ offset_left = -49.99993896
 offset_top = -227.5
 offset_right = 50.00006104
 offset_bottom = -127.5
+mouse_filter = 2
 
 [node name="GrannyIsGone_HardText3" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2109,7 +1427,8 @@ offset_left = -50
 offset_top = -227.5001
 offset_right = 50
 offset_bottom = -127.5001
-texture = ExtResource("331")
+mouse_filter = 2
+texture = ExtResource("289")
 
 [node name="GrannyIsGone_ExtremeText4" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2120,7 +1439,8 @@ offset_left = -49.99993896
 offset_top = -227.5001
 offset_right = 50.00006104
 offset_bottom = -127.5001
-texture = ExtResource("332")
+mouse_filter = 2
+texture = ExtResource("290")
 
 [node name="GrannyIsGone_Easy_ShotText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2131,9 +1451,10 @@ offset_left = -50
 offset_top = -227.5001
 offset_right = 50
 offset_bottom = -127.5001
-texture = ExtResource("333")
+mouse_filter = 2
+texture = ExtResource("291")
 
-[node name="GrannyIsGone_Normal_ShotText_1" type="Control" parent="AllaTexter"]
+[node name="GrannyIsGone_Normal_ShotText" type="Control" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2142,6 +1463,7 @@ offset_left = -49.99993896
 offset_top = -227.5001
 offset_right = 50.00006104
 offset_bottom = -127.5001
+mouse_filter = 2
 
 [node name="GrannyIsGone_Extreme_ShotText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2152,7 +1474,8 @@ offset_left = -50
 offset_top = -227.5001
 offset_right = 50
 offset_bottom = -127.5001
-texture = ExtResource("331")
+mouse_filter = 2
+texture = ExtResource("289")
 
 [node name="MaybeUsePlanksText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2163,9 +1486,10 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("334")
+texture = ExtResource("292")
 
 [node name="BatteryText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2176,9 +1500,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("335")
+texture = ExtResource("293")
 
 [node name="NeedBatteryText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2189,9 +1514,10 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("336")
+texture = ExtResource("294")
 
 [node name="PieceOfPaintingText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2202,9 +1528,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("337")
+texture = ExtResource("295")
 
 [node name="GrannyRewardedExtraDay" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2215,9 +1542,10 @@ offset_left = -49.99993896
 offset_top = -165.5
 offset_right = 50.00006104
 offset_bottom = -65.5
-texture = ExtResource("338")
+mouse_filter = 2
+texture = ExtResource("296")
 
-[node name="GrannyPlacedExtraLockOnDoor_1" type="TextureRect" parent="AllaTexter"]
+[node name="GrannyPlacedExtraLockOnDoor" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2226,7 +1554,8 @@ offset_left = -50
 offset_top = -165.5
 offset_right = 50
 offset_bottom = -65.5
-texture = ExtResource("294")
+mouse_filter = 2
+texture = ExtResource("297")
 
 [node name="SaknasBitarAvTavlan" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2237,9 +1566,10 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("339")
+texture = ExtResource("298")
 
 [node name="PlayhouseKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2250,9 +1580,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("340")
+texture = ExtResource("299")
 
 [node name="NeedPlayhouseKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2263,11 +1594,12 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("341")
+texture = ExtResource("300")
 
-[node name="DangerousCuttingToolText_1" type="TextureRect" parent="AllaTexter"]
+[node name="DangerousCuttingToolText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2276,9 +1608,10 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("305")
+texture = ExtResource("301")
 
 [node name="MelonText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2289,9 +1622,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("342")
+texture = ExtResource("302")
 
 [node name="SomethingMissingHereText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2302,9 +1636,10 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("343")
+texture = ExtResource("303")
 
 [node name="SomethingInsideMelon" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2315,9 +1650,10 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("344")
+texture = ExtResource("304")
 
 [node name="TeddyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2328,9 +1664,10 @@ offset_left = -50
 offset_top = 41.3
 offset_right = 50
 offset_bottom = 141.3
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("345")
+texture = ExtResource("305")
 
 [node name="CogwheelText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2341,11 +1678,12 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("346")
+texture = ExtResource("306")
 
-[node name="WinchHandleText_1" type="TextureRect" parent="AllaTexter"]
+[node name="WinchHandleText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2354,9 +1692,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("298")
+texture = ExtResource("307")
 
 [node name="NeedWinchHandleText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2367,9 +1706,10 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("347")
+texture = ExtResource("308")
 
 [node name="NeedFindSwitchText" type="Control" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2380,10 +1720,11 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
 
-[node name="ShotgunText_1" type="TextureRect" parent="AllaTexter"]
+[node name="ShotgunText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2392,9 +1733,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("297")
+texture = ExtResource("309")
 
 [node name="AmmoText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2405,9 +1747,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("348")
+texture = ExtResource("310")
 
 [node name="NeedShotgunText" type="Control" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2418,6 +1761,7 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
 
@@ -2430,11 +1774,12 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("349")
+texture = ExtResource("311")
 
-[node name="ShotgunLoadedText_1" type="TextureRect" parent="AllaTexter"]
+[node name="ShotgunLoadedText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2443,9 +1788,10 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("280")
+texture = ExtResource("312")
 
 [node name="NeedCarKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2456,9 +1802,10 @@ offset_left = -49.99993896
 offset_top = 1.7
 offset_right = 50.00006104
 offset_bottom = 101.7
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("350")
+texture = ExtResource("313")
 
 [node name="CarKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2469,9 +1816,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("351")
+texture = ExtResource("314")
 
 [node name="NeedGasolineText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2482,11 +1830,12 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("352")
+texture = ExtResource("315")
 
-[node name="NeedCarBatteryText_1" type="TextureRect" parent="AllaTexter"]
+[node name="NeedCarBatteryText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2495,11 +1844,12 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("302")
+texture = ExtResource("316")
 
-[node name="NeedEnginePartText_1" type="TextureRect" parent="AllaTexter"]
+[node name="NeedEnginePartText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2508,9 +1858,10 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("292")
+texture = ExtResource("317")
 
 [node name="NeedSparkPlugText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2521,11 +1872,12 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("353")
+texture = ExtResource("318")
 
-[node name="NeedWrenchText_1" type="TextureRect" parent="AllaTexter"]
+[node name="NeedWrenchText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2534,11 +1886,12 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("278")
+texture = ExtResource("319")
 
-[node name="GasolineCanText_1" type="TextureRect" parent="AllaTexter"]
+[node name="GasolineCanText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2547,9 +1900,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("276")
+texture = ExtResource("320")
 
 [node name="CarBatteryText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2560,9 +1914,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("354")
+texture = ExtResource("321")
 
 [node name="SparkPlugText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2573,9 +1928,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("355")
+texture = ExtResource("322")
 
 [node name="WrenchText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2586,9 +1942,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("356")
+texture = ExtResource("323")
 
 [node name="EnginePartText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2599,9 +1956,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("357")
+texture = ExtResource("324")
 
 [node name="garagedoorLockedText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2612,9 +1970,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("358")
+texture = ExtResource("325")
 
 [node name="CanNotStartTheCarYet" type="Control" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2625,10 +1984,11 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
 
-[node name="ProbablyOpenGarageDoorFirstText_1" type="TextureRect" parent="AllaTexter"]
+[node name="ProbablyOpenGarageDoorFirstText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2637,9 +1997,10 @@ offset_left = -50
 offset_top = -91
 offset_right = 50
 offset_bottom = 9
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("299")
+texture = ExtResource("326")
 
 [node name="MeatText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2650,11 +2011,12 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("359")
+texture = ExtResource("327")
 
-[node name="EmptyPlateText_1" type="TextureRect" parent="AllaTexter"]
+[node name="EmptyPlateText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2663,9 +2025,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("281")
+texture = ExtResource("328")
 
 [node name="SpecialKeyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2676,11 +2039,12 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("360")
+texture = ExtResource("329")
 
-[node name="NeedSpecialKey_1" type="TextureRect" parent="AllaTexter"]
+[node name="NeedSpecialKey" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2689,9 +2053,10 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("296")
+texture = ExtResource("330")
 
 [node name="MaybePlaceSomethingHere" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2702,9 +2067,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("361")
+texture = ExtResource("331")
 
 [node name="BookText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2715,9 +2081,10 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("362")
+texture = ExtResource("332")
 
 [node name="PeppersprayText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2728,11 +2095,12 @@ offset_left = -49.99993896
 offset_top = 40.60001
 offset_right = 50.00006104
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("363")
+texture = ExtResource("333")
 
-[node name="RemoteControlText_1" type="TextureRect" parent="AllaTexter"]
+[node name="RemoteControlText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2741,9 +2109,10 @@ offset_left = -50
 offset_top = 40.60001
 offset_right = 50
 offset_bottom = 140.60001
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("271")
+texture = ExtResource("334")
 
 [node name="NeedRemoteControlText" type="Control" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2754,6 +2123,7 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
 
@@ -2766,9 +2136,10 @@ offset_left = -50
 offset_top = 1.09998
 offset_right = 50
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("364")
+texture = ExtResource("335")
 
 [node name="SprayIsEmptyText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2779,9 +2150,10 @@ offset_left = -49.99993896
 offset_top = 1.09998
 offset_right = 50.00006104
 offset_bottom = 101.09998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("365")
+texture = ExtResource("336")
 
 [node name="EmptyBowlText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
@@ -2792,11 +2164,12 @@ offset_left = -49.99993896
 offset_top = 40.59998
 offset_right = 50.00006104
 offset_bottom = 140.59998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("366")
+texture = ExtResource("337")
 
-[node name="BirdSeedText_1" type="TextureRect" parent="AllaTexter"]
+[node name="BirdSeedText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2805,11 +2178,12 @@ offset_left = -49.99993896
 offset_top = 40.59998
 offset_right = 50.00006104
 offset_bottom = 140.59998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("311")
+texture = ExtResource("338")
 
-[node name="FreezeTrapText_1" type="TextureRect" parent="AllaTexter"]
+[node name="FreezeTrapText" type="TextureRect" parent="AllaTexter"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -2818,314 +2192,10 @@ offset_left = -49.99993896
 offset_top = 40.59998
 offset_right = 50.00006104
 offset_bottom = 140.59998
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("269")
-
-[node name="NeedToGetCloserText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("364")
-
-[node name="MittenRing" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("367")
-
-[node name="PartofShotgunText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("349")
-
-[node name="EmptyBowlText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("366")
-
-[node name="FuelMeter" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("368")
-
-[node name="BlackScreenStartHolder" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="BlackScreenStart_1" type="Control" parent="BlackScreenStartHolder"]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1
-anchor_bottom = 1
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="GameOverText" type="TextureRect" parent="BlackScreenStartHolder"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -50
-offset_top = -50
-offset_right = 50
-offset_bottom = 50
-visible = false
-process_mode = 3
-texture = ExtResource("369")
-
-[node name="PlankText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("329")
-
-[node name="NeedCrossbowText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("325")
-
-[node name="OptionBackgroundImage_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("306")
-
-[node name="MainMenuButton_1" type="Button" parent="OptionBackgroundImage_1"]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_left = -56.92063
-offset_top = 1044.56992
-offset_right = 101.07937
-offset_bottom = 1075.56992
-texture_normal = ExtResource("307")
-script = ExtResource("308")
-metadata/unity_class = "BackToMenu"
-
-[node name="ResumeButton_1" type="Button" parent="OptionBackgroundImage_1"]
-anchor_left = 1
-anchor_top = 0.0
-anchor_right = 1
-anchor_bottom = 0.0
-offset_left = -102.14152
-offset_top = 1044.95618
-offset_right = 57.85848
-offset_bottom = 1074.95618
-texture_normal = ExtResource("309")
-
-[node name="BrunnsVevButton" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("370")
-
-[node name="NeedFindSwitchText_1" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-
-[node name="NeedGasolineText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("352")
-
-[node name="GunButton" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("270")
-
-[node name="DropButtonParent" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="DropObjectButton_1" type="Button" parent="DropButtonParent"]
-anchor_left = 0.5
-anchor_top = 0.0
-anchor_right = 0.5
-anchor_bottom = 0.0
-offset_left = -15
-offset_top = 1005
-offset_right = 15
-offset_bottom = 1035
-visible = false
-process_mode = 3
-texture_normal = ExtResource("290")
-script = ExtResource("291")
-metadata/unity_class = "dropObjects"
-
-[node name="CrossbowText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("323")
-
-[node name="ShootGunButtonParent" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="GunButton_1" type="Button" parent="ShootGunButtonParent"]
-anchor_left = 1
-anchor_top = 0.0
-anchor_right = 1
-anchor_bottom = 0.0
-offset_left = -243.2
-offset_top = 981.6
-offset_right = -83.2
-offset_bottom = 1011.6
-visible = false
-process_mode = 3
-texture_normal = ExtResource("270")
-
-[node name="MaybePlaceSomethingHere_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("361")
-
-[node name="OptionButtonParent" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-
-[node name="OptionButton" type="Button" parent="OptionButtonParent"]
-anchor_left = 0.2428561
-anchor_top = 1
-anchor_right = 0.2428561
-anchor_bottom = 1
-offset_left = -15
-offset_top = -1044
-offset_right = 14
-offset_bottom = -1014
-texture_normal = ExtResource("371")
+texture = ExtResource("339")
 
 [node name="BloodScreens" type="Control" parent="."]
 anchor_left = 0.0
@@ -3136,8 +2206,9 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 
-[node name="BloodScreen_1" type="TextureRect" parent="BloodScreens"]
+[node name="BloodScreen" type="TextureRect" parent="BloodScreens"]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1
@@ -3146,11 +2217,12 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("266")
+texture = ExtResource("340")
 
-[node name="BloodScreenBiten_1" type="TextureRect" parent="BloodScreens"]
+[node name="BloodScreenBiten" type="TextureRect" parent="BloodScreens"]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1
@@ -3159,11 +2231,12 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("268")
+texture = ExtResource("341")
 
-[node name="BloodScreenPlayerHit_1" type="TextureRect" parent="BloodScreens"]
+[node name="BloodScreenPlayerHit" type="TextureRect" parent="BloodScreens"]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1
@@ -3172,11 +2245,12 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("267")
+texture = ExtResource("342")
 
-[node name="BloodScreenEnd_1" type="TextureRect" parent="BloodScreens"]
+[node name="BloodScreenEnd" type="TextureRect" parent="BloodScreens"]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1
@@ -3185,9 +2259,10 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("266")
+texture = ExtResource("340")
 modulate = Color(1, 1, 1, 0.5019608)
 
 [node name="FrostScreen" type="TextureRect" parent="BloodScreens"]
@@ -3199,7 +2274,8 @@ offset_left = -6.103516e-05
 offset_top = 0.0
 offset_right = -6.103515989e-05
 offset_bottom = 0.0
-texture = ExtResource("372")
+mouse_filter = 2
+texture = ExtResource("343")
 
 [node name="BloodScreenDay4" type="TextureRect" parent="BloodScreens"]
 anchor_left = 0.0
@@ -3210,11 +2286,12 @@ offset_left = 6.103516e-05
 offset_top = 0.0
 offset_right = 6.103515989e-05
 offset_bottom = 0.0
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("266")
+texture = ExtResource("340")
 
-[node name="BearTrapButtonParent" type="Control" parent="."]
+[node name="ShootGunButtonParent" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -3223,205 +2300,20 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 
-[node name="RemoveBeartrapButton_1" type="Button" parent="BearTrapButtonParent"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -15
-offset_top = -0.4
-offset_right = 15
-offset_bottom = 29.6
-texture_normal = ExtResource("300")
-
-[node name="NeedSparkPlugText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
+[node name="GunButton" type="Button" parent="ShootGunButtonParent"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -243.2
+offset_top = -98.4
+offset_right = -83.2
+offset_bottom = -68.4
 visible = false
 process_mode = 3
-texture = ExtResource("353")
-
-[node name="EnginePartText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("357")
-
-[node name="CarBatteryText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("354")
-
-[node name="PlayerHukarSigButton" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture_normal = ExtResource("373")
-
-[node name="BearTrapHealth" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("374")
-
-[node name="NeedWeaponKeyText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("326")
-
-[node name="Bed2Button_1" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-
-[node name="NeedSafeKeyText_1_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("317")
-
-[node name="CanNotStartTheCarYet_1" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-
-[node name="CoffinVindButton_1" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("303")
-
-[node name="NeedBatteryText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("336")
-
-[node name="NeedPlayhouseKeyText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("341")
-
-[node name="HaveToLeaveThisHouseText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("312")
-
-[node name="NeedRemoteControlText_1" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-
-[node name="SomethingMissingHereText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("343")
+texture_normal = ExtResource("344")
 
 [node name="TheEndTexts" type="Control" parent="."]
 anchor_left = 0.0
@@ -3432,8 +2324,9 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 
-[node name="TheEndText_1" type="TextureRect" parent="TheEndTexts"]
+[node name="TheEndText" type="TextureRect" parent="TheEndTexts"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -3442,367 +2335,26 @@ offset_left = -50
 offset_top = -50
 offset_right = 50
 offset_bottom = 50
-visible = false
-process_mode = 3
-texture = ExtResource("295")
-
-[node name="TheEndTextPractice_1" type="TextureRect" parent="TheEndTexts"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -50
-offset_top = -50
-offset_right = 50
-offset_bottom = 50
-visible = false
-process_mode = 3
-texture = ExtResource("274")
-
-[node name="GameOverText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("369")
-
-[node name="MeatText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("359")
-
-[node name="AmmoText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("348")
-
-[node name="NeedHammerText_1_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("319")
-
-[node name="InCarButton_1" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("304")
-
-[node name="CarControlls" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="StartCarButton_1" type="Button" parent="CarControlls"]
-anchor_left = 1
-anchor_top = 0.5
-anchor_right = 1
-anchor_bottom = 0.5
-offset_left = -108.29999
-offset_top = -48.4
-offset_right = -78.29999
-offset_bottom = -18.4
-visible = false
-process_mode = 3
-texture_normal = ExtResource("277")
-
-[node name="ReverseButton" type="Button" parent="CarControlls"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -15
-offset_top = 60.7
-offset_right = 15
-offset_bottom = 90.7
-visible = false
-process_mode = 3
-
-[node name="ForwardButton_1" type="Button" parent="CarControlls"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -15
-offset_top = -55.3
-offset_right = 15
-offset_bottom = -25.3
-visible = false
-process_mode = 3
-texture_normal = ExtResource("310")
-
-[node name="ResumeButton_2" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture_normal = ExtResource("309")
-
-[node name="PlaceObjectButton" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("375")
-
-[node name="RemoteButton" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-
-[node name="NeedPadlockKeyText_1_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("318")
-
-[node name="MaybeUsePlanksText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("334")
-
-[node name="CantOpenDoorYet_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("320")
-
-[node name="Mittenprick" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("376")
-
-[node name="WrenchText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("356")
-
-[node name="MainMenuButton_2" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture_normal = ExtResource("307")
-script = ExtResource("308")
-metadata/unity_class = "BackToMenu"
-
-[node name="PieceOfPaintingText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("337")
-
-[node name="SprayIsEmptyText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("365")
-
-[node name="SafeKeyText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("316")
-
-[node name="BloodScreenDay4_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("266")
-
-[node name="Bed1Button_1" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-
-[node name="FillFuelButton" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("377")
-
-[node name="PadlockCodeText_1_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("322")
-
-[node name="TeddyText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
+mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("345")
 
-[node name="CogwheelText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
+[node name="TheEndTextPractice" type="TextureRect" parent="TheEndTexts"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -50
+offset_right = 50
+offset_bottom = 50
+mouse_filter = 2
 visible = false
 process_mode = 3
 texture = ExtResource("346")
 
-[node name="FrostScreen_1" type="TextureRect" parent="."]
+[node name="ShootArrowButtonParent" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -3811,32 +2363,22 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
-texture = ExtResource("372")
+mouse_filter = 2
 
-[node name="BlackScreenAdsPlay_1" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="NeedCarKeyText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
+[node name="ArrowButton" type="Button" parent="ShootArrowButtonParent"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -243.2
+offset_top = -98.4
+offset_right = -83.2
+offset_bottom = -68.4
 visible = false
 process_mode = 3
-texture = ExtResource("350")
+texture_normal = ExtResource("344")
 
-[node name="GrannyIsGone_NormalText1_1" type="TextureRect" parent="."]
+[node name="PlaceButtonParent" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -3845,22 +2387,22 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
-texture = ExtResource("330")
+mouse_filter = 2
 
-[node name="MelonText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
+[node name="PlaceObjectButton" type="Button" parent="PlaceButtonParent"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -195.9
+offset_top = -89.10001
+offset_right = -165.9
+offset_bottom = -59.10001
 visible = false
 process_mode = 3
-texture = ExtResource("342")
+texture_normal = ExtResource("347")
 
-[node name="NeedShotgunText_1" type="Control" parent="."]
+[node name="Pepperspray_RemoteButtonParent" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -3869,110 +2411,34 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="PeppersprayButton" type="Button" parent="Pepperspray_RemoteButtonParent"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -249
+offset_top = -98.4
+offset_right = -89
+offset_bottom = -68.4
 visible = false
 process_mode = 3
+texture_normal = ExtResource("348")
 
-[node name="screwdriverText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("327")
-
-[node name="Day6LastDayText" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("378")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="BatteryText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("335")
-
-[node name="GrannyIsGone_Easy_ShotText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("333")
-
-[node name="CarKeyText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("351")
-
-[node name="CoffinBackyardButton_1" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("303")
-
-[node name="CrouchButtonParent" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
+[node name="RemoteButton" type="Button" parent="Pepperspray_RemoteButtonParent"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -248.9999
+offset_top = -98.39999
+offset_right = -88.9999
+offset_bottom = -68.39999
 visible = false
 process_mode = 3
 
-[node name="PlayerHukarSigButton_1" type="Button" parent="CrouchButtonParent"]
-anchor_left = 0.0
-anchor_top = 0.789329
-anchor_right = 0.0
-anchor_bottom = 0.789329
-offset_left = 8
-offset_top = -637.750628
-offset_right = 168
-offset_bottom = -607.750628
-texture_normal = ExtResource("373")
-
-[node name="GrannyIsGone_ExtremeText4_1" type="TextureRect" parent="."]
+[node name="OptionButtonParent" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -3981,294 +2447,20 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
-texture = ExtResource("332")
-
-[node name="SaknasBitarAvTavlan_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("339")
 
-[node name="NeedWinchHandleText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
+[node name="OptionButton" type="Button" parent="OptionButtonParent"]
+anchor_left = 0.2428561
 anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("347")
-
-[node name="GrannyIsGone_Extreme_ShotText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("331")
-
-[node name="HammerText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("314")
-
-[node name="SomethingInsideMelon_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("344")
-
-[node name="GrannyIsGone_HardText3_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-texture = ExtResource("331")
-
-[node name="PadlockKeyText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("315")
-
-[node name="All_days_texter" type="Control" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-
-[node name="Day1Text_1" type="TextureRect" parent="All_days_texter"]
-anchor_left = 0.5
-anchor_top = 0.0
-anchor_right = 0.5
+anchor_right = 0.2428561
 anchor_bottom = 0.0
-offset_left = -33.115
-offset_top = 984.73999
-offset_right = 33.115
-offset_bottom = 1016.83999
-texture = ExtResource("283")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="Day2Text_1" type="TextureRect" parent="All_days_texter"]
-anchor_left = 0.5
-anchor_top = 0.0
-anchor_right = 0.5
-anchor_bottom = 0.0
-offset_left = -33.11493896
-offset_top = 984.73999
-offset_right = 33.11506104
-offset_bottom = 1016.83999
-texture = ExtResource("289")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="Day3Text_1" type="TextureRect" parent="All_days_texter"]
-anchor_left = 0.5
-anchor_top = 0.0
-anchor_right = 0.5
-anchor_bottom = 0.0
-offset_left = -33.11481689
-offset_top = 984.73999
-offset_right = 33.11518311
-offset_bottom = 1016.83999
-texture = ExtResource("288")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="Day4Text_1" type="TextureRect" parent="All_days_texter"]
-anchor_left = 0.5
-anchor_top = 0.0
-anchor_right = 0.5
-anchor_bottom = 0.0
-offset_left = -33.11481689
-offset_top = 984.73999
-offset_right = 33.11518311
-offset_bottom = 1016.83999
-texture = ExtResource("287")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="Day5Text_1" type="TextureRect" parent="All_days_texter"]
-anchor_left = 0.5
-anchor_top = 0.0
-anchor_right = 0.5
-anchor_bottom = 0.0
-offset_left = -33.11481689
-offset_top = 984.73999
-offset_right = 33.11518311
-offset_bottom = 1016.83999
-texture = ExtResource("286")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="Day5LastDayText_1" type="TextureRect" parent="All_days_texter"]
-anchor_left = 0.5
-anchor_top = 0.0
-anchor_right = 0.5
-anchor_bottom = 0.0
-offset_left = -97.7
-offset_top = 986.05
-offset_right = 103.7
-offset_bottom = 1018.15
-texture = ExtResource("285")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="Day6LastDayText_1" type="TextureRect" parent="All_days_texter"]
-anchor_left = 0.5
-anchor_top = 0.0
-anchor_right = 0.5
-anchor_bottom = 0.0
-offset_left = -98.8
-offset_top = 997.45
-offset_right = 102.6
-offset_bottom = 1029.55
-visible = false
-process_mode = 3
-texture = ExtResource("378")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="BonusDayLastDayText_1" type="TextureRect" parent="All_days_texter"]
-anchor_left = 0.5
-anchor_top = 0.0
-anchor_right = 0.5
-anchor_bottom = 0.0
-offset_left = -98.799915
-offset_top = 987.15
-offset_right = 102.600085
-offset_bottom = 1019.25
-texture = ExtResource("284")
-modulate = Color(1, 1, 1, 0.0)
-
-[node name="garagedoorLockedText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("358")
-
-[node name="NeedScrewdriverText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("328")
-
-[node name="PickUpButton_1" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture_normal = ExtResource("272")
-script = ExtResource("273")
-metadata/unity_class = "SeeObjects"
-
-[node name="NeedPadlockCodeText_2_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("321")
-
-[node name="ReverseButton_1" type="Button" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-
-[node name="CuttingPliersText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("313")
-
-[node name="PlayhouseKeyText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("340")
+offset_left = -15
+offset_top = 36
+offset_right = 14
+offset_bottom = 66
+texture_normal = ExtResource("349")
 
 [node name="DifferentSpritesAndButtons" type="Control" parent="."]
 anchor_left = 0.0
@@ -4279,8 +2471,9 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 
-[node name="BearTrapHealth_1" type="TextureRect" parent="DifferentSpritesAndButtons"]
+[node name="BearTrapHealth" type="TextureRect" parent="DifferentSpritesAndButtons"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -4289,22 +2482,24 @@ offset_left = -50
 offset_top = -50
 offset_right = 50
 offset_bottom = 50
-texture = ExtResource("374")
+mouse_filter = 2
+texture = ExtResource("350")
 
 [node name="FuelMeterBG" type="TextureRect" parent="DifferentSpritesAndButtons"]
 anchor_left = 1
-anchor_top = 0.0
+anchor_top = 1
 anchor_right = 1
-anchor_bottom = 0.0
+anchor_bottom = 1
 offset_left = -170.84
-offset_top = 882.27
+offset_top = -197.73
 offset_right = -70.84
-offset_bottom = 982.27
+offset_bottom = -97.73
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("368")
+texture = ExtResource("351")
 
-[node name="FuelMeter_1" type="TextureRect" parent="DifferentSpritesAndButtons/FuelMeterBG"]
+[node name="FuelMeter" type="TextureRect" parent="DifferentSpritesAndButtons/FuelMeterBG"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -4313,9 +2508,10 @@ offset_left = -49.99996948
 offset_top = -50
 offset_right = 50.00003052
 offset_bottom = 50
-texture = ExtResource("368")
+mouse_filter = 2
+texture = ExtResource("351")
 
-[node name="Mittenprick_1" type="TextureRect" parent="DifferentSpritesAndButtons"]
+[node name="Mittenprick" type="TextureRect" parent="DifferentSpritesAndButtons"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -4324,11 +2520,12 @@ offset_left = -50
 offset_top = -50
 offset_right = 50
 offset_bottom = 50
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("376")
+texture = ExtResource("352")
 
-[node name="MittenRing_1" type="TextureRect" parent="DifferentSpritesAndButtons"]
+[node name="MittenRing" type="TextureRect" parent="DifferentSpritesAndButtons"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -4337,9 +2534,10 @@ offset_left = -50
 offset_top = -50
 offset_right = 50
 offset_bottom = 50
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("367")
+texture = ExtResource("353")
 
 [node name="OpenDoorButton" type="Button" parent="DifferentSpritesAndButtons"]
 anchor_left = 1
@@ -4352,9 +2550,9 @@ offset_right = -22.2
 offset_bottom = -71.59998
 visible = false
 process_mode = 3
-texture_normal = ExtResource("272")
+texture_normal = ExtResource("354")
 
-[node name="BrunnsVevButton_1" type="Button" parent="DifferentSpritesAndButtons"]
+[node name="BrunnsVevButton" type="Button" parent="DifferentSpritesAndButtons"]
 anchor_left = 1
 anchor_top = 0.5
 anchor_right = 1
@@ -4365,9 +2563,9 @@ offset_right = -89.1001
 offset_bottom = -71.5
 visible = false
 process_mode = 3
-texture_normal = ExtResource("370")
+texture_normal = ExtResource("355")
 
-[node name="FillFuelButton_1" type="Button" parent="DifferentSpritesAndButtons"]
+[node name="FillFuelButton" type="Button" parent="DifferentSpritesAndButtons"]
 anchor_left = 1
 anchor_top = 0.5
 anchor_right = 1
@@ -4378,9 +2576,9 @@ offset_right = -87.8
 offset_bottom = -72.4
 visible = false
 process_mode = 3
-texture_normal = ExtResource("377")
+texture_normal = ExtResource("356")
 
-[node name="OptionButton_1" type="Button" parent="."]
+[node name="PickUpButtonParent" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -4389,22 +2587,24 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
-texture_normal = ExtResource("371")
+mouse_filter = 2
 
-[node name="SparkPlugText_1" type="TextureRect" parent="."]
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 0.0
+[node name="PickUpButton" type="Button" parent="PickUpButtonParent"]
+anchor_left = 1
+anchor_top = 0.5
+anchor_right = 1
+anchor_bottom = 0.5
+offset_left = -182.2
+offset_top = -101.59998
+offset_right = -22.2
+offset_bottom = -71.59998
 visible = false
 process_mode = 3
-texture = ExtResource("355")
+texture_normal = ExtResource("354")
+script = ExtResource("357")
+metadata/unity_class = "SeeObjects"
 
-[node name="ShootArrowButtonParent" type="Control" parent="."]
+[node name="BearTrapButtonParent" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -4413,21 +2613,119 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 
-[node name="ArrowButton_1" type="Button" parent="ShootArrowButtonParent"]
+[node name="RemoveBeartrapButton" type="Button" parent="BearTrapButtonParent"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -15
+offset_top = -0.4
+offset_right = 15
+offset_bottom = 29.6
+texture_normal = ExtResource("358")
+
+[node name="DropButtonParent" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="DropObjectButton" type="Button" parent="DropButtonParent"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -15
+offset_top = -75
+offset_right = 15
+offset_bottom = -45
+visible = false
+process_mode = 3
+texture_normal = ExtResource("359")
+script = ExtResource("360")
+metadata/unity_class = "dropObjects"
+
+[node name="optionMenu" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+visible = false
+process_mode = 3
+
+[node name="OptionBackgroundImage" type="TextureRect" parent="optionMenu"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -50
+offset_right = 50
+offset_bottom = 50
+mouse_filter = 2
+texture = ExtResource("361")
+
+[node name="MainMenuButton" type="Button" parent="optionMenu/OptionBackgroundImage"]
+anchor_left = 0.0
+anchor_top = 1
+anchor_right = 0.0
+anchor_bottom = 1
+offset_left = -56.92063
+offset_top = -35.43008
+offset_right = 101.07937
+offset_bottom = -4.43008
+texture_normal = ExtResource("362")
+script = ExtResource("363")
+metadata/unity_class = "BackToMenu"
+
+[node name="ResumeButton" type="Button" parent="optionMenu/OptionBackgroundImage"]
 anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -102.14152
+offset_top = -35.04382
+offset_right = 57.85848
+offset_bottom = -5.04382
+texture_normal = ExtResource("364")
+
+[node name="BlackscreenAdsParent" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+visible = false
+process_mode = 3
+
+[node name="BlackScreenAdsPlay" type="Control" parent="BlackscreenAdsParent"]
+anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1
-anchor_bottom = 0.0
-offset_left = -243.2
-offset_top = 981.6
-offset_right = -83.2
-offset_bottom = 1011.6
-visible = false
-process_mode = 3
-texture_normal = ExtResource("270")
+anchor_bottom = 1
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
 
-[node name="OpenDoorButton_1" type="Button" parent="."]
+[node name="All_days_texter" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -4436,11 +2734,115 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Day1Text" type="TextureRect" parent="All_days_texter"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -33.115
+offset_top = -95.26001
+offset_right = 33.115
+offset_bottom = -63.16001
+mouse_filter = 2
+texture = ExtResource("365")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="Day2Text" type="TextureRect" parent="All_days_texter"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -33.11493896
+offset_top = -95.26001
+offset_right = 33.11506104
+offset_bottom = -63.16001
+mouse_filter = 2
+texture = ExtResource("366")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="Day3Text" type="TextureRect" parent="All_days_texter"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -33.11481689
+offset_top = -95.26001
+offset_right = 33.11518311
+offset_bottom = -63.16001
+mouse_filter = 2
+texture = ExtResource("367")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="Day4Text" type="TextureRect" parent="All_days_texter"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -33.11481689
+offset_top = -95.26001
+offset_right = 33.11518311
+offset_bottom = -63.16001
+mouse_filter = 2
+texture = ExtResource("368")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="Day5Text" type="TextureRect" parent="All_days_texter"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -33.11481689
+offset_top = -95.26001
+offset_right = 33.11518311
+offset_bottom = -63.16001
+mouse_filter = 2
+texture = ExtResource("369")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="Day5LastDayText" type="TextureRect" parent="All_days_texter"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -97.7
+offset_top = -93.95
+offset_right = 103.7
+offset_bottom = -61.85
+mouse_filter = 2
+texture = ExtResource("370")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="Day6LastDayText" type="TextureRect" parent="All_days_texter"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -98.8
+offset_top = -82.55
+offset_right = 102.6
+offset_bottom = -50.45
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture_normal = ExtResource("272")
+texture = ExtResource("371")
+modulate = Color(1, 1, 1, 0.0)
 
-[node name="PlaceButtonParent" type="Control" parent="."]
+[node name="BonusDayLastDayText" type="TextureRect" parent="All_days_texter"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -98.799915
+offset_top = -92.85
+offset_right = 102.600085
+offset_bottom = -60.75
+mouse_filter = 2
+texture = ExtResource("372")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="OrphanRoot_1" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -4449,21 +2851,2294 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 
-[node name="PlaceObjectButton_1" type="Button" parent="PlaceButtonParent"]
-anchor_left = 1
+[node name="BlackScreenStartHolder" type="Control" parent="OrphanRoot_1"]
+anchor_left = 0.0
+anchor_top = 1
+anchor_right = 0.0
+anchor_bottom = 1
+offset_left = -85.5
+offset_top = -657.75395
+offset_right = 714.5
+offset_bottom = 78.75395
+mouse_filter = 2
+
+[node name="BlackScreenStart" type="Control" parent="OrphanRoot_1/BlackScreenStartHolder"]
+anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1
-anchor_bottom = 0.0
-offset_left = -195.9
-offset_top = 990.89999
-offset_right = -165.9
-offset_bottom = 1020.89999
+anchor_bottom = 1
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GameOverText" type="TextureRect" parent="OrphanRoot_1/BlackScreenStartHolder"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -50
+offset_right = 50
+offset_bottom = 50
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("373")
+
+[node name="OrphanRoot_2" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BlackScreenStart_1" type="Control" parent="OrphanRoot_2"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 1
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="OrphanRoot_3" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GameOverText_1" type="TextureRect" parent="OrphanRoot_3"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -50
+offset_right = 50
+offset_bottom = 50
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("373")
+
+[node name="OrphanRoot_4" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="PickUpButton_1" type="Button" parent="OrphanRoot_4"]
+anchor_left = 1
+anchor_top = 0.5
+anchor_right = 1
+anchor_bottom = 0.5
+offset_left = -182.2
+offset_top = -101.59998
+offset_right = -22.2
+offset_bottom = -71.59998
+visible = false
+process_mode = 3
+texture_normal = ExtResource("354")
+script = ExtResource("357")
+metadata/unity_class = "SeeObjects"
+
+[node name="OrphanRoot_5" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BlackScreenAdsPlay_1" type="Control" parent="OrphanRoot_5"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 1
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="OrphanRoot_6" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="OptionBackgroundImage_1" type="TextureRect" parent="OrphanRoot_6"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -50
+offset_right = 50
+offset_bottom = 50
+mouse_filter = 2
+texture = ExtResource("361")
+
+[node name="MainMenuButton_1" type="Button" parent="OrphanRoot_6/OptionBackgroundImage_1"]
+anchor_left = 0.0
+anchor_top = 1
+anchor_right = 0.0
+anchor_bottom = 1
+offset_left = -56.92063
+offset_top = -35.43008
+offset_right = 101.07937
+offset_bottom = -4.43008
+texture_normal = ExtResource("362")
+script = ExtResource("363")
+metadata/unity_class = "BackToMenu"
+
+[node name="ResumeButton_1" type="Button" parent="OrphanRoot_6/OptionBackgroundImage_1"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -102.14152
+offset_top = -35.04382
+offset_right = 57.85848
+offset_bottom = -5.04382
+texture_normal = ExtResource("364")
+
+[node name="OrphanRoot_7" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="MainMenuButton_2" type="Button" parent="OrphanRoot_7"]
+anchor_left = 0.0
+anchor_top = 1
+anchor_right = 0.0
+anchor_bottom = 1
+offset_left = -56.92063
+offset_top = -35.43008
+offset_right = 101.07937
+offset_bottom = -4.43008
+texture_normal = ExtResource("362")
+script = ExtResource("363")
+metadata/unity_class = "BackToMenu"
+
+[node name="OrphanRoot_8" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="ResumeButton_2" type="Button" parent="OrphanRoot_8"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -102.14152
+offset_top = -35.04382
+offset_right = 57.85848
+offset_bottom = -5.04382
+texture_normal = ExtResource("364")
+
+[node name="OrphanRoot_9" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="HaveToLeaveThisHouseText_1" type="TextureRect" parent="OrphanRoot_9"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("266")
+
+[node name="OrphanRoot_10" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="CuttingPliersText_1" type="TextureRect" parent="OrphanRoot_10"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.6
+offset_right = 50
+offset_bottom = 140.6
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("267")
+
+[node name="OrphanRoot_11" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="HammerText_1" type="TextureRect" parent="OrphanRoot_11"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("268")
+
+[node name="OrphanRoot_12" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="MasterKeyText_1" type="TextureRect" parent="OrphanRoot_12"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("269")
+
+[node name="OrphanRoot_13" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="PadlockKeyText_1" type="TextureRect" parent="OrphanRoot_13"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("270")
+
+[node name="OrphanRoot_14" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="SafeKeyText_1" type="TextureRect" parent="OrphanRoot_14"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("271")
+
+[node name="OrphanRoot_15" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedSafeKeyText_1_1" type="TextureRect" parent="OrphanRoot_15"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.1
+offset_right = 50.00006104
+offset_bottom = 101.1
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("272")
+
+[node name="OrphanRoot_16" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedPadlockKeyText_1_1" type="TextureRect" parent="OrphanRoot_16"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("273")
+
+[node name="OrphanRoot_17" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedMasterKeyText_1_1" type="TextureRect" parent="OrphanRoot_17"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("274")
+
+[node name="OrphanRoot_18" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedHammerText_1_1" type="TextureRect" parent="OrphanRoot_18"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("275")
+
+[node name="OrphanRoot_19" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedCuttingPliersText_1_1" type="TextureRect" parent="OrphanRoot_19"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("276")
+
+[node name="OrphanRoot_20" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="CantOpenDoorYet_1" type="TextureRect" parent="OrphanRoot_20"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 41.1
+offset_right = 50
+offset_bottom = 141.1
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("277")
+
+[node name="OrphanRoot_21" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedPadlockCodeText_2_1" type="TextureRect" parent="OrphanRoot_21"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("278")
+
+[node name="OrphanRoot_22" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="PadlockCodeText_1_1" type="TextureRect" parent="OrphanRoot_22"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("279")
+
+[node name="OrphanRoot_23" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="CrossbowText_1" type="TextureRect" parent="OrphanRoot_23"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("280")
+
+[node name="OrphanRoot_24" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="TranquilizerDartText_1" type="TextureRect" parent="OrphanRoot_24"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("281")
+
+[node name="OrphanRoot_25" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedCrossbowText_1" type="TextureRect" parent="OrphanRoot_25"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("282")
+
+[node name="OrphanRoot_26" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedWeaponKeyText_1" type="TextureRect" parent="OrphanRoot_26"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("283")
+
+[node name="OrphanRoot_27" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="weaponKeyText_1" type="TextureRect" parent="OrphanRoot_27"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("284")
+
+[node name="OrphanRoot_28" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="screwdriverText_1" type="TextureRect" parent="OrphanRoot_28"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("285")
+
+[node name="OrphanRoot_29" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedScrewdriverText_1" type="TextureRect" parent="OrphanRoot_29"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("286")
+
+[node name="OrphanRoot_30" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="PlankText_1" type="TextureRect" parent="OrphanRoot_30"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("287")
+
+[node name="OrphanRoot_31" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GrannyIsGone_NormalText1_1" type="TextureRect" parent="OrphanRoot_31"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -227.5
+offset_right = 50
+offset_bottom = -127.5
+mouse_filter = 2
+texture = ExtResource("288")
+
+[node name="OrphanRoot_32" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GrannyIsGone_EasyText2_1" type="Control" parent="OrphanRoot_32"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = -227.5
+offset_right = 50.00006104
+offset_bottom = -127.5
+mouse_filter = 2
+
+[node name="OrphanRoot_33" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GrannyIsGone_HardText3_1" type="TextureRect" parent="OrphanRoot_33"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -227.5001
+offset_right = 50
+offset_bottom = -127.5001
+mouse_filter = 2
+texture = ExtResource("289")
+
+[node name="OrphanRoot_34" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GrannyIsGone_ExtremeText4_1" type="TextureRect" parent="OrphanRoot_34"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = -227.5001
+offset_right = 50.00006104
+offset_bottom = -127.5001
+mouse_filter = 2
+texture = ExtResource("290")
+
+[node name="OrphanRoot_35" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GrannyIsGone_Easy_ShotText_1" type="TextureRect" parent="OrphanRoot_35"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -227.5001
+offset_right = 50
+offset_bottom = -127.5001
+mouse_filter = 2
+texture = ExtResource("291")
+
+[node name="OrphanRoot_36" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GrannyIsGone_Normal_ShotText_1" type="Control" parent="OrphanRoot_36"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = -227.5001
+offset_right = 50.00006104
+offset_bottom = -127.5001
+mouse_filter = 2
+
+[node name="OrphanRoot_37" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GrannyIsGone_Extreme_ShotText_1" type="TextureRect" parent="OrphanRoot_37"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -227.5001
+offset_right = 50
+offset_bottom = -127.5001
+mouse_filter = 2
+texture = ExtResource("289")
+
+[node name="OrphanRoot_38" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="MaybeUsePlanksText_1" type="TextureRect" parent="OrphanRoot_38"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("292")
+
+[node name="OrphanRoot_39" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BatteryText_1" type="TextureRect" parent="OrphanRoot_39"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("293")
+
+[node name="OrphanRoot_40" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedBatteryText_1" type="TextureRect" parent="OrphanRoot_40"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("294")
+
+[node name="OrphanRoot_41" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="PieceOfPaintingText_1" type="TextureRect" parent="OrphanRoot_41"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("295")
+
+[node name="OrphanRoot_42" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GrannyRewardedExtraDay_1" type="TextureRect" parent="OrphanRoot_42"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = -165.5
+offset_right = 50.00006104
+offset_bottom = -65.5
+mouse_filter = 2
+texture = ExtResource("296")
+
+[node name="OrphanRoot_43" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GrannyPlacedExtraLockOnDoor_1" type="TextureRect" parent="OrphanRoot_43"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -165.5
+offset_right = 50
+offset_bottom = -65.5
+mouse_filter = 2
+texture = ExtResource("297")
+
+[node name="OrphanRoot_44" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="SaknasBitarAvTavlan_1" type="TextureRect" parent="OrphanRoot_44"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("298")
+
+[node name="OrphanRoot_45" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="PlayhouseKeyText_1" type="TextureRect" parent="OrphanRoot_45"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("299")
+
+[node name="OrphanRoot_46" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedPlayhouseKeyText_1" type="TextureRect" parent="OrphanRoot_46"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("300")
+
+[node name="OrphanRoot_47" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="DangerousCuttingToolText_1" type="TextureRect" parent="OrphanRoot_47"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("301")
+
+[node name="OrphanRoot_48" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="MelonText_1" type="TextureRect" parent="OrphanRoot_48"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("302")
+
+[node name="OrphanRoot_49" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="SomethingMissingHereText_1" type="TextureRect" parent="OrphanRoot_49"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("303")
+
+[node name="OrphanRoot_50" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="SomethingInsideMelon_1" type="TextureRect" parent="OrphanRoot_50"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("304")
+
+[node name="OrphanRoot_51" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="TeddyText_1" type="TextureRect" parent="OrphanRoot_51"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 41.3
+offset_right = 50
+offset_bottom = 141.3
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("305")
+
+[node name="OrphanRoot_52" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="CogwheelText_1" type="TextureRect" parent="OrphanRoot_52"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("306")
+
+[node name="OrphanRoot_53" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="WinchHandleText_1" type="TextureRect" parent="OrphanRoot_53"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("307")
+
+[node name="OrphanRoot_54" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedWinchHandleText_1" type="TextureRect" parent="OrphanRoot_54"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("308")
+
+[node name="OrphanRoot_55" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedFindSwitchText_1" type="Control" parent="OrphanRoot_55"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+
+[node name="OrphanRoot_56" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="ShotgunText_1" type="TextureRect" parent="OrphanRoot_56"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("309")
+
+[node name="OrphanRoot_57" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="AmmoText_1" type="TextureRect" parent="OrphanRoot_57"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("310")
+
+[node name="OrphanRoot_58" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedShotgunText_1" type="Control" parent="OrphanRoot_58"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+
+[node name="OrphanRoot_59" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="PartofShotgunText_1" type="TextureRect" parent="OrphanRoot_59"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("311")
+
+[node name="OrphanRoot_60" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="ShotgunLoadedText_1" type="TextureRect" parent="OrphanRoot_60"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("312")
+
+[node name="OrphanRoot_61" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedCarKeyText_1" type="TextureRect" parent="OrphanRoot_61"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.7
+offset_right = 50.00006104
+offset_bottom = 101.7
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("313")
+
+[node name="OrphanRoot_62" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="CarKeyText_1" type="TextureRect" parent="OrphanRoot_62"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("314")
+
+[node name="OrphanRoot_63" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedGasolineText_1" type="TextureRect" parent="OrphanRoot_63"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("315")
+
+[node name="OrphanRoot_64" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedCarBatteryText_1" type="TextureRect" parent="OrphanRoot_64"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("316")
+
+[node name="OrphanRoot_65" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedEnginePartText_1" type="TextureRect" parent="OrphanRoot_65"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("317")
+
+[node name="OrphanRoot_66" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedSparkPlugText_1" type="TextureRect" parent="OrphanRoot_66"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("318")
+
+[node name="OrphanRoot_67" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedWrenchText_1" type="TextureRect" parent="OrphanRoot_67"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("319")
+
+[node name="OrphanRoot_68" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GasolineCanText_1" type="TextureRect" parent="OrphanRoot_68"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("320")
+
+[node name="OrphanRoot_69" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="CarBatteryText_1" type="TextureRect" parent="OrphanRoot_69"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("321")
+
+[node name="OrphanRoot_70" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="SparkPlugText_1" type="TextureRect" parent="OrphanRoot_70"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("322")
+
+[node name="OrphanRoot_71" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="WrenchText_1" type="TextureRect" parent="OrphanRoot_71"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("323")
+
+[node name="OrphanRoot_72" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="EnginePartText_1" type="TextureRect" parent="OrphanRoot_72"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("324")
+
+[node name="OrphanRoot_73" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="garagedoorLockedText_1" type="TextureRect" parent="OrphanRoot_73"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("325")
+
+[node name="OrphanRoot_74" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="CanNotStartTheCarYet_1" type="Control" parent="OrphanRoot_74"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+
+[node name="OrphanRoot_75" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="ProbablyOpenGarageDoorFirstText_1" type="TextureRect" parent="OrphanRoot_75"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -91
+offset_right = 50
+offset_bottom = 9
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("326")
+
+[node name="OrphanRoot_76" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="MeatText_1" type="TextureRect" parent="OrphanRoot_76"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("327")
+
+[node name="OrphanRoot_77" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="EmptyPlateText_1" type="TextureRect" parent="OrphanRoot_77"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("328")
+
+[node name="OrphanRoot_78" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="SpecialKeyText_1" type="TextureRect" parent="OrphanRoot_78"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("329")
+
+[node name="OrphanRoot_79" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedSpecialKey_1" type="TextureRect" parent="OrphanRoot_79"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("330")
+
+[node name="OrphanRoot_80" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="MaybePlaceSomethingHere_1" type="TextureRect" parent="OrphanRoot_80"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("331")
+
+[node name="OrphanRoot_81" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BookText_1" type="TextureRect" parent="OrphanRoot_81"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("332")
+
+[node name="OrphanRoot_82" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="PeppersprayText_1" type="TextureRect" parent="OrphanRoot_82"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.60001
+offset_right = 50.00006104
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("333")
+
+[node name="OrphanRoot_83" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="RemoteControlText_1" type="TextureRect" parent="OrphanRoot_83"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 40.60001
+offset_right = 50
+offset_bottom = 140.60001
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("334")
+
+[node name="OrphanRoot_84" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedRemoteControlText_1" type="Control" parent="OrphanRoot_84"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+
+[node name="OrphanRoot_85" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="NeedToGetCloserText_1" type="TextureRect" parent="OrphanRoot_85"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = 1.09998
+offset_right = 50
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("335")
+
+[node name="OrphanRoot_86" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="SprayIsEmptyText_1" type="TextureRect" parent="OrphanRoot_86"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 1.09998
+offset_right = 50.00006104
+offset_bottom = 101.09998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("336")
+
+[node name="OrphanRoot_87" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="EmptyBowlText_1" type="TextureRect" parent="OrphanRoot_87"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.59998
+offset_right = 50.00006104
+offset_bottom = 140.59998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("337")
+
+[node name="OrphanRoot_88" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BirdSeedText_1" type="TextureRect" parent="OrphanRoot_88"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.59998
+offset_right = 50.00006104
+offset_bottom = 140.59998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("338")
+
+[node name="OrphanRoot_89" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="FreezeTrapText_1" type="TextureRect" parent="OrphanRoot_89"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99993896
+offset_top = 40.59998
+offset_right = 50.00006104
+offset_bottom = 140.59998
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("339")
+
+[node name="OrphanRoot_90" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="CarControlls" type="Control" parent="OrphanRoot_90"]
+anchor_left = 0.0
+anchor_top = 1
+anchor_right = 0.0
+anchor_bottom = 1
+offset_left = 1037.214
+offset_top = -1558.7576
+offset_right = 1759.28
+offset_bottom = -893.9984
+mouse_filter = 2
+
+[node name="StartCarButton" type="Button" parent="OrphanRoot_90/CarControlls"]
+anchor_left = 1
+anchor_top = 0.5
+anchor_right = 1
+anchor_bottom = 0.5
+offset_left = -108.29999
+offset_top = -48.4
+offset_right = -78.29999
+offset_bottom = -18.4
+visible = false
+process_mode = 3
+texture_normal = ExtResource("374")
+
+[node name="ReverseButton" type="Button" parent="OrphanRoot_90/CarControlls"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -15
+offset_top = 60.7
+offset_right = 15
+offset_bottom = 90.7
+visible = false
+process_mode = 3
+
+[node name="ForwardButton" type="Button" parent="OrphanRoot_90/CarControlls"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -15
+offset_top = -55.3
+offset_right = 15
+offset_bottom = -25.3
 visible = false
 process_mode = 3
 texture_normal = ExtResource("375")
 
-[node name="GrannyRewardedExtraDay_1" type="TextureRect" parent="."]
+[node name="OrphanRoot_91" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -4472,9 +5147,22 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
-texture = ExtResource("338")
+mouse_filter = 2
 
-[node name="Pepperspray_RemoteButtonParent" type="Control" parent="."]
+[node name="StartCarButton_1" type="Button" parent="OrphanRoot_91"]
+anchor_left = 1
+anchor_top = 0.5
+anchor_right = 1
+anchor_bottom = 0.5
+offset_left = -108.29999
+offset_top = -48.4
+offset_right = -78.29999
+offset_bottom = -18.4
+visible = false
+process_mode = 3
+texture_normal = ExtResource("374")
+
+[node name="OrphanRoot_92" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -4483,33 +5171,385 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
 
-[node name="PeppersprayButton_1" type="Button" parent="Pepperspray_RemoteButtonParent"]
+[node name="ReverseButton_1" type="Button" parent="OrphanRoot_92"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -15
+offset_top = 60.7
+offset_right = 15
+offset_bottom = 90.7
+visible = false
+process_mode = 3
+
+[node name="OrphanRoot_93" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="ForwardButton_1" type="Button" parent="OrphanRoot_93"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -15
+offset_top = -55.3
+offset_right = 15
+offset_bottom = -25.3
+visible = false
+process_mode = 3
+texture_normal = ExtResource("375")
+
+[node name="OrphanRoot_94" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="DropObjectButton_1" type="Button" parent="OrphanRoot_94"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -15
+offset_top = -75
+offset_right = 15
+offset_bottom = -45
+visible = false
+process_mode = 3
+texture_normal = ExtResource("359")
+script = ExtResource("360")
+metadata/unity_class = "dropObjects"
+
+[node name="OrphanRoot_95" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="GunButton_1" type="Button" parent="OrphanRoot_95"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -243.2
+offset_top = -98.4
+offset_right = -83.2
+offset_bottom = -68.4
+visible = false
+process_mode = 3
+texture_normal = ExtResource("344")
+
+[node name="OrphanRoot_96" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="OptionButton_1" type="Button" parent="OrphanRoot_96"]
+anchor_left = 0.2428561
+anchor_top = 0.0
+anchor_right = 0.2428561
+anchor_bottom = 0.0
+offset_left = -15
+offset_top = 36
+offset_right = 14
+offset_bottom = 66
+texture_normal = ExtResource("349")
+
+[node name="OrphanRoot_97" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BloodScreen_1" type="TextureRect" parent="OrphanRoot_97"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 1
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("340")
+
+[node name="OrphanRoot_98" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BloodScreenBiten_1" type="TextureRect" parent="OrphanRoot_98"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 1
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("341")
+
+[node name="OrphanRoot_99" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BloodScreenPlayerHit_1" type="TextureRect" parent="OrphanRoot_99"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 1
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("342")
+
+[node name="OrphanRoot_100" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BloodScreenEnd_1" type="TextureRect" parent="OrphanRoot_100"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 1
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("340")
+modulate = Color(1, 1, 1, 0.5019608)
+
+[node name="OrphanRoot_101" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="FrostScreen_1" type="TextureRect" parent="OrphanRoot_101"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -6.103516e-05
+offset_top = 0.0
+offset_right = -6.103515989e-05
+offset_bottom = 0.0
+mouse_filter = 2
+texture = ExtResource("343")
+
+[node name="OrphanRoot_102" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BloodScreenDay4_1" type="TextureRect" parent="OrphanRoot_102"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 1
+offset_left = 6.103516e-05
+offset_top = 0.0
+offset_right = 6.103515989e-05
+offset_bottom = 0.0
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("340")
+
+[node name="OrphanRoot_103" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="RemoveBeartrapButton_1" type="Button" parent="OrphanRoot_103"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -15
+offset_top = -0.4
+offset_right = 15
+offset_bottom = 29.6
+texture_normal = ExtResource("358")
+
+[node name="OrphanRoot_104" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="AllBedButtons" type="Control" parent="OrphanRoot_104"]
+anchor_left = 0.0
+anchor_top = 1
+anchor_right = 0.0
+anchor_bottom = 1
+offset_left = -97.415
+offset_top = -597.0702
+offset_right = 624.651
+offset_bottom = 67.689
+mouse_filter = 2
+
+[node name="Bed1Button" type="Button" parent="OrphanRoot_104/AllBedButtons"]
 anchor_left = 1
 anchor_top = 0.0
 anchor_right = 1
 anchor_bottom = 0.0
-offset_left = -249
-offset_top = 981.6
-offset_right = -89
-offset_bottom = 1011.6
+offset_left = -174.29999
+offset_top = 52.2
+offset_right = -14.29999
+offset_bottom = 82.2
 visible = false
 process_mode = 3
-texture_normal = ExtResource("279")
 
-[node name="RemoteButton_1" type="Button" parent="Pepperspray_RemoteButtonParent"]
+[node name="Bed2Button" type="Button" parent="OrphanRoot_104/AllBedButtons"]
 anchor_left = 1
 anchor_top = 0.0
 anchor_right = 1
 anchor_bottom = 0.0
-offset_left = -248.9999
-offset_top = 981.60001
-offset_right = -88.9999
-offset_bottom = 1011.60001
+offset_left = -174.30005
+offset_top = 52.19995
+offset_right = -14.30005
+offset_bottom = 82.19995
 visible = false
 process_mode = 3
 
-[node name="PeppersprayText_1" type="TextureRect" parent="."]
+[node name="Bed3Button" type="Button" parent="OrphanRoot_104/AllBedButtons"]
+anchor_left = 1
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 0.0
+offset_left = -174.30005
+offset_top = 52.19995
+offset_right = -14.30005
+offset_bottom = 82.19995
+visible = false
+process_mode = 3
+
+[node name="CoffinVindButton" type="Button" parent="OrphanRoot_104/AllBedButtons"]
+anchor_left = 1
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 0.0
+offset_left = -174.30005
+offset_top = 52.19995
+offset_right = -14.30005
+offset_bottom = 82.19995
+visible = false
+process_mode = 3
+texture_normal = ExtResource("376")
+
+[node name="CoffinBackyardButton" type="Button" parent="OrphanRoot_104/AllBedButtons"]
+anchor_left = 1
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 0.0
+offset_left = -174.30005
+offset_top = 52.19995
+offset_right = -14.30005
+offset_bottom = 82.19995
+visible = false
+process_mode = 3
+texture_normal = ExtResource("376")
+
+[node name="InCarButton" type="Button" parent="OrphanRoot_104/AllBedButtons"]
+anchor_left = 1
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 0.0
+offset_left = -174.30005
+offset_top = 52.19995
+offset_right = -14.30005
+offset_bottom = 82.19995
+visible = false
+process_mode = 3
+texture_normal = ExtResource("377")
+
+[node name="OrphanRoot_105" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -4518,11 +5558,21 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Bed1Button_1" type="Button" parent="OrphanRoot_105"]
+anchor_left = 1
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 0.0
+offset_left = -174.29999
+offset_top = 52.2
+offset_right = -14.29999
+offset_bottom = 82.2
 visible = false
 process_mode = 3
-texture = ExtResource("363")
 
-[node name="FuelMeterBG_1" type="TextureRect" parent="."]
+[node name="OrphanRoot_106" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -4531,11 +5581,465 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Bed2Button_1" type="Button" parent="OrphanRoot_106"]
+anchor_left = 1
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 0.0
+offset_left = -174.30005
+offset_top = 52.19995
+offset_right = -14.30005
+offset_bottom = 82.19995
 visible = false
 process_mode = 3
+
+[node name="OrphanRoot_107" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Bed3Button_1" type="Button" parent="OrphanRoot_107"]
+anchor_left = 1
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 0.0
+offset_left = -174.30005
+offset_top = 52.19995
+offset_right = -14.30005
+offset_bottom = 82.19995
+visible = false
+process_mode = 3
+
+[node name="OrphanRoot_108" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="CoffinVindButton_1" type="Button" parent="OrphanRoot_108"]
+anchor_left = 1
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 0.0
+offset_left = -174.30005
+offset_top = 52.19995
+offset_right = -14.30005
+offset_bottom = 82.19995
+visible = false
+process_mode = 3
+texture_normal = ExtResource("376")
+
+[node name="OrphanRoot_109" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="CoffinBackyardButton_1" type="Button" parent="OrphanRoot_109"]
+anchor_left = 1
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 0.0
+offset_left = -174.30005
+offset_top = 52.19995
+offset_right = -14.30005
+offset_bottom = 82.19995
+visible = false
+process_mode = 3
+texture_normal = ExtResource("376")
+
+[node name="OrphanRoot_110" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="InCarButton_1" type="Button" parent="OrphanRoot_110"]
+anchor_left = 1
+anchor_top = 0.0
+anchor_right = 1
+anchor_bottom = 0.0
+offset_left = -174.30005
+offset_top = 52.19995
+offset_right = -14.30005
+offset_bottom = 82.19995
+visible = false
+process_mode = 3
+texture_normal = ExtResource("377")
+
+[node name="OrphanRoot_111" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="TheEndText_1" type="TextureRect" parent="OrphanRoot_111"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -50
+offset_right = 50
+offset_bottom = 50
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("345")
+
+[node name="OrphanRoot_112" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="TheEndTextPractice_1" type="TextureRect" parent="OrphanRoot_112"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -50
+offset_right = 50
+offset_bottom = 50
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("346")
+
+[node name="OrphanRoot_113" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="CrouchButtonParent" type="Control" parent="OrphanRoot_113"]
+anchor_left = 0.0
+anchor_top = 1
+anchor_right = 0.0
+anchor_bottom = 1
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+visible = false
+process_mode = 3
+
+[node name="PlayerHukarSigButton" type="Button" parent="OrphanRoot_113/CrouchButtonParent"]
+anchor_left = 0.0
+anchor_top = 0.210671
+anchor_right = 0.0
+anchor_bottom = 0.210671
+offset_left = 8
+offset_top = -12.799988
+offset_right = 168
+offset_bottom = 17.200012
+texture_normal = ExtResource("378")
+
+[node name="OrphanRoot_114" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="PlayerHukarSigButton_1" type="Button" parent="OrphanRoot_114"]
+anchor_left = 0.0
+anchor_top = 0.210671
+anchor_right = 0.0
+anchor_bottom = 0.210671
+offset_left = 8
+offset_top = -12.799988
+offset_right = 168
+offset_bottom = 17.200012
+texture_normal = ExtResource("378")
+
+[node name="OrphanRoot_115" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Day1Text_1" type="TextureRect" parent="OrphanRoot_115"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -33.115
+offset_top = -95.26001
+offset_right = 33.115
+offset_bottom = -63.16001
+mouse_filter = 2
+texture = ExtResource("365")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="OrphanRoot_116" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Day2Text_1" type="TextureRect" parent="OrphanRoot_116"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -33.11493896
+offset_top = -95.26001
+offset_right = 33.11506104
+offset_bottom = -63.16001
+mouse_filter = 2
+texture = ExtResource("366")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="OrphanRoot_117" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Day3Text_1" type="TextureRect" parent="OrphanRoot_117"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -33.11481689
+offset_top = -95.26001
+offset_right = 33.11518311
+offset_bottom = -63.16001
+mouse_filter = 2
+texture = ExtResource("367")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="OrphanRoot_118" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Day4Text_1" type="TextureRect" parent="OrphanRoot_118"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -33.11481689
+offset_top = -95.26001
+offset_right = 33.11518311
+offset_bottom = -63.16001
+mouse_filter = 2
 texture = ExtResource("368")
+modulate = Color(1, 1, 1, 0.0)
 
-[node name="FuelMeter_2" type="TextureRect" parent="FuelMeterBG_1"]
+[node name="OrphanRoot_119" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Day5Text_1" type="TextureRect" parent="OrphanRoot_119"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -33.11481689
+offset_top = -95.26001
+offset_right = 33.11518311
+offset_bottom = -63.16001
+mouse_filter = 2
+texture = ExtResource("369")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="OrphanRoot_120" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Day5LastDayText_1" type="TextureRect" parent="OrphanRoot_120"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -97.7
+offset_top = -93.95
+offset_right = 103.7
+offset_bottom = -61.85
+mouse_filter = 2
+texture = ExtResource("370")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="OrphanRoot_121" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Day6LastDayText_1" type="TextureRect" parent="OrphanRoot_121"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -98.8
+offset_top = -82.55
+offset_right = 102.6
+offset_bottom = -50.45
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("371")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="OrphanRoot_122" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BonusDayLastDayText_1" type="TextureRect" parent="OrphanRoot_122"]
+anchor_left = 0.5
+anchor_top = 1
+anchor_right = 0.5
+anchor_bottom = 1
+offset_left = -98.799915
+offset_top = -92.85
+offset_right = 102.600085
+offset_bottom = -60.75
+mouse_filter = 2
+texture = ExtResource("372")
+modulate = Color(1, 1, 1, 0.0)
+
+[node name="OrphanRoot_123" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BearTrapHealth_1" type="TextureRect" parent="OrphanRoot_123"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -50
+offset_right = 50
+offset_bottom = 50
+mouse_filter = 2
+texture = ExtResource("350")
+
+[node name="OrphanRoot_124" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="FuelMeterBG_1" type="TextureRect" parent="OrphanRoot_124"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -170.84
+offset_top = -197.73
+offset_right = -70.84
+offset_bottom = -97.73
+mouse_filter = 2
+visible = false
+process_mode = 3
+texture = ExtResource("351")
+
+[node name="FuelMeter_1" type="TextureRect" parent="OrphanRoot_124/FuelMeterBG_1"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -4544,9 +6048,10 @@ offset_left = -49.99996948
 offset_top = -50
 offset_right = 50.00003052
 offset_bottom = 50
-texture = ExtResource("368")
+mouse_filter = 2
+texture = ExtResource("351")
 
-[node name="TranquilizerDartText_1" type="TextureRect" parent="."]
+[node name="OrphanRoot_125" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -4555,11 +6060,21 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
-visible = false
-process_mode = 3
-texture = ExtResource("324")
+mouse_filter = 2
 
-[node name="BookText_1" type="TextureRect" parent="."]
+[node name="FuelMeter_2" type="TextureRect" parent="OrphanRoot_125"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -49.99996948
+offset_top = -50
+offset_right = 50.00003052
+offset_bottom = 50
+mouse_filter = 2
+texture = ExtResource("351")
+
+[node name="OrphanRoot_126" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -4568,11 +6083,23 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="Mittenprick_1" type="TextureRect" parent="OrphanRoot_126"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -50
+offset_right = 50
+offset_bottom = 50
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("362")
+texture = ExtResource("352")
 
-[node name="SpecialKeyText_1" type="TextureRect" parent="."]
+[node name="OrphanRoot_127" type="Control" parent="."]
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
@@ -4581,9 +6108,188 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="MittenRing_1" type="TextureRect" parent="OrphanRoot_127"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50
+offset_top = -50
+offset_right = 50
+offset_bottom = 50
+mouse_filter = 2
 visible = false
 process_mode = 3
-texture = ExtResource("360")
+texture = ExtResource("353")
+
+[node name="OrphanRoot_128" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="OpenDoorButton_1" type="Button" parent="OrphanRoot_128"]
+anchor_left = 1
+anchor_top = 0.5
+anchor_right = 1
+anchor_bottom = 0.5
+offset_left = -182.2
+offset_top = -101.59998
+offset_right = -22.2
+offset_bottom = -71.59998
+visible = false
+process_mode = 3
+texture_normal = ExtResource("354")
+
+[node name="OrphanRoot_129" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="BrunnsVevButton_1" type="Button" parent="OrphanRoot_129"]
+anchor_left = 1
+anchor_top = 0.5
+anchor_right = 1
+anchor_bottom = 0.5
+offset_left = -119.1001
+offset_top = -101.5
+offset_right = -89.1001
+offset_bottom = -71.5
+visible = false
+process_mode = 3
+texture_normal = ExtResource("355")
+
+[node name="OrphanRoot_130" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="FillFuelButton_1" type="Button" parent="OrphanRoot_130"]
+anchor_left = 1
+anchor_top = 0.5
+anchor_right = 1
+anchor_bottom = 0.5
+offset_left = -117.8
+offset_top = -102.4
+offset_right = -87.8
+offset_bottom = -72.4
+visible = false
+process_mode = 3
+texture_normal = ExtResource("356")
+
+[node name="OrphanRoot_131" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="ArrowButton_1" type="Button" parent="OrphanRoot_131"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -243.2
+offset_top = -98.4
+offset_right = -83.2
+offset_bottom = -68.4
+visible = false
+process_mode = 3
+texture_normal = ExtResource("344")
+
+[node name="OrphanRoot_132" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="PlaceObjectButton_1" type="Button" parent="OrphanRoot_132"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -195.9
+offset_top = -89.10001
+offset_right = -165.9
+offset_bottom = -59.10001
+visible = false
+process_mode = 3
+texture_normal = ExtResource("347")
+
+[node name="OrphanRoot_133" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="PeppersprayButton_1" type="Button" parent="OrphanRoot_133"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -249
+offset_top = -98.4
+offset_right = -89
+offset_bottom = -68.4
+visible = false
+process_mode = 3
+texture_normal = ExtResource("348")
+
+[node name="OrphanRoot_134" type="Control" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+
+[node name="RemoteButton_1" type="Button" parent="OrphanRoot_134"]
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+offset_left = -248.9999
+offset_top = -98.39999
+offset_right = -88.9999
+offset_bottom = -68.39999
+visible = false
+process_mode = 3
 [node name="UnityAdManager" type="Node3D" parent="."]
 transform = Transform3D(1, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0, 1, 538.7156, 281.8312, 0.0)
 metadata/unity_class = "AdManager"
