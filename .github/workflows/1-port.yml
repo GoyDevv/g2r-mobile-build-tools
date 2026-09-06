@@ -6,8 +6,16 @@ name: "1 - Port game (AssetRipper)"
 on:
   workflow_dispatch:
     inputs:
+      zip_url:
+        description: 'OPTION B: direct-download link to the game zip (no git needed). Leave empty if you uploaded the zip to games/'
+        required: false
+        default: ''
+      game_name:
+        description: 'Game name to use when downloading from a link (leave empty = filename from the link)'
+        required: false
+        default: ''
       game_zip:
-        description: 'Zip file name inside games/ (leave empty to auto-detect the first one)'
+        description: 'OPTION A: zip file name inside games/ (leave empty to auto-detect the first one)'
         required: false
         default: ''
   push:
@@ -33,16 +41,34 @@ jobs:
         id: pick
         run: |
           set -e
-          if [ -n "${{ github.event.inputs.game_zip }}" ]; then
-            ZIP="games/${{ github.event.inputs.game_zip }}"
+          URL="${{ github.event.inputs.zip_url }}"
+          if [ -n "$URL" ]; then
+            # OPTION B: download the zip from a direct link
+            echo "Downloading from: $URL"
+            mkdir -p downloaded
+            curl -L --fail --retry 3 -o downloaded/game.zip "$URL"
+            ls -la downloaded/
+            ZIP="$PWD/downloaded/game.zip"
+            if [ -n "${{ github.event.inputs.game_name }}" ]; then
+              NAME="${{ github.event.inputs.game_name }}"
+            else
+              # filename from the URL, query string stripped
+              NAME=$(basename "${URL%%\?*}" .zip)
+              [ -z "$NAME" ] || [ "$NAME" = "game" ] && NAME="game_from_url"
+            fi
           else
-            ZIP=$(find games -maxdepth 1 -name '*.zip' | head -1)
+            # OPTION A: zip already in games/
+            if [ -n "${{ github.event.inputs.game_zip }}" ]; then
+              ZIP="games/${{ github.event.inputs.game_zip }}"
+            else
+              ZIP=$(find games -maxdepth 1 -name '*.zip' | head -1)
+            fi
+            if [ -z "$ZIP" ] || [ ! -f "$ZIP" ]; then
+              echo "::error::No zip found in games/ and no zip_url given. Upload a zip to games/ OR run this workflow with a direct-download link."
+              exit 1
+            fi
+            NAME=$(basename "$ZIP" .zip)
           fi
-          if [ -z "$ZIP" ] || [ ! -f "$ZIP" ]; then
-            echo "::error::No zip found in games/ — paste your game zip there first."
-            exit 1
-          fi
-          NAME=$(basename "$ZIP" .zip)
           SAFE=$(echo "$NAME" | tr ' ' '_' | tr -cd 'A-Za-z0-9_.-')
           echo "zip=$ZIP"  >> "$GITHUB_OUTPUT"
           echo "name=$SAFE" >> "$GITHUB_OUTPUT"

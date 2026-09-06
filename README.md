@@ -10,7 +10,16 @@ Your phone only uploads a zip and downloads an APK. No PC, no Unity install, not
 
 ## How it works (4 steps)
 
-### 1. Paste your game zip into `games/`
+### 1. Get the game zip to CI — pick ONE option
+
+**Option A — paste a download link (no git needed, best on a phone):**
+Actions tab → **"1 - Port game (AssetRipper)"** → Run workflow → paste a
+**direct-download link** to the zip in the `zip_url` box → Run.
+The link must point straight at the file (it downloads to `game.zip`), e.g. a GitHub
+release asset, Dropbox `?dl=1`, file.io, catbox.moe, etc. Google Drive/Mega web pages
+do NOT work — they need direct-link formats.
+
+**Option B — push the zip into `games/`:**
 Keep it zipped. Files > 25 MB go through git/LFS (already configured), not the web UI:
 ```bash
 git lfs install
