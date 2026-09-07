@@ -1249,6 +1249,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Text_6" type="Label" parent="OrphanRoot_1"]
 anchor_left = 0.5
@@ -1273,6 +1274,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Text_1_1" type="Label" parent="OrphanRoot_2"]
 anchor_left = 0.5
@@ -1296,6 +1298,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PrivacyButton_1" type="Button" parent="OrphanRoot_3"]
 anchor_left = 0.5
@@ -1319,6 +1322,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DarkerToggle_1" type="Button" parent="OrphanRoot_4"]
 anchor_left = 0.5
@@ -1368,6 +1372,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="ExtraLocksText_1" type="TextureRect" parent="OrphanRoot_5"]
 anchor_left = 0.457861
@@ -1431,6 +1436,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Bakgrundsbild_2" type="TextureRect" parent="OrphanRoot_6"]
 anchor_left = 0.0
@@ -1456,6 +1462,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DiffHardText_1" type="TextureRect" parent="OrphanRoot_7"]
 anchor_left = 0.5
@@ -1483,6 +1490,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Background_8" type="TextureRect" parent="OrphanRoot_8"]
 anchor_left = 0.0
@@ -1522,6 +1530,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MoreInfoButton_1" type="Button" parent="OrphanRoot_9"]
 anchor_left = 0.5
@@ -1545,6 +1554,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Sliding_Area_2" type="Control" parent="OrphanRoot_10"]
 anchor_left = 0.0
@@ -1578,6 +1588,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="ExtraLocksToggle_2" type="Button" parent="OrphanRoot_11"]
 anchor_left = 0.5
@@ -1627,6 +1638,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Background_10" type="TextureRect" parent="OrphanRoot_12"]
 anchor_left = 0.0
@@ -1666,6 +1678,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PlayButton_1" type="Button" parent="OrphanRoot_13"]
 anchor_left = 0.0
@@ -1691,6 +1704,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Background_11" type="TextureRect" parent="OrphanRoot_14"]
 anchor_left = 0.0
@@ -1730,6 +1744,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Scrollbar_2" type="Button" parent="OrphanRoot_15"]
 anchor_left = 1
@@ -1775,6 +1790,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="HighQualityVarningText_1" type="TextureRect" parent="OrphanRoot_16"]
 anchor_left = 0.5
@@ -1802,6 +1818,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Scrollbar_3" type="Button" parent="OrphanRoot_17"]
 anchor_left = 1
@@ -1847,6 +1864,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Item_2" type="Button" parent="OrphanRoot_18"]
 anchor_left = 0.0
@@ -1907,6 +1925,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Background_12" type="TextureRect" parent="OrphanRoot_19"]
 anchor_left = 0.5
@@ -1997,6 +2016,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Head_1" type="TextureRect" parent="OrphanRoot_20"]
 anchor_left = 0.496
@@ -2023,6 +2043,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NightmareText_1" type="TextureRect" parent="OrphanRoot_21"]
 anchor_left = 0.7726254
@@ -2086,6 +2107,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Text_9" type="Label" parent="OrphanRoot_22"]
 anchor_left = 0.0
@@ -2111,6 +2133,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Sliding_Area_5" type="Control" parent="OrphanRoot_23"]
 anchor_left = 0.0
@@ -2144,6 +2167,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Template_2" type="TextureRect" parent="OrphanRoot_24"]
 anchor_left = 0.0
@@ -2276,6 +2300,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BeartrapOpen_1" type="Button" parent="OrphanRoot_25"]
 anchor_left = 0.5
@@ -2301,6 +2326,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DiffExtremeText_1" type="TextureRect" parent="OrphanRoot_26"]
 anchor_left = 0.5
@@ -2328,6 +2354,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="LoadingText_1" type="TextureRect" parent="OrphanRoot_27"]
 anchor_left = 1
@@ -2353,6 +2380,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DeclineButton_3" type="Button" parent="OrphanRoot_28"]
 anchor_left = 0.5
@@ -2390,6 +2418,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DeclineButton_4" type="Button" parent="OrphanRoot_29"]
 anchor_left = 0.5
@@ -2427,6 +2456,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Difficulty_Dropdown_1" type="Button" parent="OrphanRoot_30"]
 anchor_left = 0.5
@@ -2598,6 +2628,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Label_3" type="Label" parent="OrphanRoot_31"]
 anchor_left = 0.0
@@ -2622,6 +2653,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MoreInfoButton2_2" type="Button" parent="OrphanRoot_32"]
 anchor_left = 0.5
@@ -2645,6 +2677,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MusicToggle_1" type="Button" parent="OrphanRoot_33"]
 anchor_left = 0.5
@@ -2694,6 +2727,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Handle_8" type="Control" parent="OrphanRoot_34"]
 anchor_left = 0.0
@@ -2716,6 +2750,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="AcceptButton_3" type="Button" parent="OrphanRoot_35"]
 anchor_left = 0.5
@@ -2754,6 +2789,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Text_13" type="Label" parent="OrphanRoot_36"]
 anchor_left = 0.0
@@ -2778,6 +2814,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DiffEasyText_1" type="TextureRect" parent="OrphanRoot_37"]
 anchor_left = 0.5
@@ -2805,6 +2842,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Content_4" type="Control" parent="OrphanRoot_38"]
 anchor_left = 0.0
@@ -2876,6 +2914,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MediumQualityVarningText_1" type="TextureRect" parent="OrphanRoot_39"]
 anchor_left = 0.5
@@ -2903,6 +2942,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Item_Checkmark_6" type="TextureRect" parent="OrphanRoot_40"]
 anchor_left = 0.0
@@ -2928,6 +2968,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MusicText_1" type="TextureRect" parent="OrphanRoot_41"]
 anchor_left = 0.6122357
@@ -2991,6 +3032,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DarkerText_1" type="TextureRect" parent="OrphanRoot_42"]
 anchor_left = 0.301861
@@ -3054,6 +3096,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Bakgrundsbild_3" type="TextureRect" parent="OrphanRoot_43"]
 anchor_left = 0.0
@@ -3109,6 +3152,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Arrow_3" type="TextureRect" parent="OrphanRoot_44"]
 anchor_left = 1
@@ -3134,6 +3178,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Text_14" type="Label" parent="OrphanRoot_45"]
 anchor_left = 0.0
@@ -3158,6 +3203,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Quality_dropdown_1" type="Button" parent="OrphanRoot_46"]
 anchor_left = 0.5
@@ -3329,6 +3375,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="ContinueButton_2" type="Button" parent="OrphanRoot_47"]
 anchor_left = 1
@@ -3354,6 +3401,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Checkmark_14" type="TextureRect" parent="OrphanRoot_48"]
 anchor_left = 0.5
@@ -3379,6 +3427,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Background_17" type="TextureRect" parent="OrphanRoot_49"]
 anchor_left = 0.5
@@ -3469,6 +3518,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Handle_10" type="Control" parent="OrphanRoot_50"]
 anchor_left = 0.0
@@ -3491,6 +3541,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Viewport_5" type="Control" parent="OrphanRoot_51"]
 anchor_left = 0.0
@@ -3573,6 +3624,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="TextScreenBild_2" type="TextureRect" parent="OrphanRoot_52"]
 anchor_left = 0.0
@@ -3598,6 +3650,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BeartrapClosed_1" type="TextureRect" parent="OrphanRoot_53"]
 anchor_left = 0.5
@@ -3625,6 +3678,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DifficultyText_1" type="TextureRect" parent="OrphanRoot_54"]
 anchor_left = 0.0
@@ -3810,6 +3864,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Label_6" type="Label" parent="OrphanRoot_55"]
 anchor_left = 0.0
@@ -3834,6 +3889,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Item_Background_9" type="ColorRect" parent="OrphanRoot_56"]
 anchor_left = 0.0
@@ -3857,6 +3913,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Checkmark_15" type="TextureRect" parent="OrphanRoot_57"]
 anchor_left = 0.5
@@ -3882,6 +3939,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Template_6" type="TextureRect" parent="OrphanRoot_58"]
 anchor_left = 0.0
@@ -4014,6 +4072,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DiffNormalText_1" type="TextureRect" parent="OrphanRoot_59"]
 anchor_left = 0.5
@@ -4041,6 +4100,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Item_10" type="Button" parent="OrphanRoot_60"]
 anchor_left = 0.0
@@ -4101,6 +4161,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="QuitButton_1" type="Button" parent="OrphanRoot_61"]
 anchor_left = 0.0
@@ -4124,6 +4185,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NightmareToggle_2" type="Button" parent="OrphanRoot_62"]
 anchor_left = 0.5
@@ -4173,6 +4235,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Checkmark_17" type="TextureRect" parent="OrphanRoot_63"]
 anchor_left = 0.5
@@ -4198,6 +4261,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="IAP_button" type="Control" parent="OrphanRoot_64"]
 anchor_left = 0.0
@@ -4237,6 +4301,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DiffPracticeText_1" type="TextureRect" parent="OrphanRoot_65"]
 anchor_left = 0.5
@@ -4264,6 +4329,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Item_Label_11" type="Label" parent="OrphanRoot_66"]
 anchor_left = 0.0
@@ -4288,6 +4354,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Viewport_8" type="Control" parent="OrphanRoot_67"]
 anchor_left = 0.0
@@ -4370,6 +4437,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Text_17" type="Label" parent="OrphanRoot_68"]
 anchor_left = 0.0
@@ -4395,6 +4463,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MoreGamesButton_1" type="Button" parent="OrphanRoot_69"]
 anchor_left = 0.0
@@ -4418,6 +4487,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Teddy_2" type="TextureRect" parent="OrphanRoot_70"]
 anchor_left = 1
@@ -4444,6 +4514,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="ExtraScaryText_1" type="TextureRect" parent="OrphanRoot_71"]
 anchor_left = 0.7726254
@@ -4471,6 +4542,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Content_10" type="Control" parent="OrphanRoot_72"]
 anchor_left = 0.0
@@ -4542,6 +4614,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PurchaseButtonNew_1" type="Button" parent="OrphanRoot_73"]
 anchor_left = 1
@@ -4568,6 +4641,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Arrow_6" type="TextureRect" parent="OrphanRoot_74"]
 anchor_left = 1
@@ -4593,6 +4667,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="ContinueButton_3" type="Button" parent="OrphanRoot_75"]
 anchor_left = 0.5
@@ -4618,6 +4693,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Item_Label_14" type="Label" parent="OrphanRoot_76"]
 anchor_left = 0.0
@@ -4642,6 +4718,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="QualityText_1" type="TextureRect" parent="OrphanRoot_77"]
 anchor_left = 1
@@ -4827,6 +4904,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="AcceptButton_5" type="Button" parent="OrphanRoot_78"]
 anchor_left = 0.5
@@ -4865,6 +4943,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="TextScreenBild_3" type="Control" parent="OrphanRoot_79"]
 anchor_left = 0.0
@@ -4887,6 +4966,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Item_Background_15" type="ColorRect" parent="OrphanRoot_80"]
 anchor_left = 0.0
@@ -4910,6 +4990,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Item_Checkmark_15" type="TextureRect" parent="OrphanRoot_81"]
 anchor_left = 0.0
@@ -4935,6 +5016,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Checkmark_18" type="TextureRect" parent="OrphanRoot_82"]
 anchor_left = 0.5
@@ -4960,6 +5042,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Background_19" type="TextureRect" parent="OrphanRoot_83"]
 anchor_left = 0.0
@@ -4999,6 +5082,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="CheckIAP_Dold_1" type="Button" parent="OrphanRoot_84"]
 anchor_left = 0.5

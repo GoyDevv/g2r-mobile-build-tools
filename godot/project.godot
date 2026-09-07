@@ -11,6 +11,7 @@ config/features=PackedStringArray("4.7", "Mobile")
 
 GameState="*res://scripts/autoload/game_state.gd"
 MaterialFixer="*res://scripts/autoload/material_fixer.gd"
+MenuFlow="*res://scripts/autoload/menu_flow.gd"
 
 [input]
 
@@ -37,10 +38,11 @@ move_right={
 
 [display]
 
-window/size/viewport_width=1920
-window/size/viewport_height=1080
+window/size/viewport_width=800
+window/size/viewport_height=600
 window/stretch/mode="canvas_items"
-window/stretch/aspect="keep"
+window/stretch/aspect="expand"
+window/handheld/orientation=4
 
 [rendering]
 

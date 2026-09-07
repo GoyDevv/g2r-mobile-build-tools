@@ -2430,7 +2430,7 @@ anchor_right = 1
 anchor_bottom = 1
 offset_left = -6.103516e-05
 offset_top = 0.0
-offset_right = -6.103515989e-05
+offset_right = -6.103516e-05
 offset_bottom = 0.0
 mouse_filter = 2
 texture = ExtResource("343")
@@ -2444,7 +2444,7 @@ anchor_right = 1
 anchor_bottom = 1
 offset_left = 6.103516e-05
 offset_top = 0.0
-offset_right = 6.103515989e-05
+offset_right = 6.103516e-05
 offset_bottom = 0.0
 mouse_filter = 2
 visible = false
@@ -3059,6 +3059,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BlackScreenStartHolder" type="Control" parent="OrphanRoot_1"]
 anchor_left = 0.0
@@ -3108,6 +3109,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BlackScreenStart_1" type="Control" parent="OrphanRoot_2"]
 anchor_left = 0.0
@@ -3130,6 +3132,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="GameOverText_1" type="TextureRect" parent="OrphanRoot_3"]
 anchor_left = 0.5
@@ -3157,6 +3160,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PickUpButton_1" type="Button" parent="OrphanRoot_4"]
 anchor_left = 1
@@ -3184,6 +3188,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BlackScreenAdsPlay_1" type="Control" parent="OrphanRoot_5"]
 anchor_left = 0.0
@@ -3206,6 +3211,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="OptionBackgroundImage_1" type="TextureRect" parent="OrphanRoot_6"]
 anchor_left = 0.5
@@ -3257,6 +3263,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MainMenuButton_2" type="Button" parent="OrphanRoot_7"]
 anchor_left = 0.0
@@ -3282,6 +3289,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="ResumeButton_2" type="Button" parent="OrphanRoot_8"]
 anchor_left = 1
@@ -3305,6 +3313,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="HaveToLeaveThisHouseText_1" type="TextureRect" parent="OrphanRoot_9"]
 anchor_left = 0.5
@@ -3332,6 +3341,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="CuttingPliersText_1" type="TextureRect" parent="OrphanRoot_10"]
 anchor_left = 0.5
@@ -3359,6 +3369,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="HammerText_1" type="TextureRect" parent="OrphanRoot_11"]
 anchor_left = 0.5
@@ -3386,6 +3397,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MasterKeyText_1" type="TextureRect" parent="OrphanRoot_12"]
 anchor_left = 0.5
@@ -3413,6 +3425,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PadlockKeyText_1" type="TextureRect" parent="OrphanRoot_13"]
 anchor_left = 0.5
@@ -3440,6 +3453,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="SafeKeyText_1" type="TextureRect" parent="OrphanRoot_14"]
 anchor_left = 0.5
@@ -3467,6 +3481,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedSafeKeyText_1_1" type="TextureRect" parent="OrphanRoot_15"]
 anchor_left = 0.5
@@ -3494,6 +3509,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedPadlockKeyText_1_1" type="TextureRect" parent="OrphanRoot_16"]
 anchor_left = 0.5
@@ -3521,6 +3537,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedMasterKeyText_1_1" type="TextureRect" parent="OrphanRoot_17"]
 anchor_left = 0.5
@@ -3548,6 +3565,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedHammerText_1_1" type="TextureRect" parent="OrphanRoot_18"]
 anchor_left = 0.5
@@ -3575,6 +3593,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedCuttingPliersText_1_1" type="TextureRect" parent="OrphanRoot_19"]
 anchor_left = 0.5
@@ -3602,6 +3621,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="CantOpenDoorYet_1" type="TextureRect" parent="OrphanRoot_20"]
 anchor_left = 0.5
@@ -3629,6 +3649,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedPadlockCodeText_2_1" type="TextureRect" parent="OrphanRoot_21"]
 anchor_left = 0.5
@@ -3656,6 +3677,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PadlockCodeText_1_1" type="TextureRect" parent="OrphanRoot_22"]
 anchor_left = 0.5
@@ -3683,6 +3705,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="CrossbowText_1" type="TextureRect" parent="OrphanRoot_23"]
 anchor_left = 0.5
@@ -3710,6 +3733,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="TranquilizerDartText_1" type="TextureRect" parent="OrphanRoot_24"]
 anchor_left = 0.5
@@ -3737,6 +3761,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedCrossbowText_1" type="TextureRect" parent="OrphanRoot_25"]
 anchor_left = 0.5
@@ -3764,6 +3789,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedWeaponKeyText_1" type="TextureRect" parent="OrphanRoot_26"]
 anchor_left = 0.5
@@ -3791,6 +3817,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="weaponKeyText_1" type="TextureRect" parent="OrphanRoot_27"]
 anchor_left = 0.5
@@ -3818,6 +3845,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="screwdriverText_1" type="TextureRect" parent="OrphanRoot_28"]
 anchor_left = 0.5
@@ -3845,6 +3873,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedScrewdriverText_1" type="TextureRect" parent="OrphanRoot_29"]
 anchor_left = 0.5
@@ -3872,6 +3901,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PlankText_1" type="TextureRect" parent="OrphanRoot_30"]
 anchor_left = 0.5
@@ -3899,6 +3929,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="GrannyIsGone_NormalText1_1" type="TextureRect" parent="OrphanRoot_31"]
 anchor_left = 0.5
@@ -3924,6 +3955,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="GrannyIsGone_EasyText2_1" type="Control" parent="OrphanRoot_32"]
 anchor_left = 0.5
@@ -3946,6 +3978,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="GrannyIsGone_HardText3_1" type="TextureRect" parent="OrphanRoot_33"]
 anchor_left = 0.5
@@ -3971,6 +4004,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="GrannyIsGone_ExtremeText4_1" type="TextureRect" parent="OrphanRoot_34"]
 anchor_left = 0.5
@@ -3996,6 +4030,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="GrannyIsGone_Easy_ShotText_1" type="TextureRect" parent="OrphanRoot_35"]
 anchor_left = 0.5
@@ -4021,6 +4056,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="GrannyIsGone_Normal_ShotText_1" type="Control" parent="OrphanRoot_36"]
 anchor_left = 0.5
@@ -4043,6 +4079,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="GrannyIsGone_Extreme_ShotText_1" type="TextureRect" parent="OrphanRoot_37"]
 anchor_left = 0.5
@@ -4068,6 +4105,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MaybeUsePlanksText_1" type="TextureRect" parent="OrphanRoot_38"]
 anchor_left = 0.5
@@ -4095,6 +4133,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BatteryText_1" type="TextureRect" parent="OrphanRoot_39"]
 anchor_left = 0.5
@@ -4122,6 +4161,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedBatteryText_1" type="TextureRect" parent="OrphanRoot_40"]
 anchor_left = 0.5
@@ -4149,6 +4189,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PieceOfPaintingText_1" type="TextureRect" parent="OrphanRoot_41"]
 anchor_left = 0.5
@@ -4176,6 +4217,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="GrannyRewardedExtraDay_1" type="TextureRect" parent="OrphanRoot_42"]
 anchor_left = 0.5
@@ -4201,6 +4243,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="GrannyPlacedExtraLockOnDoor_1" type="TextureRect" parent="OrphanRoot_43"]
 anchor_left = 0.5
@@ -4226,6 +4269,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="SaknasBitarAvTavlan_1" type="TextureRect" parent="OrphanRoot_44"]
 anchor_left = 0.5
@@ -4253,6 +4297,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PlayhouseKeyText_1" type="TextureRect" parent="OrphanRoot_45"]
 anchor_left = 0.5
@@ -4280,6 +4325,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedPlayhouseKeyText_1" type="TextureRect" parent="OrphanRoot_46"]
 anchor_left = 0.5
@@ -4307,6 +4353,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DangerousCuttingToolText_1" type="TextureRect" parent="OrphanRoot_47"]
 anchor_left = 0.5
@@ -4334,6 +4381,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MelonText_1" type="TextureRect" parent="OrphanRoot_48"]
 anchor_left = 0.5
@@ -4361,6 +4409,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="SomethingMissingHereText_1" type="TextureRect" parent="OrphanRoot_49"]
 anchor_left = 0.5
@@ -4388,6 +4437,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="SomethingInsideMelon_1" type="TextureRect" parent="OrphanRoot_50"]
 anchor_left = 0.5
@@ -4415,6 +4465,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="TeddyText_1" type="TextureRect" parent="OrphanRoot_51"]
 anchor_left = 0.5
@@ -4442,6 +4493,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="CogwheelText_1" type="TextureRect" parent="OrphanRoot_52"]
 anchor_left = 0.5
@@ -4469,6 +4521,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="WinchHandleText_1" type="TextureRect" parent="OrphanRoot_53"]
 anchor_left = 0.5
@@ -4496,6 +4549,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedWinchHandleText_1" type="TextureRect" parent="OrphanRoot_54"]
 anchor_left = 0.5
@@ -4523,6 +4577,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedFindSwitchText_1" type="Control" parent="OrphanRoot_55"]
 anchor_left = 0.5
@@ -4547,6 +4602,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="ShotgunText_1" type="TextureRect" parent="OrphanRoot_56"]
 anchor_left = 0.5
@@ -4574,6 +4630,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="AmmoText_1" type="TextureRect" parent="OrphanRoot_57"]
 anchor_left = 0.5
@@ -4601,6 +4658,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedShotgunText_1" type="Control" parent="OrphanRoot_58"]
 anchor_left = 0.5
@@ -4625,6 +4683,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PartofShotgunText_1" type="TextureRect" parent="OrphanRoot_59"]
 anchor_left = 0.5
@@ -4652,6 +4711,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="ShotgunLoadedText_1" type="TextureRect" parent="OrphanRoot_60"]
 anchor_left = 0.5
@@ -4679,6 +4739,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedCarKeyText_1" type="TextureRect" parent="OrphanRoot_61"]
 anchor_left = 0.5
@@ -4706,6 +4767,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="CarKeyText_1" type="TextureRect" parent="OrphanRoot_62"]
 anchor_left = 0.5
@@ -4733,6 +4795,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedGasolineText_1" type="TextureRect" parent="OrphanRoot_63"]
 anchor_left = 0.5
@@ -4760,6 +4823,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedCarBatteryText_1" type="TextureRect" parent="OrphanRoot_64"]
 anchor_left = 0.5
@@ -4787,6 +4851,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedEnginePartText_1" type="TextureRect" parent="OrphanRoot_65"]
 anchor_left = 0.5
@@ -4814,6 +4879,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedSparkPlugText_1" type="TextureRect" parent="OrphanRoot_66"]
 anchor_left = 0.5
@@ -4841,6 +4907,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedWrenchText_1" type="TextureRect" parent="OrphanRoot_67"]
 anchor_left = 0.5
@@ -4868,6 +4935,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="GasolineCanText_1" type="TextureRect" parent="OrphanRoot_68"]
 anchor_left = 0.5
@@ -4895,6 +4963,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="CarBatteryText_1" type="TextureRect" parent="OrphanRoot_69"]
 anchor_left = 0.5
@@ -4922,6 +4991,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="SparkPlugText_1" type="TextureRect" parent="OrphanRoot_70"]
 anchor_left = 0.5
@@ -4949,6 +5019,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="WrenchText_1" type="TextureRect" parent="OrphanRoot_71"]
 anchor_left = 0.5
@@ -4976,6 +5047,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="EnginePartText_1" type="TextureRect" parent="OrphanRoot_72"]
 anchor_left = 0.5
@@ -5003,6 +5075,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="garagedoorLockedText_1" type="TextureRect" parent="OrphanRoot_73"]
 anchor_left = 0.5
@@ -5030,6 +5103,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="CanNotStartTheCarYet_1" type="Control" parent="OrphanRoot_74"]
 anchor_left = 0.5
@@ -5054,6 +5128,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="ProbablyOpenGarageDoorFirstText_1" type="TextureRect" parent="OrphanRoot_75"]
 anchor_left = 0.5
@@ -5081,6 +5156,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MeatText_1" type="TextureRect" parent="OrphanRoot_76"]
 anchor_left = 0.5
@@ -5108,6 +5184,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="EmptyPlateText_1" type="TextureRect" parent="OrphanRoot_77"]
 anchor_left = 0.5
@@ -5135,6 +5212,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="SpecialKeyText_1" type="TextureRect" parent="OrphanRoot_78"]
 anchor_left = 0.5
@@ -5162,6 +5240,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedSpecialKey_1" type="TextureRect" parent="OrphanRoot_79"]
 anchor_left = 0.5
@@ -5189,6 +5268,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MaybePlaceSomethingHere_1" type="TextureRect" parent="OrphanRoot_80"]
 anchor_left = 0.5
@@ -5216,6 +5296,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BookText_1" type="TextureRect" parent="OrphanRoot_81"]
 anchor_left = 0.5
@@ -5243,6 +5324,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PeppersprayText_1" type="TextureRect" parent="OrphanRoot_82"]
 anchor_left = 0.5
@@ -5270,6 +5352,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="RemoteControlText_1" type="TextureRect" parent="OrphanRoot_83"]
 anchor_left = 0.5
@@ -5297,6 +5380,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedRemoteControlText_1" type="Control" parent="OrphanRoot_84"]
 anchor_left = 0.5
@@ -5321,6 +5405,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="NeedToGetCloserText_1" type="TextureRect" parent="OrphanRoot_85"]
 anchor_left = 0.5
@@ -5348,6 +5433,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="SprayIsEmptyText_1" type="TextureRect" parent="OrphanRoot_86"]
 anchor_left = 0.5
@@ -5375,6 +5461,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="EmptyBowlText_1" type="TextureRect" parent="OrphanRoot_87"]
 anchor_left = 0.5
@@ -5402,6 +5489,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BirdSeedText_1" type="TextureRect" parent="OrphanRoot_88"]
 anchor_left = 0.5
@@ -5429,6 +5517,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="FreezeTrapText_1" type="TextureRect" parent="OrphanRoot_89"]
 anchor_left = 0.5
@@ -5456,6 +5545,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="CarControlls" type="Control" parent="OrphanRoot_90"]
 anchor_left = 0.0
@@ -5518,6 +5608,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="StartCarButton_1" type="Button" parent="OrphanRoot_91"]
 anchor_left = 1
@@ -5543,6 +5634,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="ReverseButton_1" type="Button" parent="OrphanRoot_92"]
 anchor_left = 0.5
@@ -5566,6 +5658,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="ForwardButton_1" type="Button" parent="OrphanRoot_93"]
 anchor_left = 0.5
@@ -5591,6 +5684,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DropObjectButton_1" type="Button" parent="OrphanRoot_94"]
 anchor_left = 0.5
@@ -5618,6 +5712,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="GunButton_1" type="Button" parent="OrphanRoot_95"]
 anchor_left = 1
@@ -5643,6 +5738,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="OptionButton_1" type="Button" parent="OrphanRoot_96"]
 anchor_left = 0.2428561
@@ -5666,6 +5762,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BloodScreen_1" type="TextureRect" parent="OrphanRoot_97"]
 anchor_left = 0.0
@@ -5693,6 +5790,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BloodScreenBiten_1" type="TextureRect" parent="OrphanRoot_98"]
 anchor_left = 0.0
@@ -5720,6 +5818,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BloodScreenPlayerHit_1" type="TextureRect" parent="OrphanRoot_99"]
 anchor_left = 0.0
@@ -5747,6 +5846,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BloodScreenEnd_1" type="TextureRect" parent="OrphanRoot_100"]
 anchor_left = 0.0
@@ -5775,6 +5875,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="FrostScreen_1" type="TextureRect" parent="OrphanRoot_101"]
 anchor_left = 0.0
@@ -5783,7 +5884,7 @@ anchor_right = 1
 anchor_bottom = 1
 offset_left = -6.103516e-05
 offset_top = 0.0
-offset_right = -6.103515989e-05
+offset_right = -6.103516e-05
 offset_bottom = 0.0
 mouse_filter = 2
 texture = ExtResource("343")
@@ -5800,6 +5901,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BloodScreenDay4_1" type="TextureRect" parent="OrphanRoot_102"]
 anchor_left = 0.0
@@ -5808,7 +5910,7 @@ anchor_right = 1
 anchor_bottom = 1
 offset_left = 6.103516e-05
 offset_top = 0.0
-offset_right = 6.103515989e-05
+offset_right = 6.103516e-05
 offset_bottom = 0.0
 mouse_filter = 2
 visible = false
@@ -5827,6 +5929,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="RemoveBeartrapButton_1" type="Button" parent="OrphanRoot_103"]
 anchor_left = 0.5
@@ -5850,6 +5953,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="AllBedButtons" type="Control" parent="OrphanRoot_104"]
 anchor_left = 0.0
@@ -5950,6 +6054,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Bed1Button_1" type="Button" parent="OrphanRoot_105"]
 anchor_left = 1
@@ -5973,6 +6078,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Bed2Button_1" type="Button" parent="OrphanRoot_106"]
 anchor_left = 1
@@ -5996,6 +6102,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Bed3Button_1" type="Button" parent="OrphanRoot_107"]
 anchor_left = 1
@@ -6019,6 +6126,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="CoffinVindButton_1" type="Button" parent="OrphanRoot_108"]
 anchor_left = 1
@@ -6044,6 +6152,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="CoffinBackyardButton_1" type="Button" parent="OrphanRoot_109"]
 anchor_left = 1
@@ -6069,6 +6178,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="InCarButton_1" type="Button" parent="OrphanRoot_110"]
 anchor_left = 1
@@ -6094,6 +6204,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="TheEndText_1" type="TextureRect" parent="OrphanRoot_111"]
 anchor_left = 0.5
@@ -6121,6 +6232,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="TheEndTextPractice_1" type="TextureRect" parent="OrphanRoot_112"]
 anchor_left = 0.5
@@ -6148,6 +6260,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="CrouchButtonParent" type="Control" parent="OrphanRoot_113"]
 anchor_left = 0.0
@@ -6184,6 +6297,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PlayerHukarSigButton_1" type="Button" parent="OrphanRoot_114"]
 anchor_left = 0.0
@@ -6207,6 +6321,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Day1Text_1" type="TextureRect" parent="OrphanRoot_115"]
 anchor_left = 0.5
@@ -6233,6 +6348,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Day2Text_1" type="TextureRect" parent="OrphanRoot_116"]
 anchor_left = 0.5
@@ -6259,6 +6375,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Day3Text_1" type="TextureRect" parent="OrphanRoot_117"]
 anchor_left = 0.5
@@ -6285,6 +6402,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Day4Text_1" type="TextureRect" parent="OrphanRoot_118"]
 anchor_left = 0.5
@@ -6311,6 +6429,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Day5Text_1" type="TextureRect" parent="OrphanRoot_119"]
 anchor_left = 0.5
@@ -6337,6 +6456,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Day5LastDayText_1" type="TextureRect" parent="OrphanRoot_120"]
 anchor_left = 0.5
@@ -6363,6 +6483,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Day6LastDayText_1" type="TextureRect" parent="OrphanRoot_121"]
 anchor_left = 0.5
@@ -6391,6 +6512,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BonusDayLastDayText_1" type="TextureRect" parent="OrphanRoot_122"]
 anchor_left = 0.5
@@ -6417,6 +6539,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BearTrapHealth_1" type="TextureRect" parent="OrphanRoot_123"]
 anchor_left = 0.5
@@ -6442,6 +6565,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="FuelMeterBG_1" type="TextureRect" parent="OrphanRoot_124"]
 anchor_left = 1
@@ -6483,6 +6607,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="FuelMeter_2" type="TextureRect" parent="OrphanRoot_125"]
 anchor_left = 0.5
@@ -6508,6 +6633,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Mittenprick_1" type="TextureRect" parent="OrphanRoot_126"]
 anchor_left = 0.5
@@ -6535,6 +6661,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="MittenRing_1" type="TextureRect" parent="OrphanRoot_127"]
 anchor_left = 0.5
@@ -6562,6 +6689,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="OpenDoorButton_1" type="Button" parent="OrphanRoot_128"]
 anchor_left = 1
@@ -6587,6 +6715,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BrunnsVevButton_1" type="Button" parent="OrphanRoot_129"]
 anchor_left = 1
@@ -6612,6 +6741,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="FillFuelButton_1" type="Button" parent="OrphanRoot_130"]
 anchor_left = 1
@@ -6637,6 +6767,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="ArrowButton_1" type="Button" parent="OrphanRoot_131"]
 anchor_left = 1
@@ -6662,6 +6793,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PlaceObjectButton_1" type="Button" parent="OrphanRoot_132"]
 anchor_left = 1
@@ -6687,6 +6819,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="PeppersprayButton_1" type="Button" parent="OrphanRoot_133"]
 anchor_left = 1
@@ -6712,6 +6845,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="RemoteButton_1" type="Button" parent="OrphanRoot_134"]
 anchor_left = 1

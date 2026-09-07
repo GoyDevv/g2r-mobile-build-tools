@@ -53,6 +53,14 @@ jobs:
           fi
           echo "All scenes OK"
 
+      - name: UI layout audit (fail on giant/orphan regressions)
+        run: |
+          set -e
+          for s in Menu Scene EndScene SplashScreen; do
+            echo "=== $s ==="
+            python3 godot/tools/audit_ui.py godot/converted/scenes/$s.tscn 800 600 --summary
+          done
+
       - name: Run game headless for 300 frames (autoloads + main scene smoke test)
         run: |
           set -e

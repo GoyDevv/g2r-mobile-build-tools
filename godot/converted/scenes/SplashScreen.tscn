@@ -53,6 +53,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="Image_1" type="Control" parent="OrphanRoot_1"]
 anchor_left = 0.0
@@ -75,6 +76,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="DVloperText_1" type="TextureRect" parent="OrphanRoot_2"]
 anchor_left = 0.5

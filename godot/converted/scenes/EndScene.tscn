@@ -73,6 +73,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 0.0
 mouse_filter = 2
+visible = false
 
 [node name="BlackScreenStart_2" type="Control" parent="OrphanRoot_1"]
 anchor_left = 0.0

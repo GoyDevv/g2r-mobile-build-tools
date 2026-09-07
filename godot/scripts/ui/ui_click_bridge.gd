@@ -30,7 +30,16 @@ func _fire() -> void:
 		tgt = self
 	if tgt != null and tgt.has_method(method):
 		tgt.call(method)
-	elif not _warned:
+	else:
+		# Fallback: some Unity click handlers lived on controller objects whose
+		# logic is ported as autoloads (e.g. MenuFlow for the GDPR flow).
+		var handled := false
+		for auto in get_tree().root.get_children():
+			if auto.has_method(method):
+				auto.call(method)
+				handled = true
+				break
+		if not handled and not _warned:
 		_warned = true
 		var who: String = tgt.name if tgt != null else "?"
 		push_warning("ui_click_bridge: no handler " + who + "." + method
